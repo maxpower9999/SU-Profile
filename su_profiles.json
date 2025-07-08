@@ -1,0 +1,103 @@
+{
+  "SU0889": {
+    "name": "Steinbeis-Transferzentrum Innovation und Unternehmensentwicklung",
+    "leitung": "Dr. Carsten Reuter",
+    "ort": "Karlsruhe",
+    "webseite": "https://www.steinbeis.de/de/verbund/suche-im-steinbeis-verbund/detail.html?tx_z7suprofiles_detail%5Bprofile%5D=889",
+    "themenschwerpunkte": [
+      "Innovation",
+      "Geschäftsmodellentwicklung",
+      "Projektmanagement",
+      "Digitale Transformation"
+    ],
+    "branche": [
+      "Industrie",
+      "Dienstleistungen"
+    ],
+    "spezialisierung": [
+      "Digitale Geschäftsmodelle",
+      "Innovationsprozesse",
+      "Cross-Industry-Projekte"
+    ]
+  },
+  "SU2812": {
+    "name": "Steinbeis-Beratungszentrum Zukunftsorientierte Unternehmensentwicklung",
+    "leitung": "Prof. Dr. Arnd Gottschalk",
+    "ort": "Frankfurt am Main",
+    "webseite": "https://www.steinbeis.de/de/verbund/suche-im-steinbeis-verbund/detail.html?tx_z7suprofiles_detail%5Bprofile%5D=2812",
+    "themenschwerpunkte": [
+      "Zukunftsforschung",
+      "Strategieentwicklung",
+      "Innovationsmanagement"
+    ],
+    "branche": [
+      "Industrie",
+      "Handel"
+    ],
+    "spezialisierung": [
+      "Szenarioentwicklung",
+      "Unternehmensstrategie",
+      "Zukunftstrends"
+    ]
+  },
+  "SU2764": {
+    "name": "Steinbeis-Transferzentrum Angewandte Managementsysteme",
+    "leitung": "Prof. Dr. Roland Alter",
+    "ort": "Fellbach",
+    "webseite": "https://www.steinbeis.de/de/verbund/suche-im-steinbeis-verbund/detail.html?tx_z7suprofiles_detail%5Bprofile%5D=2764",
+    "themenschwerpunkte": [
+      "Managementsysteme",
+      "Prozessoptimierung",
+      "Qualitätsmanagement"
+    ],
+    "branche": [
+      "Dienstleistungen",
+      "Industrie"
+    ],
+    "spezialisierung": [
+      "ISO-Zertifizierung",
+      "Prozessberatung",
+      "Audits"
+    ]
+  },
+  "SU2772": {
+    "name": "Steinbeis-Beratungszentrum Gesundheitsökonomie und -management",
+    "leitung": "Prof. Dr. Ralf Kuhlen",
+    "ort": "Aachen",
+    "webseite": "https://www.steinbeis.de/de/verbund/suche-im-steinbeis-verbund/detail.html?tx_z7suprofiles_detail%5Bprofile%5D=2772",
+    "themenschwerpunkte": [
+      "Gesundheitsökonomie",
+      "Krankenhausmanagement",
+      "Medizintechnik und -prozesse"
+    ],
+    "branche": [
+      "Gesundheit & Soziales"
+    ],
+    "spezialisierung": [
+      "Ökonomische Bewertung im Gesundheitswesen",
+      "Strategieberatung für Kliniken",
+      "Technologiebewertung von Medizinsystemen"
+    ]
+  },
+  "SU0819": {
+    "name": "Steinbeis-Forschungszentrum Interventionelle Medizintechnik & Telemedizin",
+    "leitung": "Prof. Dr. Georg H. Rose",
+    "ort": "Magdeburg",
+    "webseite": "https://www.steinbeis.de/de/verbund/suche-im-steinbeis-verbund/detail.html?tx_z7suprofiles_detail%5Bprofile%5D=819&cHash=4625315bd687336b2f55328cd3469b1c",
+    "themenschwerpunkte": [
+      "Interoperative Bildgebung",
+      "interventionelle Medizintechnik",
+      "MRT-Kompatibilität",
+      "Signal- & Bildverarbeitung",
+      "Telemedizin (z. B. Schlaganfall-Netze)"
+    ],
+    "branche": [
+      "Medizintechnik & Gesundheitswesen"
+    ],
+    "spezialisierung": [
+      "Telemedizin-Netzwerke",
+      "bildgebende Systementwicklung",
+      "MRT-kompatible Operationswerkzeuge"
+    ]
+  }
+}
