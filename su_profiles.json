@@ -99,5 +99,49 @@
       "bildgebende Systementwicklung",
       "MRT-kompatible Operationswerkzeuge"
     ]
+  },
+  "SU1595": {
+    "name": "Steinbeis-Transferzentrum Oldenburger Münsterland",
+    "leitung": "Dipl.-Ing. (FH) Hermann Blanke",
+    "ort": "Vechta",
+    "webseite": "https://www.steinbeis.de/de/verbund/suche-im-steinbeis-verbund/detail.html?tx_z7suprofiles_detail%5Bprofile%5D=1595",
+    "themenschwerpunkte": [
+      "Allgemeine Beratung",
+      "Technologietransfer",
+      "Fördermittelberatung",
+      "Angewandte Forschung & Entwicklung"
+    ],
+    "branche": [
+      "Branchenübergreifend"
+    ],
+    "spezialisierung": [
+      "Strukturierung von Problemen",
+      "Existenzgründungsberatung",
+      "Technologiebewertung",
+      "Kooperationsvermittlung",
+      "FuE-Projektbegleitung"
+    ]
+  },
+  "SU0252": {
+    "name": "Steinbeis-Transferzentrum Infothek",
+    "leitung": "Dipl.-Ing. (FH) Wolfgang Müller",
+    "ort": "Villingen-Schwenningen",
+    "webseite": "https://www.steinbeis.de/de/verbund/suche-im-steinbeis-verbund/detail.html?tx_z7suprofiles_detail%5Bprofile%5D=252",
+    "themenschwerpunkte": [
+      "Innovation",
+      "IP-Management",
+      "Marketing und Vertrieb",
+      "Fördermittelberatung"
+    ],
+    "branche": [
+      "KMU",
+      "Technologietransfer"
+    ],
+    "spezialisierung": [
+      "Schutzrechte und Patentbewertung",
+      "Innovationsförderung (z. B. WIPANO, ZIM, go-inno)",
+      "Technologieroadmaps und Marktanalysen",
+      "Verwertung von Technologien und Messemanagement"
+    ]
   }
 }
