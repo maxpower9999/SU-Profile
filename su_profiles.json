@@ -143,5 +143,62 @@
       "Technologieroadmaps und Marktanalysen",
       "Verwertung von Technologien und Messemanagement"
     ]
+  },
+  "SU2223": {
+    "name": "Steinbeis-Transferzentrum Kunststofftechnologie",
+    "leitung": "Prof. Dr.-Ing. Axel Kauffmann",
+    "ort": "Karlsruhe",
+    "webseite": null,
+    "themenschwerpunkte": [
+      "Verarbeitung thermoplastischer Kunststoffe",
+      "Werkzeugtechnologien und Verfahrenskombinationen",
+      "Thermoformen",
+      "3D-Druck",
+      "Polymere Werkstoffverbunde"
+    ],
+    "branche": [
+      "Kunststofftechnik",
+      "Forschung & Entwicklung",
+      "Verarbeitende Industrie"
+    ],
+    "spezialisierung": [
+      "Schulungen zu Verarbeitungstechnologien und Thermoformen",
+      "Grundlagen des 3D-Drucks",
+      "3D-Laserscanning von Bauteilen",
+      "F&E-Beratung und Förderprojektbegleitung",
+      "Review von Forschungsanträgen",
+      "Bauteilentwicklung im 3D-Druck und Thermoformen",
+      "Werkstoffprüfung (Zug/Druck/Biegung -70 bis +250 °C)",
+      "Soll-Ist-Vergleiche mittels 3D-Scan"
+    ]
+  },
+  "SU1770": {
+    "name": "Steinbeis-Transferzentrum Strukturmechanik",
+    "leitung": "Prof. Dr.-Ing. Bernd Graf",
+    "ort": "Tiefenbach",
+    "webseite": null,
+    "themenschwerpunkte": [
+      "Akustik",
+      "Strukturdynamik",
+      "Lebensdaueranalyse",
+      "Schwingungsmessung",
+      "Dynamische Berechnungen"
+    ],
+    "branche": [
+      "Maschinenbau",
+      "Forschung & Entwicklung",
+      "Messtechnik"
+    ],
+    "spezialisierung": [
+      "Beratung und Messungen in Akustik und Dynamik",
+      "Experimentelle und Betriebsmodalanalyse",
+      "FEM- und BEM-basierte Schall- und Schwingungsberechnungen",
+      "Lebensdauer- und Spannungsberechnung",
+      "Schallquellenlokalisierung",
+      "Model Updating und Materialparametermessung",
+      "Schwingungs- und Geräuschreduzierung",
+      "Softwareentwicklung in LabView",
+      "Anwendungsberatung marktüblicher Programme"
+    ]
   }
 }
