@@ -200,5 +200,58 @@
       "Softwareentwicklung in LabView",
       "Anwendungsberatung marktüblicher Programme"
     ]
+  },
+  "SU2216": {
+    "name": "Steinbeis-Beratungszentrum Automotive Displaytechnologie",
+    "leitung": "Dr.-Ing. Bernhard Straub, Dipl.-Inf. Andreas Friedrich Wittko",
+    "ort": "Starzach",
+    "webseite": null,
+    "themenschwerpunkte": [
+      "Automotive Displays",
+      "Industrialisierung",
+      "Lieferkettenmanagement",
+      "Technologie- und Marktentwicklung",
+      "Komponenten- und Systementwicklung"
+    ],
+    "branche": [
+      "Automobilindustrie",
+      "Elektronik",
+      "Fertigungstechnologie"
+    ],
+    "spezialisierung": [
+      "Strategien und Geschäftsmodelle für OEM und Lieferanten",
+      "Displaytechnologien: LCD, OLED, Touch, Optik",
+      "Requirement-Engineering und Spezifikationen",
+      "Management der Lieferkette von Tier 1 bis Tier n",
+      "Nominierungsphase Tier-1-Support",
+      "Entwicklung für Premiumfahrzeug-Displays",
+      "Akquise von non-automotive Displaylieferanten"
+    ]
+  },
+  "SU2601": {
+    "name": "Steinbeis-Transferzentrum Digitalisierung in KMU und Behörden",
+    "leitung": "Prof. Dr. Christian Lauter, Dr. Timo Maurer",
+    "ort": "Buchholz i.d.N",
+    "webseite": null,
+    "themenschwerpunkte": [
+      "Digitalisierung in KMU und Behörden",
+      "Augmented-/ Virtual Reality",
+      "Datenanalyse / Künstliche Intelligenz",
+      "Private 5G-Netze"
+    ],
+    "branche": [
+      "Öffentliche Verwaltung",
+      "KMU",
+      "Digitalisierung",
+      "Industrie 4.0"
+    ],
+    "spezialisierung": [
+      "Digitale Lösungen für Behörden",
+      "VR-/AR-Anwendungen für KMU",
+      "Datenbasierte Optimierung",
+      "KI-optimierte Produkte und Prozesse",
+      "5G-basierte Wartung und Instandhaltung",
+      "Digitale Zwillinge und Prozessvirtualisierung"
+    ]
   }
 }
