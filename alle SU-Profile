@@ -1,11 +1,3 @@
-Absolut! Hier ist die CSV-Datei in ein gut strukturiertes JSON-Format umgewandelt.
-
-Die Daten wurden bereinigt und logisch strukturiert, um eine einfache Weiterverarbeitung zu ermöglichen:
-*   Die Spaltennamen wurden in benutzerfreundlichere JSON-Schlüssel umgewandelt (z.B. `Name_Link` zu `link`).
-*   Die unstrukturierte Spalte `Transferunternehmer` wurde in ein sauberes Array von Namen (`entrepreneurs`) umgewandelt.
-*   Das JSON ist zur besseren Lesbarkeit formatiert.
-
-```json
 [
   {
     "link": "https://www.steinbeis.de/de/verbund/suche-im-steinbeis-verbund/detail.html?tx_z7suprofiles_detail%5Bprofile%5D=2554&cHash=39c71caab3eabe8c5425d0dc9ec9273f",
