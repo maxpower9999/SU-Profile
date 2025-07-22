@@ -393,5 +393,57 @@
       "Durchführung von qualitativen und quantitativen Zukunftsstudien"
     ],
     "Branchen": []
-  }
+  },
+{
+  "SU-Nummer": "SU2439",
+  "Name des SU": "Topas-Transferzentrum Angewandte Industriemathematik",
+  "Leitung": "Prof. Dr. Christof Büskens, Dr.-Ing. Mitja Echim, Dr. Matthias Knauer",
+  "Ort": "Bremen, Deutschland",
+  "E-Mail": "SU2439@stw.de",
+  "Telefon": null,
+  "Stand": "01.07.2022",
+  "Schwerpunktthemen": [
+    "Digitale Zwillinge",
+    "Automatisierte Systeme",
+    "Autonome Systeme für Mobilitätsanwendungen (Pkw, Bus, Schiff, Flugzeug etc.)",
+    "Optimierung technischer Systeme durch mathematische Algorithmen",
+    "Algorithmen-Entwicklung",
+    "Entwicklung intelligenter Softwarelösungen"
+  ],
+  "Dienstleistungsangebot": [
+    "Angewandte Forschung und kundenspezifische Entwicklung im Bereich automatisierter und autonomer Systeme",
+    "Entwicklung intelligenter Softwarelösungen",
+    "Schulung und Weiterbildung"
+  ],
+  "Branchen": []
+},
+{
+  "SU-Nummer": "SU1595",
+  "Name des SU": "Steinbeis-Transferzentrum Oldenburger Münsterland",
+  "Leitung": "Dipl.-Ing. (FH) Hermann Blanke",
+  "Ort": "Vechta, Deutschland",
+  "E-Mail": "SU1595@stw.de",
+  "Telefon": "+49 4441 92182-7",
+  "Stand": "01.04.2021",
+  "Schwerpunktthemen": [
+    "Strukturierung von Problemen",
+    "Existenzgründungsberatung",
+    "Fördermittelberatung",
+    "Technologie- und Marktbewertung",
+    "Verwertung wissenschaftlicher Erkenntnisse",
+    "Kooperationsvermittlung mit Firmen und Forschungseinrichtungen",
+    "Technologieberatung",
+    "Produktentwicklung",
+    "Diversifikationsstrategien"
+  ],
+  "Dienstleistungsangebot": [
+    "Allgemeine Beratung für Unternehmen im Oldenburger Münsterland",
+    "Zugang zu sämtlichen Dienstleistungen der Steinbeis-Stiftung",
+    "Vermittlung von Experten für Problemanalyse und Lösungsvorschläge",
+    "Beratung in Betriebswirtschaft, Technologie, Design und Innovation",
+    "Planung und Durchführung von FuE-Projekten",
+    "Projektsteuerung und Technologietransfer"
+  ],
+  "Branchen": []
+}
 ]
