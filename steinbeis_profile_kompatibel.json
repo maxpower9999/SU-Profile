@@ -1,0 +1,102 @@
+[
+  {
+    "SU-Nummer": "SU2371",
+    "Name des SU": "Steinbeis-Transferzentrum Lightweight Engineering",
+    "Leitung": "Dr. Wolfgang Rimkus, Dr. Julian Marc Schlosser, Michael René Schmiedt, M.Sc.",
+    "Ort": "Aalen, Deutschland",
+    "E-Mail": "SU2371@stw.de",
+    "Telefon": "+49 7361 576-2477",
+    "Stand": "24.02.2022",
+    "Schwerpunktthemen": [
+      "Hybrider Leichtbau",
+      "Warmumformen mit hochfesten Aluminiumlegierungen",
+      "Umformung Vorserie/Prototypen Herstellung",
+      "Materialprüfung",
+      "Optische Messtechnik (z. B. Dehnungs- und Bewegungsanalysen mit GOM)"
+    ],
+    "Dienstleistungsangebot": [
+      "Simulation und Berechnung",
+      "Strukturoptimierung (Topologieoptimierung, Faseroptimierung etc.)",
+      "Konstruktion",
+      "Materialprüfung, Materialmodellierung und Versagensmodellierung",
+      "Erprobung und Versuche (statische und dynamische Bauteilprüfung)",
+      "Consulting Warmumformtechnologie",
+      "Schulungsangebote"
+    ],
+    "Branchen": []
+  },
+  {
+    "SU-Nummer": "SU1015",
+    "Name des SU": "Steinbeis-Transferzentrum Elektrische Antriebstechnik und Leistungselektronik",
+    "Leitung": "Prof. Dr.-Ing. Heinrich Steinhart",
+    "Ort": "Aalen, Deutschland",
+    "E-Mail": "SU1015@stw.de",
+    "Telefon": "+49 7361 576-4113",
+    "Stand": "22.07.2025",
+    "Schwerpunktthemen": [
+      "Leistungselektronik",
+      "Elektrische Antriebstechnik",
+      "Aktorik",
+      "Regelungstechnik"
+    ],
+    "Dienstleistungsangebot": [
+      "Entwicklung",
+      "Beratung",
+      "Simulation",
+      "Aufbau von Prototypen",
+      "Implementation von digitalen Regelungen auf DSPs und Mikrocontrollern"
+    ],
+    "Branchen": []
+  },
+  {
+    "SU-Nummer": "SU1689",
+    "Name des SU": "Steinbeis-Transferzentrum Smart ERP Consulting",
+    "Leitung": "Dipl.-Betriebsw. (BA) Jürgen Hausin",
+    "Ort": "Lörrach, Deutschland",
+    "E-Mail": "SU1689@stw.de",
+    "Telefon": "+49 7621 15744-00",
+    "Stand": "17.07.2023",
+    "Schwerpunktthemen": [
+      "Geschäftsprozessberatung rund um das ERP-System Uniconta",
+      "Einführung, Schulung und Support von Uniconta",
+      "Optimaler Einsatz des Cloud-Systems Uniconta",
+      "Projektbegleitung vom Start bis zum Live-Betrieb"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung und Einführung von ERP-Systemen in kleineren und mittelständischen Unternehmen",
+      "Analyse der unternehmensspezifischen Geschäftsprozesse und deren Abbildung in der Software",
+      "Optimierung der innerbetrieblichen Abläufe",
+      "Digitalisierung des kompletten Belegwesens",
+      "Erstellung von modernen Dashboards"
+    ],
+    "Branchen": []
+  },
+  {
+    "SU-Nummer": "SU1834",
+    "Name des SU": "Steinbeis-Transferzentrum Nachrichtentechnik",
+    "Leitung": "Dipl.-Ing. Heinz-Hinrich Blikslager, Prof. Dr.-Ing. Jens Wellhausen, Prof. Dr.-Ing. Jens Werner",
+    "Ort": "Wilhelmshaven, Deutschland",
+    "E-Mail": "SU1834@stw.de",
+    "Telefon": "+49 4421 9852289",
+    "Stand": "01.07.2022",
+    "Schwerpunktthemen": [
+      "Signalverarbeitung und Signalanalyse",
+      "Hochfrequenztechnik und Elektromagnetische Verträglichkeit (EMV)",
+      "Avionik + Funktechnik",
+      "(Industrielle) Zustandsdiagnose (Condition Monitoring)",
+      "Fernerkundung",
+      "Consulting, Schulung, Gutachten",
+      "Seminar-/Weiterbildungsangebote",
+      "EMV und Hochfrequenztechnik (ggf. praxisnaher Workshop)",
+      "Ausgewählte Themen aus den Bereichen Nachrichtentechnik und Signalverarbeitung",
+      "Condition Monitoring"
+    ],
+    "Dienstleistungsangebot": [
+      "Forschung und Entwicklung",
+      "Gutachten, Expertisen",
+      "Beratung",
+      "Schulung"
+    ],
+    "Branchen": []
+  }
+]
