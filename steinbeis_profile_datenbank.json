@@ -1,0 +1,139 @@
+[
+  {
+    "id": "SU2371",
+    "name": "Steinbeis-Transferzentrum Lightweight Engineering",
+    "transferunternehmer": [
+      "Dr. Wolfgang Rimkus",
+      "Dr. Julian Marc Schlosser",
+      "Michael René Schmiedt, M.Sc."
+    ],
+    "kontakt": {
+      "adresse": "Beethovenstr. 1, D-73430 Aalen",
+      "telefon": "+49 7361 576-2477",
+      "email": "SU2371@stw.de"
+    },
+    "dienstleistungsangebot": [
+      "Simulation und Berechnung",
+      "Strukturoptimierung (Topologieoptimierung, Faseroptimierung etc.)",
+      "Konstruktion",
+      "Materialprüfung, Materialmodellierung und Versagensmodellierung",
+      "Erprobung und Versuche (statische und dynamische Bauteilprüfung)",
+      "Consulting Warmumformtechnologie",
+      "Schulungsangebote"
+    ],
+    "schwerpunktthemen": [
+      "Hybrider Leichtbau",
+      "Warmumformen mit hochfesten Aluminiumlegierungen",
+      "Umformung Vorserie/Prototypen Herstellung",
+      "Materialprüfung",
+      "Optische Messtechnik (z. B. Dehnungs- und Bewegungsanalysen mit GOM)"
+    ],
+    "projektbeispiele": [
+      "Entwicklung hybrider Leichtbaukonzepte",
+      "Anisotrope und thermische Material- und Versagensmodelle (Nakajima, GISSMO etc.)",
+      "Umformung von Funktionsmustern und Prototypen",
+      "Statische und dynamische Simulationen (LS-DYNA, Ansys, Radioss, OptiStruct)",
+      "Strukturoptimierung inkl. Topologie- und Parameteroptimierung"
+    ],
+    "stand": "2022-02-24",
+    "suvp": "Edwin Jettinger"
+  },
+  {
+    "id": "SU1015",
+    "name": "Steinbeis-Transferzentrum Elektrische Antriebstechnik und Leistungselektronik",
+    "transferunternehmer": [
+      "Prof. Dr.-Ing. Heinrich Steinhart"
+    ],
+    "kontakt": {
+      "adresse": "Beethovenstr. 1, D-73430 Aalen",
+      "telefon": "+49 7361 576-4113",
+      "fax": "+49 7361 576-2191",
+      "email": "SU1015@stw.de"
+    },
+    "dienstleistungsangebot": [
+      "Entwicklung",
+      "Beratung",
+      "Simulation",
+      "Aufbau von Prototypen",
+      "Implementation von digitalen Regelungen auf DSPs und Mikrocontrollern"
+    ],
+    "schwerpunktthemen": [
+      "Leistungselektronik",
+      "Elektrische Antriebstechnik",
+      "Aktorik",
+      "Regelungstechnik"
+    ],
+    "projektbeispiele": [
+      "Feldorientierte Regelung von Asynchronmaschinen",
+      "Feldorientierte Regelung von Synchronmaschinen (sensorlos)",
+      "Netzeinspeisung (PFC)",
+      "Digitale Regelung von DC/DC-Wandlern"
+    ],
+    "stand": "2025-07-22",
+    "suvp": "Edwin Jettinger"
+  },
+  {
+    "id": "SU1689",
+    "name": "Steinbeis-Transferzentrum Smart ERP Consulting",
+    "transferunternehmer": [
+      "Dipl.-Betriebsw. (BA) Jürgen Hausin"
+    ],
+    "kontakt": {
+      "adresse": "Industriestraße 2, D-79541 Lörrach",
+      "telefon": "+49 7621 15744-00",
+      "fax": "+49 7621 15744-99",
+      "email": "SU1689@stw.de"
+    },
+    "dienstleistungsangebot": [
+      "Beratung und Einführung von ERP-Systemen in kleineren und mittelständischen Unternehmen",
+      "Analyse der unternehmensspezifischen Geschäftsprozesse und deren Abbildung in der Software",
+      "Optimierung der innerbetrieblichen Abläufe",
+      "Digitalisierung des kompletten Belegwesens",
+      "Erstellung von modernen Dashboards"
+    ],
+    "schwerpunktthemen": [
+      "Geschäftsprozessberatung rund um das ERP-System Uniconta",
+      "Einführung, Schulung und Support von Uniconta",
+      "Optimaler Einsatz des Cloud-Systems Uniconta",
+      "Projektbegleitung vom Start bis zum Live-Betrieb"
+    ],
+    "projektbeispiele": [],
+    "stand": "2023-07-17",
+    "suvp": "Edwin Jettinger"
+  },
+  {
+    "id": "SU1834",
+    "name": "Steinbeis-Transferzentrum Nachrichtentechnik",
+    "transferunternehmer": [
+      "Dipl.-Ing. Heinz-Hinrich Blikslager",
+      "Prof. Dr.-Ing. Jens Wellhausen",
+      "Prof. Dr.-Ing. Jens Werner"
+    ],
+    "kontakt": {
+      "adresse": "Schopenhauerstr. 36, D-26384 Wilhelmshaven",
+      "telefon": "+49 4421 9852289",
+      "email": "SU1834@stw.de"
+    },
+    "dienstleistungsangebot": [
+      "Forschung und Entwicklung",
+      "Gutachten, Expertisen",
+      "Beratung",
+      "Schulung"
+    ],
+    "schwerpunktthemen": [
+      "Signalverarbeitung und Signalanalyse",
+      "Hochfrequenztechnik und Elektromagnetische Verträglichkeit (EMV)",
+      "Avionik + Funktechnik",
+      "(Industrielle) Zustandsdiagnose (Condition Monitoring)",
+      "Fernerkundung",
+      "Consulting, Schulung, Gutachten",
+      "Seminar-/Weiterbildungsangebote",
+      "EMV und Hochfrequenztechnik (ggf. praxisnaher Workshop)",
+      "Ausgewählte Themen aus den Bereichen Nachrichtentechnik und Signalverarbeitung",
+      "Condition Monitoring"
+    ],
+    "projektbeispiele": [],
+    "stand": "2022-07-01",
+    "suvp": "Hermann Blanke"
+  }
+]
