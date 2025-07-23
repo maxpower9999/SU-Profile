@@ -1,7 +1,7 @@
 [
   {
-    "SU-Nummer": "SU1827",
-    "Name des SU": "Steinbeis-Transferzentrum Thermofluiddynamik und effiziente Energiewandlung",
+    "VU-Nummer": "VU1827",
+    "Name des VU": "Steinbeis-Transferzentrum Thermofluiddynamik und effiziente Energiewandlung",
     "Leitung": "Prof. Dr.-Ing. Matthias Stripf",
     "Ort": "Karlsruhe, Deutschland",
     "E-Mail": "SU1827@stw.de",
@@ -33,8 +33,8 @@
     "Branchen": []
   },
   {
-    "SU-Nummer": "SU2119",
-    "Name des SU": "Steinbeis-Transferzentrum Medizintechnik & Life Sciences",
+    "VU-Nummer": "VU2119",
+    "Name des VU": "Steinbeis-Transferzentrum Medizintechnik & Life Sciences",
     "Leitung": "Prof. Dr. Tobias Preckel",
     "Ort": "Marxzell, Deutschland",
     "E-Mail": "SU2119@stw.de",
@@ -58,8 +58,8 @@
     "Branchen": []
   },
   {
-    "SU-Nummer": "SU2371",
-    "Name des SU": "Steinbeis-Transferzentrum Lightweight Engineering",
+    "VU-Nummer": "VU2371",
+    "Name des VU": "Steinbeis-Transferzentrum Lightweight Engineering",
     "Leitung": "Dr. Wolfgang Rimkus, Dr. Julian Marc Schlosser, Michael René Schmiedt, M.Sc.",
     "Ort": "Aalen, Deutschland",
     "E-Mail": "SU2371@stw.de",
@@ -84,8 +84,8 @@
     "Branchen": []
   },
   {
-    "SU-Nummer": "SU1015",
-    "Name des SU": "Steinbeis-Transferzentrum Elektrische Antriebstechnik und Leistungselektronik",
+    "VU-Nummer": "VU1015",
+    "Name des VU": "Steinbeis-Transferzentrum Elektrische Antriebstechnik und Leistungselektronik",
     "Leitung": "Prof. Dr.-Ing. Heinrich Steinhart",
     "Ort": "Aalen, Deutschland",
     "E-Mail": "SU1015@stw.de",
@@ -107,8 +107,8 @@
     "Branchen": []
   },
   {
-    "SU-Nummer": "SU1689",
-    "Name des SU": "Steinbeis-Transferzentrum Smart ERP Consulting",
+    "VU-Nummer": "VU1689",
+    "Name des VU": "Steinbeis-Transferzentrum Smart ERP Consulting",
     "Leitung": "Dipl.-Betriebsw. (BA) Jürgen Hausin",
     "Ort": "Lörrach, Deutschland",
     "E-Mail": "SU1689@stw.de",
@@ -130,7 +130,7 @@
     "Branchen": []
   },
   {
-    "SU-Nummer": "SU1834",
+    "VU-Nummer": "VU1834",
     "Name des SU": "Steinbeis-Transferzentrum Nachrichtentechnik",
     "Leitung": "Dipl.-Ing. Heinz-Hinrich Blikslager, Prof. Dr.-Ing. Jens Wellhausen, Prof. Dr.-Ing. Jens Werner",
     "Ort": "Wilhelmshaven, Deutschland",
@@ -158,8 +158,8 @@
     "Branchen": []
   },
   {
-    "SU-Nummer": "SU0627",
-    "Name des SU": "Steinbeis-Transferzentrum Werkstoffentwicklung und -prüfung (WEP)",
+    "VU-Nummer": "VU0627",
+    "Name des VU": "Steinbeis-Transferzentrum Werkstoffentwicklung und -prüfung (WEP)",
     "Leitung": "Prof. Dr.-Ing. Norbert Jost",
     "Ort": "Wiernsheim, Deutschland",
     "E-Mail": "SU0627@stw.de",
@@ -198,8 +198,8 @@
     "Branchen": []
   },
   {
-    "SU-Nummer": "SU0986",
-    "Name des SU": "Steinbeis-Forschungszentrum Computer Graphik und Digitalisierung",
+    "VU-Nummer": "VU0986",
+    "Name des VU": "Steinbeis-Forschungszentrum Computer Graphik und Digitalisierung",
     "Leitung": "Prof. Dr. Reinhard Klein",
     "Ort": "Bonn, Deutschland",
     "E-Mail": "SU0986@stw.de",
@@ -236,8 +236,8 @@
     "Branchen": []
   },
   {
-    "SU-Nummer": "SU1390",
-    "Name des SU": "STASA Steinbeis Angewandte Systemanalyse GmbH",
+    "VU-Nummer": "VU1390",
+    "Name des VU": "STASA Steinbeis Angewandte Systemanalyse GmbH",
     "Leitung": "Niklas Janssen",
     "Ort": "Stuttgart, Deutschland",
     "E-Mail": "SU1390@stw.de",
@@ -268,8 +268,8 @@
     "Branchen": []
   },
   {
-    "SU-Nummer": "SU2463",
-    "Name des SU": "Steinbeis-Transferzentrum Data Analytics und Predictive Modelling",
+    "VU-Nummer": "VU2463",
+    "Name des VU": "Steinbeis-Transferzentrum Data Analytics und Predictive Modelling",
     "Leitung": "Prof. Dr. Volker Reichenberger, Prof. Dr. Dirk Schieborn",
     "Ort": "Leonberg, Deutschland",
     "E-Mail": "SU2463@stw.de",
@@ -294,8 +294,8 @@
     "Branchen": []
   },
   {
-    "SU-Nummer": "SU1826",
-    "Name des SU": "Steinbeis-Beratungszentrum JK Certified Systems",
+    "VU-Nummer": "VU1826",
+    "Name des VU": "Steinbeis-Beratungszentrum JK Certified Systems",
     "Leitung": "Dr.-Ing. Jacques Kamga Fopoussi",
     "Ort": "Stuttgart, Deutschland",
     "E-Mail": "SU1826@stw.de",
@@ -318,8 +318,8 @@
     "Branchen": []
   },
   {
-    "SU-Nummer": "SU1624",
-    "Name des SU": "Steinbeis-Beratungszentrum 4IES",
+    "VU-Nummer": "VU1624",
+    "Name des VU": "Steinbeis-Beratungszentrum 4IES",
     "Leitung": "Dipl.-Ing. Heinz Pöhler",
     "Ort": "Laichingen / Ulm, Deutschland",
     "E-Mail": "SU1624@stw.de",
@@ -363,8 +363,8 @@
     "Branchen": []
   },
   {
-    "SU-Nummer": "SU2261",
-    "Name des SU": "Steinbeis-Transferzentrum Industrielles Innovations- und Transformationsmanagement",
+    "VU-Nummer": "VU2261",
+    "Name des VU": "Steinbeis-Transferzentrum Industrielles Innovations- und Transformationsmanagement",
     "Leitung": "Prof. Dr. Christoph Zanker",
     "Ort": "Nürtingen, Deutschland",
     "E-Mail": "SU2261@stw.de",
@@ -395,8 +395,8 @@
     "Branchen": []
   },
 {
-  "SU-Nummer": "SU2439",
-  "Name des SU": "Topas-Transferzentrum Angewandte Industriemathematik",
+  "VU-Nummer": "VU2439",
+  "Name des VU": "Topas-Transferzentrum Angewandte Industriemathematik",
   "Leitung": "Prof. Dr. Christof Büskens, Dr.-Ing. Mitja Echim, Dr. Matthias Knauer",
   "Ort": "Bremen, Deutschland",
   "E-Mail": "SU2439@stw.de",
@@ -418,8 +418,8 @@
   "Branchen": []
 },
 {
-  "SU-Nummer": "SU1595",
-  "Name des SU": "Steinbeis-Transferzentrum Oldenburger Münsterland",
+  "VU-Nummer": "VU1595",
+  "Name des VU": "Steinbeis-Transferzentrum Oldenburger Münsterland",
   "Leitung": "Dipl.-Ing. (FH) Hermann Blanke",
   "Ort": "Vechta, Deutschland",
   "E-Mail": "SU1595@stw.de",
