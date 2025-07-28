@@ -1,0 +1,4045 @@
+Of course. I will process the provided CSV data and transform it into the desired JSON format. I will extract the relevant information, summarize the descriptive texts into clear, itemized lists, and structure everything according to your specified schema.
+
+Here is the JSON file created from the provided `1-200 VU Profile.csv` data:
+
+```json
+[
+  {
+    "VU-Nummer": "VU0316",
+    "Name des VU": "Steinbeis-Transferzentrum EQ ZERT Europäisches Institut zur Zertifizierung von  Managementsystemen und Personal",
+    "Leitung": "Dipl.-Ing. (FH) Jürgen G. Kerner, Dipl.-Ing. (FH) Bernd Kentner",
+    "Ort": "Ulm, Deutschland",
+    "E-Mail": "SU0316@stw.de",
+    "Telefon": "+49 731 184868-0",
+    "Stand": "01.07.2024",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Zertifizierungsstelle für Managementsysteme und Personal in den Bereichen Qualitäts-, Umwelt- und Energiemanagement."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0402",
+    "Name des VU": "SBG Steinbeis GmbH",
+    "Leitung": "Dipl.-Immobilienökonom (ADI) Jörg Schlusen",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0402@stw.de",
+    "Telefon": "+49 711 1839-593",
+    "Stand": "08.05.2023",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Erwerb, Verwaltung und Veräußerung von Beteiligungen an Grundstücken und grundstücksgleichen Rechten.",
+      "Unterstützung der Transferaufgaben der Steinbeis-Stiftung für Wirtschaftsförderung."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0408",
+    "Name des VU": "ImmoTech Steinbeis GmbH",
+    "Leitung": "Dipl.-Immobilienökonom (ADI) Jörg Schlusen",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0408@stw.de",
+    "Telefon": "+49 711 1839-593",
+    "Stand": "08.05.2023",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Erwerb, die Verwaltung und Veräußerung von Beteiligungen an Grundstücken und grundstücksgleichen Rechten.",
+      "Unterstützung der Transferaufgaben der Steinbeis-Stiftung für Wirtschaftsförderung."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0410",
+    "Name des VU": "Steinbeis GmbH & Co. KG für Technologietransfer",
+    "Leitung": "Markus Graf, M. Sc., Dipl.-Ing. (FH) Uwe Haug, Dipl.-Wirt.-Ing. (FH) Edwin Jettinger, Dipl.-Ing. (FH) Ralf Lauterwasser, Dipl.-Immobilienökonom (ADI) Jörg Schlusen, Sandra Stein",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0410@stw.de",
+    "Telefon": "+49 711 1839-5",
+    "Stand": "01.04.2021",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Wissens- und Technologietransfer zwischen Wissenschaft und Wirtschaft zur Förderung der Gesamtwirtschaft.",
+      "Durchführung von Forschungs- und Entwicklungsvorhaben mit wirtschaftlich verwertbaren Ergebnissen.",
+      "Herstellung und Vertrieb von Produkten sowie Erbringung von Dienstleistungen, basierend auf Entwicklungen des Steinbeis-Verbunds.",
+      "Projektsteuerung, Unternehmensberatung und Verwaltungsaufgaben (Cash-Management, Controlling, Steuerung) für abhängige Gesellschaften."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0550",
+    "Name des VU": "Steinbeis Beteiligungs-Holding GmbH",
+    "Leitung": "Markus Graf, M. Sc., Dipl.-Wirt.-Ing. (FH) Edwin Jettinger",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0550@stw.de",
+    "Telefon": "+49 711 1839-570",
+    "Stand": "22.11.2024",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Beteiligung an anderen Unternehmen."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0640",
+    "Name des VU": "Steinbeis Technologietransfer GmbH",
+    "Leitung": "Dipl.-Ing. (FH) Alexander Stückler",
+    "Ort": "Wien, Österreich",
+    "E-Mail": "SU0640@steinbeis.de",
+    "Telefon": "",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Wissens- und Technologietransfer zwischen Wissenschaft und Wirtschaft zur Förderung der Gesamtwirtschaft.",
+      "Durchführung von Forschungs- und Entwicklungsvorhaben.",
+      "Herstellung und Vertrieb von Produkten sowie Erbringung von Dienstleistungen.",
+      "Projektsteuerung, Unternehmensberatung und Verwaltungsaufgaben für abhängige Gesellschaften."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0707",
+    "Name des VU": "Steinbeis Immobilien-Holding GmbH",
+    "Leitung": "Dipl.-Immobilienökonom (ADI) Jörg Schlusen",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0707@stw.de",
+    "Telefon": "+49 711 1839-593",
+    "Stand": "01.08.2022",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Kauf von bebauten und unbebauten Grundstücken.",
+      "Errichtung von Gebäuden auf solchen Grundstücken, deren Nutzungsüberlassung (Vermietung, Verwaltung) und sonstige Verwertung.",
+      "Beteiligung an anderen Unternehmen mit ähnlichem Gegenstand und Erbringung von Immobiliendienstleistungen für diese."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0708",
+    "Name des VU": "Steinbeis Dritte Immobilien GmbH",
+    "Leitung": "Dipl.-Immobilienökonom (ADI) Jörg Schlusen",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0708@stw.de",
+    "Telefon": "+49 711 1839-593",
+    "Stand": "01.08.2022",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Kauf von bebauten und unbebauten Grundstücken, Errichtung von Gebäuden, deren Nutzungsüberlassung (Vermietung, Verwaltung) und sonstige Verwertung."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0785",
+    "Name des VU": "Steinbeis Property Management GmbH",
+    "Leitung": "Dipl.-Immobilienökonom (ADI) Jörg Schlusen",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0785@stw.de",
+    "Telefon": "+49 711 1839-593",
+    "Stand": "01.08.2022",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Kauf von bebauten und unbebauten Grundstücken, Errichtung von Gebäuden, deren Nutzungsüberlassung (Vermietung, Verwaltung) und sonstige Verwertung."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0803",
+    "Name des VU": "Steinbeis-Haus Projekt Ilmenau GmbH i. L.",
+    "Leitung": "Dipl.-Immobilienökonom (ADI) Jörg Schlusen",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0803@stw.de",
+    "Telefon": "",
+    "Stand": "01.08.2022",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Kauf von bebauten und unbebauten Grundstücken insbesondere in Ilmenau, Errichtung von Gebäuden, deren Nutzungsüberlassung (Vermietung, Verwaltung) und sonstige Verwertung."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0812",
+    "Name des VU": "Steinbeis-Transfer-Institut Management of Dental and Oral Medicine",
+    "Leitung": "Prof. Dr. med. dent. Günter Dhom",
+    "Ort": "Ludwigshafen, Deutschland",
+    "E-Mail": "SU0812@stw.de",
+    "Telefon": "+49 30 86320627-0",
+    "Stand": "10.09.2021",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Wissenschaft, Transferkompetenz sowie Praxisorientierung zu Implantologie, Parodontologie und Dentalhygiene.",
+      "Kooperation mit Universitäten im europäischen Forschungs- und Hochschulraum.",
+      "Berufsbegleitende Studiengänge für Zahnärzte und zahnärztliches Assistenzpersonal in Kooperation mit der Steinbeis-Hochschule.",
+      "Master of Science (M. Sc.): Zweijähriges Projekt-Kompetenz-Studium im Bereich Dentaltechnologie und-management (Vertiefung: Orale Implantologie und Parodontologie)."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0873",
+    "Name des VU": "Steinbeis Transfer GmbH",
+    "Leitung": "Dipl.-Ing. (FH) Uwe Haug, Dipl.-Wirt.-Ing. (FH) Edwin Jettinger",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0873@stw.de",
+    "Telefon": "+49 711 1839-651",
+    "Stand": "01.10.2024",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Erbringung von Forschungs- und Entwicklungsleistungen für Unternehmen.",
+      "Einrichtung von Transfer- und Forschungszentren."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0889",
+    "Name des VU": "Steinbeis-Transfer-Institut Advanced Risk Technologies (R-Tech)",
+    "Leitung": "Prof. Dr.-Ing. Aleksandar Jovanovic, Dr. med. Snezana Jovanovic",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0889@stw.de",
+    "Telefon": "+49 711 41004129",
+    "Stand": "10.09.2021",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Kurse und Vorträge in den Bereichen:",
+      "Management of Intercultural Diversity",
+      "Qualification & Certification of IT Experts",
+      "Quality Management in IT Projects",
+      "Management of IT Projects",
+      "Management of EU & International Projects",
+      "Management of Technology Transfer Projects",
+      "Methods and Tools of Risk Management",
+      "Methods and Tools of Advanced Data Analysis",
+      "Qualifizierung zum \"Risk Assessor\"",
+      "Qualifizierung zum \"Underwriter\" (im Aufbau)"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0957",
+    "Name des VU": "Steinbeis Innovation gGmbH",
+    "Leitung": "Dipl.-Ing. (FH) Uwe Haug, Dipl.-Wirt.-Ing. (FH) Edwin Jettinger",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0957@stw.de",
+    "Telefon": "+49 711 1839-688",
+    "Stand": "09.01.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Förderung der angewandten Forschung durch frei gewählte Forschungsvorhaben, Vertragsforschung und kooperative Forschung.",
+      "Errichtung und Unterhalt von Forschungsinstituten.",
+      "Generierung wissenschaftlicher Erkenntnisse und Zusammenführung von Forschung und Praxis.",
+      "Betrieb von Hilfseinrichtungen für die wissenschaftliche Arbeit.",
+      "Zusammenarbeit mit anderen Forschungseinrichtungen.",
+      "Förderung der Verbreitung wissenschaftlicher Ergebnisse durch Aus- und Weiterbildung.",
+      "Verfolgung gemeinnütziger Zwecke im Sinne der Abgabenordnung.",
+      "Gleichstellungsplan / Gender Equality Plan."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0970",
+    "Name des VU": "Steinbeis-Haus Projekt Gosheim GmbH i. L.",
+    "Leitung": "Dipl.-Immobilienökonom (ADI) Jörg Schlusen",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0970@stw.de",
+    "Telefon": "+49 711 1839-593",
+    "Stand": "01.08.2022",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Kauf von bebauten und unbebauten Grundstücken insbesondere in Gosheim, Errichtung von Gebäuden, deren Nutzungsüberlassung (Vermietung, Verwaltung) und sonstige Verwertung."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0990",
+    "Name des VU": "Steinbeis Transfer AG",
+    "Leitung": "Dipl.-Ing. (FH) Uwe Haug",
+    "Ort": "Zürich, Schweiz",
+    "E-Mail": "SU0990@stw.de",
+    "Telefon": "+49 711 11839-5",
+    "Stand": "09.01.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Erbringung von Dienstleistungen auf dem Gebiet des Wissens- und Technologietransfers.",
+      "Leistungsbereiche: Beratung, Forschung und Entwicklung, Aus- und Weiterbildung sowie Expertisen und Gutachten.",
+      "Gründung von Steinbeis-Unternehmen."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1101",
+    "Name des VU": "SAPHIR Holding GmbH",
+    "Leitung": "Prof. Dr. Dr. h. c. (UVV) Werner Faix",
+    "Ort": "Herrenberg, Deutschland",
+    "E-Mail": "SU1101@stw.de",
+    "Telefon": "+49 7032 9458-0",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Rekrutierung, Beurteilung und Bewertung von Handlungskompetenzen nationaler und internationaler Führungskräfte.",
+      "Halten und Verwalten eigenen Vermögens, insbesondere von Beteiligungen an Kapitalgesellschaften.",
+      "Übernahme der unternehmerischen Leitung bei Beteiligungsgesellschaften.",
+      "Vermittlung und Betreuung von Nachwuchsführungskräften national und international.",
+      "Entwicklung und Vermarktung von Verfahren und Methoden zur Handlungskompetenzmessung."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1109",
+    "Name des VU": "Steinbeis Institute of Management and Technology GmbH i. L.",
+    "Leitung": "Prof. Dr. Jürgen Abendschein",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU1109@stw.de",
+    "Telefon": "+49 711 451001-10",
+    "Stand": "08.06.2021",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Wissens- und Technologietransfer zwischen Wissenschaft und Wirtschaft in den Bereichen der Ingenieur- und Wirtschaftswissenschaften in Kooperation mit der Steinbeis-Hochschule."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1113",
+    "Name des VU": "Stuttgart Institute of Management and Technology gGmbH i. L.",
+    "Leitung": "Prof. Dr. Jürgen Abendschein",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU1113@stw.de",
+    "Telefon": "+49 711 451001-10",
+    "Stand": "21.04.2021",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Förderung der Forschung und Lehre durch den Betrieb einer Management School und Weiterbildungseinrichtung, insbesondere in den Bereichen der Ingenieur- und Wirtschaftswissenschaften."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1175",
+    "Name des VU": "Steinbeis-Innovationszentrum Institut für Prozeßoptimierung und Management (IPOM)",
+    "Leitung": "Prof. Dr.-Ing. Harald Apel",
+    "Ort": "Magdeburg, Deutschland",
+    "E-Mail": "SU1175@stw.de",
+    "Telefon": "+49 3928 4057-33",
+    "Stand": "10.02.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Erarbeitung von komplexen Energiekonzepten für Industriebetriebe, Wohngebäude und Schwimmbäder",
+      "Energieverbrauchsanalysen, Energiebedarfsminimierung, Energiemanagement und Wirtschaftlichkeitsuntersuchungen",
+      "Planung, Auslegung und Begutachtung von: Solarthermischen Systemen, Wärmespeichern, Wärmepumpanlagen, Anlagen zur thermischen Nutzung von Biomasse, Anlagen der Heizungs-, Lüftungs-, Klima- und Kältetechnik",
+      "Entwicklung und Erprobung von Komponenten und Systemen energietechnischer Anlagen",
+      "Simulation des thermischen Verhaltens von Anlagen und Gebäuden (u. a. mit TRNSYS)",
+      "Passive Solarenergienutzung",
+      "Energieberatung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1191",
+    "Name des VU": "Steinbeis Transferzentren GmbH an der Hochschule Karlsruhe",
+    "Leitung": "Dipl.-Ing. (FH) Uwe Haug, Dipl.-Ing. Katrin Wolf",
+    "Ort": "Karlsruhe, Deutschland",
+    "E-Mail": "SU1191@stw.de",
+    "Telefon": "+49 711 1839-659",
+    "Stand": "08.01.2024",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Ermöglichung des Transfers zwischen Wissenschaft und Wirtschaft entsprechend des Steinbeis-Modells.",
+      "Möglichkeit für Hochschulangehörige, unternehmerisch aktiv zu werden.",
+      "Zugriff auf das Transferpotenzial der Hochschule zur Erschließung für die Wirtschaft.",
+      "Regionale Verankerung und Bündelung der Transferaktivitäten.",
+      "Forschungs-, Entwicklungs-, Beratungs- und Weiterbildungsleistungen für Unternehmen über Steinbeis-Zentren."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1228",
+    "Name des VU": "Steinbeis-Transfer-Institut Kardiotechnik",
+    "Leitung": "Dr. Frank Merkle",
+    "Ort": "Berlin, Deutschland",
+    "E-Mail": "SU1228@stw.de",
+    "Telefon": "+49 30 86320627-0",
+    "Stand": "10.09.2021",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Angebot von Studiengängen in Kooperation mit der Steinbeis-Hochschule.",
+      "Bachelor of Science (B. Sc.): Dreijähriges Projekt-Kompetenz-Studium (PKS).",
+      "Bereich Allied Health and Health Management, Vertiefung: Physician Assistant.",
+      "Bereich Medical Technologies, Vertiefung: Cardiovascular Perfusion.",
+      "Studium Cardiovascular Perfusion qualifiziert für weltweite Tätigkeit als Clinical Cardiovascular Perfusionist und für Führungs-/Forschungsaufgaben."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1318",
+    "Name des VU": "Steinbeis-Transfer-Institut Medicine and Allied Health",
+    "Leitung": "Prof. Dr. med. Stefan Friedrich Bauer, MBA, Dr. Frank Merkle",
+    "Ort": "Berlin, Deutschland",
+    "E-Mail": "SU1318@stw.de",
+    "Telefon": "+49 30 459371-25",
+    "Stand": "10.09.2021",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Angebot von Studiengängen in Kooperation mit der Steinbeis-Hochschule.",
+      "Bachelor of Science (B. Sc.): Dreijähriges Projekt-Kompetenz-Studium (PKS) im Bereich Allied Health and Health Management.",
+      "Wahlpflichtfach: Physician Assistance.",
+      "Das Studium qualifiziert für die Übernahme von klinischen Leistungen zwischen Fachkrankenpflege und ärztlicher Tätigkeit."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1339",
+    "Name des VU": "Steinbeis-Haus Projekt Zwei Ilmenau GmbH i. L.",
+    "Leitung": "Dipl.-Immobilienökonom (ADI) Jörg Schlusen",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU1339@stw.de",
+    "Telefon": "+49 711 1839-593",
+    "Stand": "01.08.2022",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Kauf von bebauten und unbebauten Grundstücken insbesondere in Ilmenau, Errichtung von Gebäuden, deren Nutzungsüberlassung (Vermietung, Verwaltung) und sonstige Verwertung."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1364",
+    "Name des VU": "Steinbeis Transferzentren GmbH an der Hochschule Ulm",
+    "Leitung": "Dipl.-Ing. (FH) Uwe Haug, Dipl.-Ing. (FH) Elke Zimmer",
+    "Ort": "Ulm, Deutschland",
+    "E-Mail": "SU1364@stw.de",
+    "Telefon": "+49 711 1839-5",
+    "Stand": "03.11.2021",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Transfer zwischen Wissenschaft und Wirtschaft durch Einrichtung von Transferzentren.",
+      "Erbringung von Forschungs-, Entwicklungs-, Beratungs- und Weiterbildungsleistungen.",
+      "Herstellung und Vertrieb von Produkten und Dienstleistungen im Zusammenhang.",
+      "Unterstützung der Hochschule Ulm bei Transferaufgaben und Etablierung eines effizienten, privatrechtlichen Transfers."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1469",
+    "Name des VU": "ZfBU GmbH Zentrum für Betriebswirtschaft und Unternehmensführung",
+    "Leitung": "Prof. Dr. Ralf Dillerup",
+    "Ort": "Heilbronn, Deutschland",
+    "E-Mail": "SU1469@stw.de",
+    "Telefon": "",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Transfer zwischen Wissenschaft und Wirtschaft in der Region Heilbronn-Franken.",
+      "Einrichtung von Zentren in der Region.",
+      "Erbringung von Forschungs-, Entwicklungs-, Beratungs- und Weiterbildungsleistungen auf den Gebieten Betriebswirtschaft und Unternehmensführung."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1632",
+    "Name des VU": "Steinbeis-Haus Karlsruhe GmbH",
+    "Leitung": "Dipl.-Immobilienökonom (ADI) Jörg Schlusen",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU1632@stw.de",
+    "Telefon": "+49 711 1839-593",
+    "Stand": "20.05.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Errichtung des Gebäudes „Steinbeis-Haus Karlsruhe“ auf dem Campus der Hochschule Karlsruhe.",
+      "Nutzungsüberlassung, insbesondere Vermietung und Verwaltung, sowie sonstige Verwertung des Gebäudes."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1692",
+    "Name des VU": "STZ Rechnereinsatz GmbH",
+    "Leitung": "Dipl.-Ing. (FH) Siegfried Eberlein",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU1692@stw.de",
+    "Telefon": "+49 711 6451500",
+    "Stand": "13.07.2020",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Konzeption, Management und Optimierung komplexer Mess- und Prüffelder im globalen Automotive-Umfeld.",
+      "Schwerpunkte CAT (Computer Aided Testing): Server-/Clientbetrieb, Datenbanken, High-Availability-Systeme, Archiv/Backup.",
+      "Entwicklung, Betrieb und Support von Mess- und Auswertesystemen.",
+      "Netzwerkplanung und -management, Firewallplanung und -management.",
+      "Entwicklung von Anwendersoftware (Systemsimulationen, Datenbank-Applikationen).",
+      "Technisches Consulting und Prozessoptimierung.",
+      "Systemintegration in Prüffeldern von Hard- und Software.",
+      "Aufbau von Scale Out NAS Storagesystemen für Massendaten.",
+      "Modellierung und Simulation von MMI und Automatisierungssystemen.",
+      "Test-Modellierung für Prototypen und Autocode-Generierung für Embedded Systems.",
+      "Fahrzeuglogger-Analyse mit der Eigenentwicklung Carla."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1739",
+    "Name des VU": "Transfer GmbH der Dualen Hochschule Baden-Württemberg",
+    "Leitung": "Dipl.-Ing. (FH) Thomas Scherer",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU1739@stw.de",
+    "Telefon": "+49 711 1839-5",
+    "Stand": "14.12.2023",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Transfer zwischen Wissenschaft und Wirtschaft durch Einrichtung von Steinbeis-Transferunternehmen.",
+      "Erbringung von Forschungs-, Entwicklungs-, Beratungs-, sowie Aus- und Weiterbildungsleistungen.",
+      "Herstellung und Vertrieb von Produkten und Dienstleistungen.",
+      "Unterstützung der Dualen Hochschule Baden-Württemberg bei der Förderung des Transfers."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1835",
+    "Name des VU": "Forschungs- und Innovationszentren gGmbH der Dualen Hochschule Baden-Württemberg",
+    "Leitung": "Oliver Damnik, Dipl.-Ing. (FH) Uwe Haug",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU1835@stw.de",
+    "Telefon": "+49 711 1839-5",
+    "Stand": "16.01.2024",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Förderung der angewandten Forschung durch Einrichtung von Steinbeis-Forschungs- und Innovationszentren mit Angehörigen der DHBW.",
+      "Durchführung von frei gewählten Forschungsvorhaben, Vertragsforschung und kooperativer Forschung.",
+      "Verfolgung ausschließlich und unmittelbar gemeinnütziger Zwecke."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1919",
+    "Name des VU": "Steinbeis-Transferzentrum Projektmanagement",
+    "Leitung": "Dipl.-Betriebsw.(BA) Vera Holzner",
+    "Ort": "Ravensburg, Deutschland",
+    "E-Mail": "SU1919@stw.de",
+    "Telefon": "+49 751 35906-67",
+    "Stand": "10.11.2021",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Kooperationsanbahnung",
+      "Veranstaltungs- und Seminarmanagement"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1970",
+    "Name des VU": "Transferplattform BW GmbH",
+    "Leitung": "Dipl.-Ing. (FH) Thomas Scherer",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU1970@stw.de",
+    "Telefon": "+49 711 1839-638",
+    "Stand": "04.02.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Querschnittsorientierter, hochschulübergreifender Wissens- und Technologietransfer für die mittelständische Wirtschaft in Baden-Württemberg.",
+      "Einrichtung von themenbezogenen, rechtlich unselbstständigen Transfer- und Impulszentren.",
+      "Unterstützung der Hochschulen bei der Förderung des Transfers.",
+      "Beispiele für Steinbeis-Unternehmen in der Plattform: Projektmanagement TPBW, Automatisierung und Robotik, Industrie 4.0 und Digitalisierung."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2107",
+    "Name des VU": "CFin - Research Center for Financial Services an der Steinbeis-Hochschule Berlin GmbH",
+    "Leitung": "Dr. Dirk Kleine",
+    "Ort": "München, Deutschland",
+    "E-Mail": "SU2107@stw.de",
+    "Telefon": "+49 89 20208479-0",
+    "Stand": "14.07.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Forschung, Beratung und Erstellung von Gutachten, insbesondere im Bereich der Finanzdienstleistungen (mit Ausnahme genehmigungspflichtiger Tätigkeiten)."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2125",
+    "Name des VU": "Steinbeis + Akademie GmbH",
+    "Leitung": "Britta Mindermann, M.A.",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU2125@stw.de",
+    "Telefon": "",
+    "Stand": "03.02.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Durchführung von Fort- und Weiterbildungsmaßnahmen durch Fachseminare, Zertifikatslehrgänge und Schulungen.",
+      "Schwerpunkte in den Bereichen Technologie, Management und Wirtschaft."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2163",
+    "Name des VU": "Steinbeis-Beratungszentrum Werte.Risiken.Schäden.",
+    "Leitung": "Dipl.-Ing. Norbert Reimann",
+    "Ort": "Berlin, Deutschland",
+    "E-Mail": "SU2163@stw.de",
+    "Telefon": "+49 30 577 124 15",
+    "Stand": "07.07.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Inhouse-Seminare (Präsenz oder Online) zu Sachschäden an Immobilien.",
+      "Themengebiete: Brandschäden, Wasserschäden, Sturmschäden, Einbruchdiebstahl, Glasbruch, Elementarschäden.",
+      "Zielgruppen: Versicherungsbranche, Rechtswesen, Immobilienwirtschaft, Bauwesen, Schadensmanagement.",
+      "Seminarreihe 'Big Five': QS1 Sachschäden, QS2 Versicherungswerte, QS3 Wertminderungen, QS4 Sachverständigenverfahren, QS5 SchadenSemiotik.",
+      "Leistungen: PDF-Skript, Zugang zum Online-SchadenArchiv mit Studienmaterial."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2198",
+    "Name des VU": "Steinbeis-Transfer-Institut Medientraining und öffentliche Kommunikation",
+    "Leitung": "Stefan Klager, Dr. Katrin Prüfig",
+    "Ort": "Hamburg, Deutschland",
+    "E-Mail": "SU2198@stw.de",
+    "Telefon": "+49 731 93819044",
+    "Stand": "07.06.2022",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Weiterbildungsangebote: Ein- bis zweitägige Seminare und Workshops zu Kommunikations- und neurowissenschaftlichen Themen.",
+      "Fortbildungen: mit Abschluss eines Zertifikats oder Diplomas für Kommunikationsverantwortliche oder Medientrainer.",
+      "Forschung: Studien zu Kommunikationsaspekten, aktuell in Zusammenarbeit mit der HNU."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2241",
+    "Name des VU": "Steinbeis-Hochschule Holding GmbH",
+    "Leitung": "Dipl.-Ing. (FH) Uwe Haug, Dipl.-Wirt.-Ing. (FH) Edwin Jettinger",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU2241@stw.de",
+    "Telefon": "+49 711 1839-5",
+    "Stand": "01.02.2023",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Beteiligung an anderen Unternehmen, u. a. an der Trägerin der Steinbeis-Hochschule.",
+      "Schwerpunkte: Forschung, Lehre, Wissens- und Technologietransfer, Kompetenzbildung in Technologie, Management und Wirtschaft."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2245",
+    "Name des VU": "Steinbeis School of Management and Innovation GmbH",
+    "Leitung": "Prof. Dr. Mario Vaupel",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU2245@stw.de",
+    "Telefon": "",
+    "Stand": "06.07.2021",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Betrieb einer Transfer- und Weiterbildungseinrichtung.",
+      "Angebot von an der Steinbeis-Hochschule zugelassenen Studiengängen.",
+      "Realisierung unternehmensspezifischer Qualifizierungsprogramme.",
+      "Qualifizierung von Fach- und Führungskräften.",
+      "Durchführung von Beratung, Forschung und Transfer."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2282",
+    "Name des VU": "SIE - Software Innovation Education Steinbeis GmbH",
+    "Leitung": "Dipl.-Betriebsw.(FH) Jan Britsch, Lukas Kresser, M.A.",
+    "Ort": "Pforzheim, Deutschland",
+    "E-Mail": "SU2282@stw.de",
+    "Telefon": "",
+    "Stand": "06.04.2021",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Entwicklung von Software und Durchführung von Software-Projekten.",
+      "Entwicklung, Implementierung und Vertrieb eines Management-Monitor Tools.",
+      "Entwicklung und Umsetzung von innovativen Lehr- und Lernmethoden.",
+      "Entwicklung und Umsetzung von Konzepten zur strategischen Unternehmensführung."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2313",
+    "Name des VU": "Steinbeis-Research-Institute SRC - Shared Research Center",
+    "Leitung": "Dipl.-Ing. (FH) Uwe Haug",
+    "Ort": "Berlin, Deutschland",
+    "E-Mail": "SU2313@stw.de",
+    "Telefon": "+49 30 863206270",
+    "Stand": "23.12.2024",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Schnittstelle zur Forschung in den Schools der Fakultäten, den Forschungszentren und Forschungsinstituten der Steinbeis-Hochschule",
+      "Organisatorische Plattform für den zentralen Promotionsprüfungsausschuss der Steinbeis-Hochschule"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2349",
+    "Name des VU": "SIE - Steinbeis Innovation Education gGmbH",
+    "Leitung": "Dipl.-Betriebsw.(FH) Jan Britsch, Lukas Kresser, M.A.",
+    "Ort": "Pforzheim, Deutschland",
+    "E-Mail": "SU2349@stw.de",
+    "Telefon": "",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Förderung von Wissenschaft und Forschung, Bildung und der Gleichberechtigung von Frauen und Männern (gemeinnützig).",
+      "Konzeption und Umsetzung von Projekten an den Schnittstellen von Schulen, Wirtschaft und Hochschule.",
+      "Durchführung von Projekten im Bereich Entrepreneurship Education und zur Gleichstellung der Geschlechter.",
+      "Durchführung von frei gewählten, kooperativen und interdisziplinären Forschungsvorhaben."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2359",
+    "Name des VU": "Tribologie Engineering Mannheim GmbH",
+    "Leitung": "Richard Heinlein",
+    "Ort": "Mannheim, Deutschland",
+    "E-Mail": "SU2359@stw.de",
+    "Telefon": "",
+    "Stand": "13.02.2024",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Entwicklung von Prüfmethoden, Adaptionen und neuartigen Prüfständen inkl. Mess- und Steuerungstechnik.",
+      "Prüfstandsbau.",
+      "Technologietransferleistungen zur Optimierung tribologischer Systeme."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2369",
+    "Name des VU": "SQB-Beteiligung GmbH i. L.",
+    "Leitung": "Prof. Dr.-Ing. habil. Gerhard Linß, Dipl.-Ing. Steffen Lübbecke",
+    "Ort": "Ilmenau, Deutschland",
+    "E-Mail": "SU2369@stw.de",
+    "Telefon": "",
+    "Stand": "04.09.2023",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Beteiligung an der Steinbeis Qualitätssicherung und Bildverarbeitung GmbH mit dem Sitz in Ilmenau."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2398",
+    "Name des VU": "SBE Steinbeis Business and Engineering Holding GmbH",
+    "Leitung": "Dr.-Ing. Walter Beck, MBA, Dipl.-Ing. Martin Bischoff, Dr.-Ing. Peter Schupp",
+    "Ort": "Filderstadt, Deutschland",
+    "E-Mail": "SU2398@stw.de",
+    "Telefon": "+49 711 440808-0",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Erwerb, Halten, Verwalten und Veräußern von Beteiligungen an anderen Gesellschaften.",
+      "Erbringung von Management-, Consulting- und weiteren Dienstleistungen für diese Beteiligungen."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2410",
+    "Name des VU": "SCMT Mittelstands Management GmbH i. L.",
+    "Leitung": "Dipl.-Ing. (FH) Rainer Gehrung",
+    "Ort": "Filderstadt, Deutschland",
+    "E-Mail": "SU2410@stw.de",
+    "Telefon": "+49 172 7190580",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Halten, Erwerb und Verwaltung von SCMT-Zielen dienlichen Unternehmensbeteiligungen."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2419",
+    "Name des VU": "TOPAS Industriemathematik Holding GmbH",
+    "Leitung": "Prof. Dr. Christof Büskens, Dr.-Ing. Mitja Echim",
+    "Ort": "Bremen, Deutschland",
+    "E-Mail": "SU2419@stw.de",
+    "Telefon": "",
+    "Stand": "01.07.2022",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Halten und Verwalten von Beteiligungen u.a. an der TOPAS Industriemathematik Transfer GmbH und der TOPAS Industriemathematik Innovation GmbH."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2478",
+    "Name des VU": "Wissens- und Technologie- Transfer GmbH der HFT Stuttgart",
+    "Leitung": "Oliver Damnik, Dipl.-Ing. (FH) Uwe Haug",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU2478@stw.de",
+    "Telefon": "+49 711 1839-5",
+    "Stand": "19.02.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Unternehmerischer Wissens- und Technologietransferprozess zwischen Wissenschaft und Wirtschaft in der Region Stuttgart.",
+      "Einrichtung von Transferzentren als Steinbeis-Transferunternehmen.",
+      "Erbringung von Entwicklungs-, Beratungs-, Forschungs-, Aus- und Weiterbildungsleistungen.",
+      "Beispiele für Steinbeis-Unternehmen: Sustainable Finance, Innovation & Entrepreneurship, Projektexzellenz, Urbane Digitale Zwillinge, Energie | Mobilität | Nachhaltigkeit."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2482",
+    "Name des VU": "Steinbeis School of Sustainable Innovation and Transformation GmbH",
+    "Leitung": "Ela Kurtcu Bulatovic, M.A.,M.A",
+    "Ort": "Berlin, Deutschland",
+    "E-Mail": "SU2482@stw.de",
+    "Telefon": "",
+    "Stand": "01.10.2024",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Betrieb einer Transfer-, Aus- und Weiterbildungseinrichtung.",
+      "Angebot von personen- und unternehmensspezifischen Qualifizierungsprogrammen.",
+      "Beratung, F&E, Gutachten, Expertisen im Bereich Nachhaltigkeit und technologischer Innovation.",
+      "Transformationsansatz, der grüne, digitale und gesellschaftlich-kulturelle Dimensionen verwebt."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2520",
+    "Name des VU": "Ferdinand-Steinbeis-Reallabor GmbH",
+    "Leitung": "Dipl.-Ing. (FH) Peter Wittmann",
+    "Ort": "Heilbronn, Deutschland",
+    "E-Mail": "SU2520@stw.de",
+    "Telefon": "",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Erwerb und dauernde Verwertung von Beteiligungen an Unternehmen aller Art.",
+      "Projektbegleitung von Unternehmen in den Bereichen Innovation, Digitalisierung und Ökosystem."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2521",
+    "Name des VU": "LLS Logistik GmbH",
+    "Leitung": "Dipl.-Ing. (FH) Peter Wittmann",
+    "Ort": "Heilbronn, Deutschland",
+    "E-Mail": "SU2521@stw.de",
+    "Telefon": "",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Entwicklung und Vertrieb von Lösungen für die Intralogistik."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2556",
+    "Name des VU": "Steinbeis-Transferzentrum Intelligente Technologien - erfolgreiche Produktionen",
+    "Leitung": "Dipl.-Ing. Tatsiana Weber, Dipl.-Ing. Karl Martin Weber",
+    "Ort": "Wetzlar, Deutschland",
+    "E-Mail": "SU2556@stw.de",
+    "Telefon": "+ 49 6408 549780",
+    "Stand": "09.07.2024",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Zielorientiertes Überführen von F&E-Ergebnissen des SIZ Modifikation atomarer Strukturen in die Praxis.",
+      "Substitution fossiler Materialien und ausgewählter Plastikwerkstoffe.",
+      "Anpassungs- sowie Neukonstruktionen von Produkten, Vorrichtungen, Werkzeugen, Lehren.",
+      "Einsatz von metallischen Leichtbauwerkstoffen und veränderten Fügetechnologien.",
+      "Projektierung von komplexen und partiellen Automatisierungslösungen (Robotereinsatz).",
+      "Erstellung von Programmierungs-, Bedien-, Reparatur- und Prüfvorschriften.",
+      "Projektskizzen zu effizienten Recyclingtechnologien."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2557",
+    "Name des VU": "Steinbeis-Innovationszentrum Modifikation atomarer Strukturen (SIZ)",
+    "Leitung": "Dipl.-Ing. Tatsiana Weber, Dipl.-Ing. Karl Martin Weber",
+    "Ort": "Wetzlar, Deutschland",
+    "E-Mail": "SU2557@stw.de",
+    "Telefon": "+ 49 6408 549780",
+    "Stand": "09.07.2024",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Analytik von Werkstoffen und Bauelementen: Röntgen-Spektrographie, Ultraschall-Sensorik, Lasermessungen, Bildgebende Verfahren, Gütebestimmung, Gasanalysen, Korrosion, Verschleiß.",
+      "Entwicklungs-/Konstruktionsleistungen: LASER-Oberflächenbearbeitung, Fügen (MIG, TIG, LASER, Pulver-Auftrag), Schweißen (Explosion, Punkt, Kalt), Einsatz aktiver Schutzgase.",
+      "Zerstörungsprüfung, Bauteilkombinationen für Anti-Korrosionskonstruktionen.",
+      "Anfertigung von Prototypen und Kleinserien, Erstellung von Gutachten."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2566",
+    "Name des VU": "Steinbeis-ITT GmbH",
+    "Leitung": "Prof. Dr. Philipp Liedl",
+    "Ort": "Esslingen, Deutschland",
+    "E-Mail": "SU2566@stw.de",
+    "Telefon": "",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Strategische Technologieberatung mit Fokus auf KMU.",
+      "Förderberatung in Forschung, Entwicklung, Digitalisierung und ökologischer Transformation.",
+      "Kontaktaufbau zu Kooperationspartnern.",
+      "Begleitung von Technologieprojekten von der Konzeption bis zur Umsetzung und Projektleitung.",
+      "Durchführung von Markt- und Technologieanalysen, Technologiegutachten.",
+      "Entwicklung neuer Geschäftsmodelle."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2594",
+    "Name des VU": "SCME Steinbeis Center of Management and Engineering GmbH",
+    "Leitung": "Dr.-Ing. Walter Beck, MBA",
+    "Ort": "Filderstadt, Deutschland",
+    "E-Mail": "SU2594@stw.de",
+    "Telefon": "",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Durchführung von Beratung, insbesondere in den Bereichen Business and Engineering.",
+      "Projektorientierte Aus- und Weiterbildung.",
+      "Auftragsbezogene Forschung, Entwicklung und Technologietransfer.",
+      "Erstellung von Gutachten und Expertisen in den vorgenannten Bereichen."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2604",
+    "Name des VU": "Steinbeis B-hoch3 MT GmbH",
+    "Leitung": "Maximilian Zendt, B.ENG.",
+    "Ort": "Karlsruhe, Deutschland",
+    "E-Mail": "SU2604@stw.de",
+    "Telefon": "",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": []
+  },
+  {
+    "VU-Nummer": "VU0016",
+    "Name des VU": "Steinbeis-Transferzentrum Kunststofftechnik",
+    "Leitung": "Prof. Dipl.-Ing. Peter Wippenbeck",
+    "Ort": "Aalen, Deutschland",
+    "E-Mail": "SU0016@stw.de",
+    "Telefon": "+49 7361 5601-10",
+    "Stand": "12.05.2025",
+    "Schwerpunktthemen": [
+      "Werkstoffe und Prüfverfahren: Systematische Werkstoffauswahl, CAE-gestützte Prognosen, mechanische, thermische, rheologische Prüfverfahren, Beständigkeitsprüfungen, Viskosimetrie, Mikrotomschnitte, Qualitätssicherungsplanung.",
+      "Bauteilgestaltung: Verfahrens- und werkstoffgerechte Konstruktion, CAE-Dimensionierung (FEM), Gestaltfestigkeitsberechnungen, Fertigungsvarianten und Kostenprognosen, wärmetechnische Berechnungen.",
+      "Verfahrensoptimierung: Systematische Fehlerbehebung, Schadensanalysen, Entwicklung computerunterstützter Prozessführungssysteme, Qualitätssondierung, Verarbeitung von Sondermaterialien.",
+      "Werkzeugtechnik: Fließtechnische, wärmetechnische und mechanische Simulationen zur Werkzeugauslegung, Anwendung von Heißkanaltechnik.",
+      "Unterrichtssysteme: Computerunterstützte Schulungssysteme für die Spritzgießtechnik, virtuelle Spritzgießmaschine PICAT."
+    ],
+    "Dienstleistungsangebot": [
+      "Angewandte Forschung und Entwicklung",
+      "Technische Prognosen und Beanspruchungssimulation",
+      "Schadensanalyse, Fehlerbehebung, Gutachten",
+      "Spritzgießtechnische Seminare"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0018",
+    "Name des VU": "Steinbeis-Transferzentrum Medizintechnik",
+    "Leitung": "Prof. Dr. Klaus Paulat",
+    "Ort": "Blaustein, Deutschland",
+    "E-Mail": "SU0018@stw.de",
+    "Telefon": "+49 7304 5345",
+    "Stand": "12.11.2024",
+    "Schwerpunktthemen": [
+      "Medizingerätetechnik: Entwicklung und Konstruktion von Diagnose- und Therapiegeräten.",
+      "Technische Optik, Lasertechnik: Holografische Methoden, Laserinterferometrie.",
+      "Elektronische Gerätetechnik: Sensorik (Signalerfassung, -verarbeitung), Schaltungsentwurf und -entwicklung, Regelungstechnik.",
+      "Rechneranwendung: Bildgebende Verfahren und Bildverarbeitung, Monitoring, nichtinvasive Diagnostik, Ultraschall.",
+      "Sicherheit: Elektrotechnische Sicherheit im Krankenhaus.",
+      "Physikalische Therapie.",
+      "Beratung: Marktchancen, neue Möglichkeiten in Diagnose und Therapie, Diversifikation."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Angewandte Forschung und Entwicklung",
+      "Seminare"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0036",
+    "Name des VU": "Steinbeis-Transferzentrum Technische Beratung an der Hochschule Ulm",
+    "Leitung": "Prof. Dr.-Ing. Manfred Hüser",
+    "Ort": "Ulm, Deutschland",
+    "E-Mail": "SU0036@stw.de",
+    "Telefon": "+49 731 5028-473",
+    "Stand": "07.01.2025",
+    "Schwerpunktthemen": [
+      "Antriebstechnik (elektrisch, hydraulisch, pneumatisch)",
+      "Betriebsorganisation (Fertigungs-, Montage-, Materialflussplanung, PPS)",
+      "Computeranwendung (Systemanalyse, Software-Entwicklung, CAD)",
+      "Digitaltechnik (Schaltungsentwurf, programmierbare Logik)",
+      "Elektrische Messtechnik (Sensortechnik, Prozessdatenverarbeitung)",
+      "Feingerätebau (Konstruktion, Schwingungsanalysen, medizinischer Feingerätebau)",
+      "Fertigungstechnik (Optimierung spanender/spanloser Verfahren, Feinstbearbeitung)",
+      "Fuzzy-Anwendungen (Fuzzy-Logic-Steuerungen, Expertensysteme)",
+      "Getriebetechnik (Entwurf, Analyse, Synthese von Getrieben)",
+      "Kerntechnik (Isotopenanwendung, Verschleißmessungen)",
+      "Kraft- und Arbeitsmaschinen (Leistungsmessungen, wärmetechnische Untersuchungen)",
+      "Managementberatung (F+E-Beratung, strategische Planung, Marketing)",
+      "Ökobilanzen und Ökocontrolling",
+      "Projektmanagement (Einführungskonzepte, Workshops)",
+      "Regelungstechnik (Entwurf, Simulation, adaptive Verfahren)",
+      "Schweißtechnik (Anwendung, Begutachtung, Schadensanalysen)",
+      "Stahl- und Leichtbau/Fahrzeugbau (Berechnungen, Untersuchungen)",
+      "Steuerungstechnik (SPS, hydraulisch, pneumatisch)",
+      "Technische Optik, Optoelektronik (Lichtmessungen, Holographie, Thermographie)",
+      "Umweltmanagement (Umsetzung der Öko-Audit-VO)",
+      "Unternehmensgründung (Konzepte, Simulationen, Risikoanalysen)",
+      "Wärme- und Kältetechnik (Energietechnische Untersuchungen, Wärmerückgewinnung)",
+      "Werkstoffprüfung (Schadensanalysen, Fertigkeitsuntersuchungen)",
+      "Werkzeugmaschinen und Fertigungsautomatisierung (Entwicklung computergesteuerter Fertigungseinrichtungen, CAD/CAM)"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Angewandte Forschung und Entwicklung",
+      "Erstellung von Gutachten",
+      "Weiterbildungsveranstaltungen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0058",
+    "Name des VU": "Steinbeis-Transferzentrum Angewandte Elektronik",
+    "Leitung": "Prof. Dipl.-Ing. Manfred Dorsch",
+    "Ort": "Adelsheim, Deutschland",
+    "E-Mail": "SU0058@stw.de",
+    "Telefon": "+49 6291 2270",
+    "Stand": "08.01.2024",
+    "Schwerpunktthemen": [
+      "Leistungselektronik: Konzeption und Entwicklung von Baugruppen, Antriebssysteme, Steuerung und Regelung, Einsatz von Asynchronmaschinen mit Umrichtern.",
+      "Regelungstechnik: Konzeption und Entwicklung von analogen und digitalen Regelungssystemen, adaptive Regelung.",
+      "Elektromagnetische Verträglichkeit (EMV): Hilfe bei CE-Kennzeichnung, EMV-Untersuchungen im eigenen Labor, EMV-gerechtes Leiterplatten-Design und Konstruktion."
+    ],
+    "Dienstleistungsangebot": [
+      "Entwicklungsmanagement",
+      "Innovationsberatung",
+      "Systemberatung",
+      "Entwicklung von Geräten und Anlagen",
+      "Erstellung von Gutachten",
+      "Seminare über die angegebenen Schwerpunktthemen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0069",
+    "Name des VU": "Steinbeis-Transferzentrum Angewandte und Umweltchemie an der Hochschule Reutlingen",
+    "Leitung": "Prof. Dr. Wolfgang Honnen",
+    "Ort": "Reutlingen, Deutschland",
+    "E-Mail": "SU0069@stw.de",
+      "Telefon": "+49 7121 271-2018",
+    "Stand": "23.12.2024",
+    "Schwerpunktthemen": [
+      "Chemische Analytik: Charakterisierung von Boden, Wasser, Luft, Materialproben etc. bis in den Spurenbereich.",
+      "Biologische Analytik im GLP-Labor: Ökotoxikologische Untersuchungen, Bestimmung der biologischen Abbaubarkeit nach OECD-, DIN-, ISO-, EG- und CEC-Verfahren.",
+      "Angewandte Forschung, Entwicklung, Anwendungstechnik: Teilnahme an BMBF-Projekten, Entwicklung von Testverfahren, Einsatz von Bioindikation, Begleitung von Bodensanierungen.",
+      "Erstellung von Gutachten: Einstufung in Wassergefährdungsklassen, Begutachtung von Schadensfällen und neuartigen Verfahren."
+    ],
+    "Dienstleistungsangebot": [
+      "Chemische Analytik",
+      "Biologische Analytik im GLP-Labor",
+      "Angewandte Forschung, Entwicklung, Anwendungstechnik",
+      "Erstellung von Gutachten",
+      "Beratung und Weiterbildung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0079",
+    "Name des VU": "Steinbeis-Transferzentrum TQU Qualität und Umwelt",
+    "Leitung": "Prof. Dr.-Ing. Jürgen P. Bläsing",
+    "Ort": "Ulm, Deutschland",
+    "E-Mail": "SU0079@stw.de",
+      "Telefon": "+49 731 1466020-0",
+    "Stand": "09.01.2023",
+    "Schwerpunktthemen": [
+      "Business Excellence, Total Quality Management",
+      "Six Sigma, Lean Management, Lean Sigma Management",
+      "Geschäftsprozessmanagement",
+      "Kontinuierliche Verbesserungssysteme und -programme",
+      "Energie- und Klimaschutzmanagement",
+      "Corporate Responsibility",
+      "Wissensmanagement"
+    ],
+    "Dienstleistungsangebot": [
+      "TQU Verlag mit eigener Produktion und Vertrieb",
+      "Institut für Business Excellence IfBE, Zertifizierung",
+      "Persönliche Zertifikate mit MasterStars",
+      "Übungsfragebogen für Qualifikationen Green Belt, Black Belt, Master Belt",
+      "Workbooks und Software für die betriebliche Praxis",
+      "Anwendungssoftware QUALITY APPs",
+      "Internetshop",
+      "Referenz: Recognised for Excellence in Europe (seit 1993)"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0084",
+    "Name des VU": "Steinbeis-Transferzentrum Mikroelektronik, Sensorik und Softwaretechnik an der Hochschule Mannheim",
+    "Leitung": "Dipl.-Ing. (FH) Ralf Lauterwasser",
+    "Ort": "Mannheim, Deutschland",
+    "E-Mail": "SU0084@stw.de",
+    "Telefon": "+49 711 1839-802",
+    "Stand": "23.09.2021",
+    "Schwerpunktthemen": [
+      "Elektronik - Mikroelektronik: Schaltungsentwurf, IC-Entwicklung, programmierbare Logikbausteine, Mess-, Steuer- und Regelungssysteme.",
+      "Elektronikfertigungs- und Löttechnologien: Beratung und Entwicklung zu Aufbau- und Verbindungstechnologien (SMT, THT), Prozessoptimierung, Leiterplattentechnologie, Material- und Qualitätsuntersuchungen.",
+      "Sensorik: Entwurf und Prüfung von Sensoren, Signalverarbeitung, rauscharme Vorverstärker, Messwerterfassungssysteme.",
+      "Optoelektronik: Entwicklung optischer Sensoren, rauscharmer Vorverstärker, Lichtwellenleitersysteme.",
+      "Softwaretechnik: Entwicklung von Messdatenverarbeitungssoftware, Kommunikationssoftware, Visualisierungs- und Bediensysteme.",
+      "Digitale Signal- und Bildverarbeitung: Software, Verfahren und Hardwareentwicklung für automatische Sichtkontrolle, Teilevermessung, digitale Signalanalyse."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Angewandte Forschung und Entwicklung",
+      "Erstellung von Gutachten"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0139",
+    "Name des VU": "Steinbeis-Transferzentrum Signalverarbeitungssysteme",
+    "Leitung": "Dipl.-Ing. (FH) Andreas Reber",
+    "Ort": "Pforzheim, Deutschland",
+    "E-Mail": "SU0139@stw.de",
+    "Telefon": "+49 7231 28-6648",
+    "Stand": "04.07.2024",
+    "Schwerpunktthemen": [
+      "Digitale Signalverarbeitung: Hard- und Software, analoge Filter, Audio- und Video-Signalverarbeitung, Merkmalsdetektion.",
+      "Technische Informatik: VHDL-Schulung, ASIC-Design (PLD, FPGA), System on programmable Chip (SopC), Embedded Linux.",
+      "Displaytechnik: Displaymessungen, Auswahl von Technologien, Entwicklung von Ansteuerungen.",
+      "Automatisierungstechnik: Design von Feldbus-Anschaltungen, verteilte industrielle Steuerungssysteme, SPS, Profibus-Slaves.",
+      "HF- und Messtechnik: Wireless-Übertragungstechnik, digitale Messtechnik, Sensorik auf Mikrowellenbasis.",
+      "Software und Simulation: Software-Entwicklung und Schulung, Algorithmen-Programmierung, Auslegung elektromagnetischer Komponenten."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Erstellung von Expertisen",
+      "Weiterbildung",
+      "Angewandte Forschung und Entwicklung",
+      "Prototypen-Entwicklung und Nullserien",
+      "Leiterplatten-Layout",
+      "Auftragsfertigung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0176",
+    "Name des VU": "Steinbeis-Transferzentrum Energie-, Prozess- und Umwelttechnik",
+    "Leitung": "Dr.-Ing. Gerd Gaiser, Dipl.-Verwaltungswirt (FH) Gabriele Gaiser",
+    "Ort": "Reutlingen, Deutschland",
+    "E-Mail": "SU0176@stw.de",
+      "Telefon": "+49 7121 6102-45",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Umweltverfahrenstechnik: Verfahren zur Abluftreinigung und Aufarbeitung von Prozessabwässern.",
+      "Rationelle Energieverwendung und Wärmenutzung: Prozessintegrierte Wärmenutzung und Verringerung des Energiebedarfs.",
+      "Optimierung von Produktionsprozessen: Mathematische Modellierung, Simulation und Optimierung von Prozessparametern.",
+      "Apparatetechnik: Optimierung von Wärmeübertragern, Strömungsführung und Trocknungsanlagen.",
+      "Beratung: Durchführbarkeitsstudien, Problemanalysen und Produktentwicklung.",
+      "Projektmanagement: Definition, Strukturierung und Abwicklung von FuE-Projekten.",
+      "Technologietransfer: Vermittlung von Forschungsprojekten und Unterstützung bei der Umsetzung."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Angewandte Forschung und Entwicklung",
+      "Projektmanagement",
+      "Projektstudien und Gutachten"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0178",
+    "Name des VU": "Steinbeis-Transferzentrum Produkt- und Verfahrensbewertung",
+    "Leitung": "Dr. Karl-Heinz Hasenburg",
+    "Ort": "Ingelheim, Deutschland",
+    "E-Mail": "SU0178@stw.de",
+    "Telefon": "+49 6132 569-24",
+    "Stand": "07.01.2025",
+    "Schwerpunktthemen": [
+      "Durchführung von Kundenzufriedenheitserhebungen für Industrie und Dienstleister (auch im Rahmen von DIN/ISO 9000 ff, VDA 6.1, TQM).",
+      "Verleihung der \"Auszeichnung für hohe Kundenzufriedenheit\"."
+    ],
+    "Dienstleistungsangebot": [
+      "Kundenzufriedenheitsforschung",
+      "Durchführung des Wettbewerbs \"Aktion für hohe Kundenzufriedenheit\""
+    ]
+  },
+  {
+    "VU-Nummer": "VU0181",
+    "Name des VU": "Steinbeis-Transferzentrum Umformtechnik und Arbeitsorganisation",
+    "Leitung": "Prof. Dr.-Ing. Manfred Stilz",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0181@stw.de",
+    "Telefon": "+49 711 397-3270",
+    "Stand": "05.10.2023",
+    "Schwerpunktthemen": [
+      "Tribologie: Schmierstoffuntersuchungen für die Blech- und Massivumformung.",
+      "Umformen mit Wirkmedien: Innenhochdruckumformen von Rohren, hydromechanisches Tiefziehen.",
+      "Umformwerkzeuge: Stadienplanentwicklung, CAD-Konstruktionen von Umform- und Schließwerkzeugen.",
+      "Arbeitsorganisation: Einführung von neuen Formen der Arbeitsorganisation und Arbeitszeiten in produktionsorientierten Betrieben."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Angewandte Forschung und Entwicklung",
+      "Erstellung von Gutachten",
+      "Mitarbeiterschulung, Seminare",
+      "Simulation von Umformvorgängen (Massivumformung)"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0184",
+    "Name des VU": "Steinbeis-Transferzentrum Lack- und Oberflächentechnologie",
+    "Leitung": "Prof. Dr. Georg Meichsner",
+    "Ort": "Esslingen, Deutschland",
+    "E-Mail": "SU0184@stw.de",
+    "Telefon": "+49 172 7476654",
+    "Stand": "04.02.2025",
+    "Schwerpunktthemen": [
+      "Lacktechnik",
+      "Lackprüfungen, Lackentwicklung",
+      "Farbmetrik",
+      "Rheologische Untersuchungen"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Entwicklung",
+      "Weiterbildung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0199",
+    "Name des VU": "Steinbeis-Transferzentrum IT-BusinessConsulting",
+    "Leitung": "Dipl.-Betriebsw. (BA) Jürgen Hausin, Dipl.-Wirt.-Inf. (BA) Matthias Gimbel",
+    "Ort": "Lörrach, Deutschland",
+    "E-Mail": "SU0199@stw.de",
+    "Telefon": "+49 15209344401",
+    "Stand": "18.09.2022",
+    "Schwerpunktthemen": [],
+    "Dienstleistungsangebot": [
+      "Management Consulting",
+      "IT-Consulting",
+      "IT-Training",
+      "Vertrieb von ERP-Lösungen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0202",
+    "Name des VU": "Steinbeis-Transferzentrum Kunststoffprüfung",
+    "Leitung": "Prof. Dr. Karl-Heinz Moos",
+    "Ort": "Mosbach, Deutschland",
+    "E-Mail": "SU0202@stw.de",
+    "Telefon": "+49 157 76 32 97 81",
+    "Stand": "04.03.2024",
+    "Schwerpunktthemen": [
+      "Werkstoffe und Prüfverfahren: Unterstützung bei Werkstoffauswahl, Durchführung von rheologischen, mechanischen, kalorimetrischen, spektroskopischen Prüfungen, neutrale Werkstoffprüfungen, Schadensanalysen.",
+      "Verfahrensoptimierung: Unterstützung bei Verfahrensanalysen zur Lösung fertigungstechnischer Probleme und Erhöhung der Prozesssicherheit.",
+      "Beratung: Auswahl und Einführung geeigneter Prüfmethoden und -geräte, Erstellung und Einführung von Prüfplänen für Wareneingang und Qualitätssicherung."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Angewandte Forschung und Entwicklung",
+      "Werkstoffprüfungen",
+      "Schadensanalyse und Erstellung von Gutachten",
+      "Schulungs- und Fortbildungsveranstaltungen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0214",
+    "Name des VU": "Steinbeis-Transferzentrum Biomedizinische Technik",
+    "Leitung": "Prof. Dr.-Ing. Bernhard Vondenbusch",
+    "Ort": "Villingen-Schwenningen, Deutschland",
+    "E-Mail": "SU0214@stw.de",
+    "Telefon": "+49 172 7284742",
+    "Stand": "27.03.2024",
+    "Schwerpunktthemen": [
+      "Sensorik und Messtechnik: Erfassung medizinischer Größen, Signalvorverarbeitung, automatisierte Messsysteme.",
+      "Digitale Signalverarbeitung: Entwurf digitaler Filter und Algorithmen, Implementation auf Microcontrollern, neuronale Netze.",
+      "Regelungstechnik: Konzeption analoger/digitaler Regelungssysteme, Anwendung von Fuzzy-Logik.",
+      "System- und Gerätetechnik: Konstruktion und Analyse von Diagnose-/Therapiegeräten, Gerätetests, Optimierung von Herstellungsverfahren und Krankenhaussystemen.",
+      "Elektrotechnische Sicherheit.",
+      "Werkstoffe in der Medizin: Werkstoffe im Gerätebau, Bearbeitung und Prüfung medizinisch relevanter Werkstoffe."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Angewandte Forschung und Entwicklung",
+      "Erstellung von Gutachten",
+      "Industrieseminare zu den genannten Schwerpunktthemen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0229",
+    "Name des VU": "Steinbeis-Transferzentrum Erzeugnisentwicklung",
+    "Leitung": "Prof. Dr.-Ing. Wolfgang Nendel",
+    "Ort": "Oederan, Deutschland",
+    "E-Mail": "SU0229@stw.de",
+    "Telefon": "+49 372 92211-45",
+    "Stand": "20.02.2023",
+    "Schwerpunktthemen": [
+      "Durchführung von Literatur- und Patentrecherchen, Ausarbeitung von Patentunterlagen.",
+      "Unterstützung bei der Beantragung von Fördermitteln.",
+      "Entwicklung neuer Produkte, Maschinen und Anlagen.",
+      "Maschinen-, Material- und Produktanalysen.",
+      "Entwurf und Gestaltung von Erzeugnissen der Druckereitechnik, Designstudien.",
+      "Modell- und Vorrichtungsbau, CAD-Planung und CNC-Fertigung von Sonderbauteilen aus Holzverbundwerkstoffen."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Angewandte Forschung und Entwicklung",
+      "Erstellung von Gutachten",
+      "Bearbeitung von Gestaltungs- und Designfragen",
+      "Entwicklung und Fertigung von Sonderbauteilen aus Holzwerkstoffen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0240",
+    "Name des VU": "Steinbeis-Transferzentrum Reaktive Strömung",
+    "Leitung": "Prof. Dr. Olaf Deutschmann, Prof. Dr. Uwe Riedel",
+    "Ort": "Östringen, Deutschland",
+    "E-Mail": "SU0240@stw.de",
+    "Telefon": "+49 7247 9542387",
+    "Stand": "02.11.2022",
+    "Schwerpunktthemen": [
+      "Reaktive Strömungen: Laserspektroskopische Untersuchungen, Mehrphasenströmungen, Reaktionsmechanismen, Modellierung und Simulation.",
+      "Verbrennungstechnik.",
+      "Heterogene Katalyse: Hochtemperaturkatalyse, Abgasnachbehandlung (TWC, SCR, DPF), Verkokung, Rußbildung.",
+      "Materialsynthesen: Chemische Gasphasen-Deposition, Kohlenstoffverbundwerkstoffe, biokompatible Überzüge.",
+      "Brennstoffzellen (Solid-Oxide Fuel Cells).",
+      "Softwarepaket DETCHEM."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Grundlagenforschung, angewandte Forschung",
+      "Erstellung von Gutachten"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0281",
+    "Name des VU": "Steinbeis-Transferzentrum Kraftwerks- und Feuerungstechnik, Luftreinhaltung",
+    "Leitung": "Prof. Dr. Günter Scheffknecht",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0281@stw.de",
+    "Telefon": "+49 711 685-68913",
+    "Stand": "03.06.2025",
+    "Schwerpunktthemen": [
+      "Feuerungstechnik, Kraftwerkstechnik: Technologien zur Schadstoffminderung, Verbrennung fossiler und biogener Brennstoffe in Versuchsanlagen, Brennstoffcharakterisierung, Verschlackungs- und Korrosionsuntersuchungen.",
+      "Messtechniken zur Flammendiagnostik und Abgasanalysen, Strömungsvisualisierung, Geschwindigkeitsmessungen in Zweiphasenströmungen.",
+      "Entwicklung von Kleinfeuerungsanlagen für biogene Brennstoffe und Felduntersuchungen an Feuerungsanlagen.",
+      "Reinhaltung der Luft: Messtechniken für Luftverunreinigungen, Immissionsuntersuchungen, Auswertung und Beurteilung der Luftqualität, Untersuchung der Verteilung von Luftverunreinigungen."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung, Gutachten",
+      "Konzeptstudien, Entwurf, Planung",
+      "Angewandte Forschung und Entwicklung",
+      "Versuche an technischen Anlagen und im Labor",
+      "Emissions-, Immissions-, Temperatur- und Geschwindigkeitsmessungen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0290",
+    "Name des VU": "Steinbeis-Transferzentrum Winterthur",
+    "Leitung": "Sigrid Friedrichs",
+    "Ort": "Romanshorn, Schweiz",
+    "E-Mail": "SU0290@stw.de",
+    "Telefon": "+41 44 9237-604",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Allgemeine Beratung: Problemerkennung, Kontaktvermittlung, Technologie- und Marktberatung, Produktfindung, Diversifikationsstrategien.",
+      "Forschung und Entwicklung: Beratung bei FuE-Vorhaben, Projektbetreuung, Durchführung von Entwicklungsaufträgen.",
+      "Schulung und Weiterbildung: Entwicklung von Weiterbildungskonzepten, Organisation von Seminaren, Workshops, Symposien.",
+      "Veranstaltungen: Full-Service für Kongresse, Messen, Ausstellungen national und international.",
+      "Total Quality Management: Qualitätsbewusste Unternehmensführung, Vorbereitung auf Zertifizierung, Voraudits.",
+      "Internationale Zusammenarbeit: Unternehmenskooperationen, Joint-Ventures, Technologietransfer."
+    ],
+    "Dienstleistungsangebot": [
+      "Zugriff auf das gesamte Dienstleistungspotential der Steinbeis-Stiftung",
+      "Beratung",
+      "Internationale Kontakte",
+      "Praxisorientierte Forschung und Entwicklung",
+      "Weiterbildung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0345",
+    "Name des VU": "Steinbeis-Transferzentrum Angewandte Biomechanik",
+    "Leitung": "Prof. Dr. Albert Gollhofer",
+    "Ort": "Stegen, Deutschland",
+    "E-Mail": "SU0345@stw.de",
+    "Telefon": "+49 761 203-4510",
+    "Stand": "31.07.2024",
+    "Schwerpunktthemen": [
+      "biomechanische Messverfahren",
+      "orthetische Hilfsmittel",
+      "Prävention und funktionelle Rehabilitation",
+      "motorische Grundeigenschaften/Bewegungsphänomologie",
+      "Leistungs- und Bewegungsdiagnostik",
+      "Motorische, sportmotorische und physiologische Testverfahren"
+    ],
+    "Dienstleistungsangebot": [
+      "Erstellung von Gutachten",
+      "Beratung in biometrischen Themenfeldern",
+      "Angewandte Forschung und Entwicklung",
+      "Durchführung von Validierungsstudien",
+      "Klinische Studien, wissenschaftliche Testverfahren",
+      "Fortbildungsveranstaltungen, Seminare",
+      "Ausstattung: High-speed Videographie, 3D-Kinemetrie, Kraftmessplatten, Elektromyographie, Laufband für Leistungsdiagnostik, Spirometrie."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0351",
+    "Name des VU": "Steinbeis-Transferzentrum China-Projekte",
+    "Leitung": "Prof. Eberhard Wüst",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU0351@stw.de",
+    "Telefon": "+49 711 244491",
+    "Stand": "02.09.2021",
+    "Schwerpunktthemen": [
+      "Druck- und Medientechnik",
+      "Verpackungstechnik",
+      "Verlagsservice",
+      "Aufbau von Kommunikationsnetzen",
+      "Technischer Kommunikationsservice",
+      "Werbung"
+    ],
+    "Dienstleistungsangebot": [
+      "Aufbau von Vertriebsnetzen",
+      "Digitaler Kommunikationsservice",
+      "Werbetechnik",
+      "Personalvermittlung",
+      "Personalentwicklung",
+      "Entwicklung von Komponenten für Elektromotorenbau"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0357",
+    "Name des VU": "Steinbeis-Transferzentrum Meschede",
+    "Leitung": "Prof. Dr.-Ing. Claus Schuster",
+    "Ort": "Münster, Deutschland",
+    "E-Mail": "SU0357@stw.de",
+    "Telefon": "+49 2533 409-3368",
+    "Stand": "23.06.2021",
+    "Schwerpunktthemen": [
+      "Umweltverfahrenstechnik: Entwicklung neuer Verfahren zur Abwasserreinigung, Hochleistungskläranlagen, Leistungssteigerung bestehender Kläranlagen, Schlammbehandlung, dynamische Simulation.",
+      "Einsatz regenerativer Energien in der Haustechnik, Energieverbund.",
+      "Wasserwirtschaft: Datenverarbeitung, EMR-Konzepte für SBR-Technologie, Eigenkontrolle, Entwicklung neuer Produkte, hydraulischer Versuchsstand, Marktstudien, Auslegung von Kleinkläranlagen.",
+      "Qualitätsmanagement und Energiemanagement in Kläranlagen."
+    ],
+    "Dienstleistungsangebot": [
+      "Produktorientierte Forschung und Entwicklung",
+      "Erstellung von Anlagenkonzepten",
+      "Entwicklung, Prüfung und Optimierung von Systemen und Komponenten",
+      "Vorträge, Tagungen, Seminare und Workshops",
+      "Projektüberwachung und Projektevaluierung",
+      "Erstellung von Gutachten und Analysen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0371",
+    "Name des VU": "Steinbeis-Transferzentrum Biokraftstoffe und Umweltmesstechnik",
+    "Leitung": "Prof. Dr. Jürgen Krahl, Katja Krahl",
+    "Ort": "Lemgo, Deutschland",
+    "E-Mail": "SU0371@stw.de",
+    "Telefon": "+49 5261 7705 158",
+    "Stand": "12.11.2024",
+    "Schwerpunktthemen": [
+      "Biokraftstoffe: Technische Beratung beim Einsatz in Fahrzeugen und zur Energieerzeugung.",
+      "Katalysatortechnik: Emissionsmessung limitierter und nichtlimitierter Schadstoffe, Bewertung von Messergebnissen, human- und ökotoxikologische Wirkungsabschätzung.",
+      "Umweltmesstechnik: Beratung zur Auswahl und Optimierung von Probenahme und Messtechnik, Ergebnisbewertungen, Emissionsmessungen, Raum- und Stallluftanalysen."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Messungen umweltrelevanter Stoffe",
+      "Erstellung von Gutachten und Studien",
+      "Technikfolgenabschätzungen",
+      "Literaturrecherchen",
+      "Weiterbildung, Seminare, Mitarbeiterschulungen",
+      "Vermittlung weltweiter Kontakte",
+      "Lektoratsarbeiten"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0386",
+    "Name des VU": "Steinbeis-Transferzentrum Prüfinstitut für Bodensysteme",
+    "Leitung": "Dipl.-Ing. (FH) Peter Strobel",
+    "Ort": "Aalen, Deutschland",
+    "E-Mail": "SU0386@stw.de",
+    "Telefon": "+49 7361 9163367",
+    "Stand": "12.05.2025",
+    "Schwerpunktthemen": [
+      "Belastungs- bzw. Tragfähigkeitsprüfungen von Doppelbodensystemen.",
+      "Maßhaltigkeitsprüfung von Doppelbodenplatten.",
+      "Korrosionsprüfung: Schichtdickenmessung, Korrosionsbeständigkeitsprüfung.",
+      "Schälwiderstandsprüfung: Festigkeit von Belagsverklebungen auf Doppelbodenplatten.",
+      "Elektrostatik: Bestimmung von Widerstandswerten.",
+      "Koordinatenmesstechnik: Erstellung von CNC-Messprogrammen, statistische Auswertung.",
+      "Entwicklung von Prüfgeräten und Prüfverfahren für Wareneingang und Fertigung.",
+      "Festigkeitsprüfung von Halbzeugen und Zulieferteilen, Feuchteprüfung von Baustoffen."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Begutachtung von Systemböden für Hersteller und Anwender",
+      "Versuchsunterstützte Entwicklung von Systemböden und Komponenten",
+      "Durchführung verschiedener Prüfungen an Systemböden nach Normen und Richtlinien",
+      "Entwicklung von Prüfverfahren und -geräten für QS-Maßnahmen",
+      "Kooperation mit Prüfinstituten und Sachverständigen",
+      "Administration von Prüfungen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0399",
+    "Name des VU": "Steinbeis-Transferzentrum Qualitätsmanagement",
+    "Leitung": "Prof. Dr.-Ing. Volker Schenk",
+    "Ort": "Coburg, Deutschland",
+    "E-Mail": "SU0399@stw.de",
+    "Telefon": "+49 9561 60524",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Maschinenbau: Entwicklung und Konstruktion von Maschinen, Produktionstechnik, Robotik, Montagetechnik.",
+      "Qualitätsmanagement: Aufbau nach ISO 9000, QS 9000, VDA 6.1, Hinführung zur Zertifizierung, Implementierung von Qualitätswerkzeugen (FMEA, QFD).",
+      "TQM (Total Quality Management).",
+      "CE-Kennzeichnung.",
+      "Wertanalyse.",
+      "Auditierungen.",
+      "Poka-Yoke-Maßnahmen und Kaizen-Maßnahmen."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung und Projektarbeit im Themenbereich Qualität, Konstruktion und Fertigung",
+      "Studien, Analysen, Gutachten",
+      "Seminare, Workshops"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0425",
+    "Name des VU": "Steinbeis-Transferzentrum Ertragskraftmanagement und Controlling",
+    "Leitung": "Prof. Dr.-Ing. Thomas Baltzer-Fabarius",
+    "Ort": "Reutlingen, Deutschland",
+    "E-Mail": "SU0425@stw.de",
+    "Telefon": "+49 173 3402530",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Ertragskraftsteuerung: Schieflagenanalysen, Strategiekonzepte, Sortimentssanierung, EBIT-Bewertung, M&A.",
+      "Controlling: Abrechnungssysteme (IFRS-GAAP), kurzfristige Erfolgsrechnungen, dynamische Preisermittlung, externes und Interims-Controlling.",
+      "Insolvenzprophylaxe/Turnarounds: Turnaround-Programme, Prozessmanagement, Krisendiagnostik, Gründerbegleitung.",
+      "Informatik: Systemeinführungen (DMS, ERP, CRM), Systembewertung, Customizing, Delphi-Programmierung, Intranetanwendungen.",
+      "Management Coaching: Seminare, Inhouse-Kurse.",
+      "Wirtschaftsmathematische Berechnungen: Betriebliche Altersversorgung, Versorgungsausgleich, Finanzierungen, Risiko."
+    ],
+    "Dienstleistungsangebot": [
+      "Ertragskraftstärkung: Analysen + Prospektive",
+      "Strategisches Controlling: Systeme + Assistenz",
+      "Turnarounds: Konzepte + Begleitung",
+      "Informatik: System Customizing",
+      "Management Coaching",
+      "Wirtschaftsmathematische Berechnungen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0427",
+    "Name des VU": "Steinbeis-Transferzentrum Biopharmazie und Analytik",
+    "Leitung": "Prof. Dr. Gert Fricker, Prof. Dr. Michael Wink",
+    "Ort": "Heidelberg, Deutschland",
+    "E-Mail": "SU0427@stw.de",
+    "Telefon": "+49 6221 54-8336",
+    "Stand": "19.02.2025",
+    "Schwerpunktthemen": [
+      "Biopharmazie: Drug Delivery Systeme, Formulierungsentwicklung, Partikuläre und liposomale Trägersysteme, Targeting (z. B. Blut-Hirn Schranke).",
+      "Pharmakokinetik: In-vivo-Studien (Ratten), Organperfusion-Systeme, pharmakokinetisches Modelling, Phase I - Humanstudien.",
+      "Membran-Transport/Mechanistische Studien: In-vitro-Resorptionsstudien (Caco-2), molekulare Carrierprotein-Identifikation, Zellkinetik.",
+      "Analytik: Beratung zur Entwicklung pflanzlicher Wirkstoffe, Toxikologie, DNA-Analytik (Vaterschaft, Forensik), biochemische Analytik (GLC, HPLC, MS), Pestizidbestimmung."
+    ],
+    "Dienstleistungsangebot": [
+      "Angewandte Forschung und Entwicklung",
+      "Entwicklung und Verbesserung von In-vitro-Modellen",
+      "Substanzprüfung und Messungen",
+      "Erstellung von Gutachten, Seminare, Schulung",
+      "Literaturrecherchen, Beratung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0456",
+    "Name des VU": "TQU AG",
+    "Leitung": "Dipl.-Ing. (FH) Daniel Eiche, MBA, Markus Schwär",
+    "Ort": "Winterthur, Schweiz",
+    "E-Mail": "SU0456@stw.de",
+    "Telefon": "+41 5220 2755-2",
+    "Stand": "23.12.2024",
+    "Schwerpunktthemen": [
+      "Unternehmensweite Einführung und Begleitung von TQM-Projekten:",
+      "z. B. durchgehende Zielentwicklungsprozesse, Kundenzufriedenheitssteigerung, Motivationssteigerung, Führungsdefizite bekämpfen, imagebildende Maßnahmen einleiten"
+    ],
+    "Dienstleistungsangebot": [
+      "Alle Felder der innovativen Unternehmensführung",
+      "Alle Bereiche des European Modell für Business Excellence der EFQM",
+      "Geschäftsprozessmanagement, Organisationsentwicklung",
+      "Internet- und Intranetanwendungen in Qualitäts- und Umweltmanagement",
+      "Methoden der Prozessverbesserung, wie QFD, FMEA, DoE, SPC"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0548",
+    "Name des VU": "Steinbeis-Transferzentrum Federntechnik",
+    "Leitung": "Prof. Dr.-Ing. Ulf Kletzin",
+    "Ort": "Ilmenau, Deutschland",
+    "E-Mail": "SU0548@stw.de",
+    "Telefon": "+49 3677 46918-0",
+    "Stand": "27.10.2022",
+    "Schwerpunktthemen": [
+      "Federberechnung: Beratung zum Entwurf und Einsatz, analytische und Finite-Elemente-Berechnungen, Erarbeitung von Berechnungssoftware.",
+      "Federherstellung: Erarbeitung verfahrens- und maschinentechnischer Lösungen, Optimierung der Herstellungsschritte (Winden, Wärmebehandeln, Kugelstrahlen).",
+      "Federmessung und -prüfung: Bestimmung von Federkennlinie, Querkräften, Schwingungsuntersuchungen, Lastwechselprüfung, Geometrievermessung, Hochgeschwindigkeitsvideoaufnahmen.",
+      "Federmaterial: Bewertung von Werkstoffen, Ermittlung von Materialkennwerten.",
+      "Federlabor: Ausrüstungen zur Federherstellung und -prüfung, Materialprüfung."
+    ],
+    "Dienstleistungsangebot": [
+      "Entwicklung und Beratung auf dem Gebiet technischer Federn",
+      "Tribologische Untersuchungen an Federn und Baugruppen",
+      "Festigkeitsprüfung an Bauteilen und Baugruppen",
+      "Angewandte Forschung",
+      "Aus- und Weiterbildung zu federspezifischen Themen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0582",
+    "Name des VU": "Steinbeis-Transferzentrum Simulation und Optimierung",
+    "Leitung": "Prof. Dr. Dr. h.c. mult. Hans Georg Bock",
+    "Ort": "Heidelberg, Deutschland",
+    "E-Mail": "SU0582@stw.de",
+    "Telefon": "+49 6221 54 14615",
+    "Stand": "29.07.2024",
+    "Schwerpunktthemen": [
+      "Modellierung dynamischer Prozesse",
+      "Simulation",
+      "Parameterschätzung",
+      "Sensitivitätsanalysen",
+      "Optimale Versuchsplanung",
+      "Optimierung der Auslegung und des Betriebs dynamischer Prozesse",
+      "on-line Optimierung",
+      "Produktionsplanung, Reihenfolgeplanung",
+      "Numerische Optimierung und optimale Steuerung großer Systeme"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Software-Entwicklung",
+      "Angewandte Forschung und Entwicklung",
+      "Modellierungs-, Simulations- und Optimierungsstudien",
+      "Anwendungsgebiete: Technische Mechanik, Biomechanik, Chemie, Umwelt- und Bioprozesse"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0621",
+    "Name des VU": "Steinbeis-Transferzentrum Nanostrukturen und Festkörperanalytik",
+    "Leitung": "Prof. Dr. Johannes Boneberg",
+    "Ort": "Konstanz, Deutschland",
+    "E-Mail": "SU0621@stw.de",
+    "Telefon": "+49 7531 88-3540",
+    "Stand": "16.01.2023",
+    "Schwerpunktthemen": [
+      "Materialforschung: Nanostrukturierte Materialien, magnetische Untersuchungen im Mikro- und Nanobereich.",
+      "Analytik: Topografie, Morphologie, Strukturbestimmung, Elementzusammensetzung, chemische Ordnung, magnetische Momente."
+    ],
+    "Dienstleistungsangebot": [
+      "Analytik von Festkörpern in Bezug auf Topografie, Morphologie und magnetische Eigenschaften",
+      "Entwicklung und Herstellung neuartiger Nanomaterialien",
+      "Laser-Oberflächenmodifikation",
+      "Ausstattung: XRD, SEM, TEM, FIB, EDX, STM, AFM, MFM, SQUID, MOKE, gepulste ns- und fs-Laser."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0624",
+    "Name des VU": "Steinbeis-Transferzentrum Management für die mittelständische Wirtschaft",
+    "Leitung": "Prof. Ulrich Hummel, Prof. Dr. Klaus Höfle",
+    "Ort": "Heidenheim, Deutschland",
+    "E-Mail": "SU0624@stw.de",
+    "Telefon": "+49 7321 2722-441",
+    "Stand": "02.06.2025",
+    "Schwerpunktthemen": [
+      "Strategieorientiertes Veränderungsmanagement",
+      "Bedarfsorientierte Problemlösungen unter Mitwirkung der Betroffenen",
+      "Strategieorientierte Prozesse der Organisationsentwicklung",
+      "Der Weg zur lernenden Organisation",
+      "Führungskräfte als Coach ihrer Mitarbeiter",
+      "Teamentwicklung"
+    ],
+    "Dienstleistungsangebot": [
+      "Moderation und professionelle Begleitung von Veränderungsprojekten",
+      "Personal Consulting",
+      "Mittelstands-Akademie",
+      "Didaktische Konzeption technologiegestützter Qualifizierungssysteme",
+      "Entwicklung und Umsetzung internationaler Qualifizierungs- und Beratungsprojekte"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0641",
+    "Name des VU": "Steinbeis-Transferzentrum Werkstoff- und Verbindungstechnik",
+    "Leitung": "Prof. Dr. Michael Kaloudis",
+    "Ort": "Aschaffenburg, Deutschland",
+    "E-Mail": "SU0641@stw.de",
+    "Telefon": "+49 6021 314813",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Allgemeine Werkstofftechnik",
+      "Zuverlässigkeit",
+      "Aufbau- und Verbindungstechnik in der Elektronik",
+      "Fertigungsprozesse der Elektronik"
+    ],
+    "Dienstleistungsangebot": [
+      "Werkstofftechnik: Materialanalysen, Oberflächenanalysen, Zuverlässigkeitsuntersuchungen, DMTA, Zugprüfung, dynamische Werkstoffprüfung, Schichtdickenmessung, Metallographie.",
+      "Verbindungstechnik: Untersuchung zur Löt-, Schweiß-, Klebetechnik (Wellenlöten, Reflowlöten, Dampfphasenlöten), Ultraschall-Dünndrahtbonden, Einpresstechnik.",
+      "Zeitraffende Alterungstests (Temperaturzyklen, Klimalagerung).",
+      "Qualifizierung und Optimierung von Fertigungsprozessen.",
+      "Durchführung von Seminaren, Beratung, Gutachten, Marktrecherche."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0650",
+    "Name des VU": "Steinbeis-Transferzentrum Informationssysteme",
+    "Leitung": "Univ.-Prof. Dr. Wolfgang Klas",
+    "Ort": "Bisamberg, Österreich",
+    "E-Mail": "SU0650@stw.de",
+    "Telefon": "+43 699 1-1334749",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Datenbanktechnologie und -anwendungen: Relationale, objektrelationale und objektorientierte DB-Technologie, verteilte Umgebungen, Datenbankentwurf.",
+      "Multimediainformationssysteme: Konzeption und Entwicklung von Multimedia-Datenbanken, Digital Libraries, Dokumentenarchiven, Screen Design, Bild- und Videobearbeitung.",
+      "Internettechnologie und -anwendungen: Konzeption und Gestaltung von Internetanwendungen, Sicherheitskonzepte, Java, JavaBeans, HTML, VRML, XML, Middleware (Corba, DCOM, RMI)."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung, Gutachten, Studien, Technologieaudits",
+      "Anwendungsforschung und -entwicklung",
+      "Schulung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0686",
+    "Name des VU": "Steinbeis-Transferzentrum Biotechnologie",
+    "Leitung": "Dipl.-Biol. Peter Sendrowski",
+    "Ort": "Leimen, Deutschland",
+    "E-Mail": "SU0686@stw.de",
+    "Telefon": "+49 6224 51099",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Biotechnologie",
+      "Biophysik",
+      "Mikrobiologie",
+      "Drug Targeting und Design",
+      "Nanotechnologie",
+      "Entwicklung von Geräten",
+      "Fluoreszenz-optische Verfahren",
+      "Durchflusszytometrie",
+      "Analytik"
+    ],
+    "Dienstleistungsangebot": [
+      "Internationales Biotec-Consulting: Vermittlung von Forschungsdienstleistungen zwischen Wirtschaft und Wissenschaft.",
+      "Evaluierung, Organisation und Durchführung von Biotechnologie-, Life-Science- und Medizintechnik-Projekten.",
+      "Personal-, Ressourcen- und Projekt-Planung.",
+      "Technische und wissenschaftliche F&E-Beratung, Mitarbeit bei F&E-Projekten.",
+      "Beratung und Durchführung von Validierungen gemäß USP und EP.",
+      "Vertretung auf Messen, Kongressen; Veranstaltung von Workshops und Fortbildungen."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0687",
+    "Name des VU": "Steinbeis-Transferzentrum Zusammenarbeit - Entwicklung - Nachhaltigkeit (ZEN)",
+    "Leitung": "Dr. Karsten Hoffmann",
+    "Ort": "Freiburg, Deutschland",
+    "E-Mail": "SU0687@stw.de",
+    "Telefon": "+49 761 55655391",
+    "Stand": "04.02.2025",
+    "Schwerpunktthemen": [
+      "Erfolgreiche Zusammenarbeit mit anderen Unternehmen (KMU) auf Basis von fairem Miteinander.",
+      "Orientierung an den Grundsätzen der Gemeinwohlökonomie.",
+      "„Economy for the Common Good“"
+    ],
+    "Dienstleistungsangebot": [
+      "Unternehmensentwicklung: Sicherung der Zukunftsfähigkeit durch nachhaltige Innovationen, Entwicklung von Partizipation und Transparenz, Weiterentwicklung zur Gemeinwohl-Orientierung (Nutzung der „Gemeinwohl-Bilanz“).",
+      "Nachhaltigkeitsmanagement: Werkzeuge der Nachhaltigkeitsberichterstattung (GRI, DNK), Nachhaltigkeit entlang der Wertschöpfungskette, Entwicklung nachhaltiger Vermarktungsstrategien.",
+      "Verbindung der 17 SDGs mit den 20 Matrix-Elementen der Gemeinwohl-Ökonomie (GWÖ)."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0698",
+    "Name des VU": "Steinbeis-Transferzentrum Mikroelektronik und Automatisierung",
+    "Leitung": "Dipl.-Ing. (FH) Armin Holz",
+    "Ort": "Ulm, Deutschland",
+    "E-Mail": "SU0698@stw.de",
+    "Telefon": "+49 731 5028261",
+    "Stand": "09.01.2023",
+    "Schwerpunktthemen": [
+      "Hard- und Software für Mikrorechner",
+      "Analoge, digitale und Hochfrequenzschaltungen",
+      "Automatisierungstechnik, Antriebstechnik",
+      "Bussysteme (Profibus-DP, CAN, CANOPEN, ASI-Interface)",
+      "Sensorik, Elektronik",
+      "Regelungstechnik, Leistungselektronik",
+      "Drahtlose Datenkommunikation",
+      "Programmierung von PC`s",
+      "Digitale Regler",
+      "Optoelektronik"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Entwicklung von Prototypen",
+      "Fertigung",
+      "Leiterplattenentwurf und -layout",
+      "Studien"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0706",
+    "Name des VU": "Steinbeis-Transferzentrum Grafschaft Bentheim",
+    "Leitung": "Dipl.-Ing. (FH) Uwe Fritsch-Brümmer",
+    "Ort": "Nordhorn, Deutschland",
+    "E-Mail": "SU0706@stw.de",
+    "Telefon": "+49 591 6100-540",
+    "Stand": "01.07.2022",
+    "Schwerpunktthemen": [
+      "Allgemeine Beratung und Hilfestellung bei: Strukturierung von Problemen, Existenzgründungen, Verwertung wissenschaftlicher Erkenntnisse.",
+      "Vermittlung von: Kontakten für Firmenkooperationen und zu F&E-Einrichtungen.",
+      "Bedarfsorientierte Technologieberatung: Problemanalysen, Betriebswirtschaft, Marketing, Produktionsorganisation, Qualitätsmanagement, Design.",
+      "Angewandte Forschung und Entwicklung: Unterstützung bei Auswahl, Definition und Steuerung von FuE-Projekten."
+    ],
+    "Dienstleistungsangebot": [
+      "Zugriff auf das gesamte Dienstleistungsangebot der Steinbeis-Stiftung für Unternehmen im Landkreis Grafschaft Bentheim.",
+      "Qualifizierte Technologie- und Marktberatung durch sämtliche Steinbeis-Experten."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0720",
+    "Name des VU": "Steinbeis-Transferzentrum Datenanalyse und Signalprozessing",
+    "Leitung": "Prof. Dr. Peter Maass",
+    "Ort": "Bremen, Deutschland",
+    "E-Mail": "SU0720@stw.de",
+    "Telefon": "+49 421 21863801",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Qualitätssicherung und Produktionsüberwachung: Auswertung von Sensordaten, Detektion kritischer Strukturen.",
+      "Parameteridentifikation und inverse Engineering.",
+      "Genomics und Proteomics - Anwendungen: Cluster-Analyse, Wavelet-Indikatoren, Auswertung von Proteinspektren.",
+      "Meteorologische Datenauswertung: Rauschunterdrückung, Windprofiler und SODAR-Daten.",
+      "Wavelet-Shrinkage-Verfahren.",
+      "Finanzdaten: SPC-Computing, Trendanalysen, Planungsdaten für Personaleinsatz."
+    ],
+    "Dienstleistungsangebot": [
+      "Einsatz von Wavelet-Methoden für die Datenanalyse und Signalverarbeitung.",
+      "Beratung",
+      "Softwareentwicklung",
+      "Gutachten, Studien",
+      "Angewandte Forschung und Entwicklung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0750",
+    "Name des VU": "Steinbeis-Transferzentrum Geometrieverarbeitung und Computer Aided Geometric Design",
+    "Leitung": "Prof. Dr. Leif Kobbelt",
+    "Ort": "Aachen, Deutschland",
+    "E-Mail": "SU0750@stw.de",
+    "Telefon": "+49 241 802-1800",
+    "Stand": "03.09.2024",
+    "Schwerpunktthemen": [
+      "Geometrie-Rekonstruktion aus Messdaten (Laser-Scanning, CT, MRT, Foto, Video).",
+      "Optimierung von 3D-Modellen, Freiform-Design (CAD/CAM).",
+      "Effiziente Verarbeitung komplexer Geometriedaten, Preprocessing, Konvertierung, Mesh Repair.",
+      "Visualisierung wissenschaftlicher und medizinischer Daten.",
+      "Komplexitätsreduktion für Polygonnetze, Multiskalen- und Multiresolutionmethoden.",
+      "Anwendungsspezifische Modellierung für Architektur, E-Commerce.",
+      "High Performance Graphics, Rapid Prototyping, Mesh Generation, Point-based Graphics."
+    ],
+    "Dienstleistungsangebot": [
+      "Anwendungsorientierte Forschungsprojekte",
+      "Entwicklung von Software-Prototypen",
+      "Beratungsdienstleistungen",
+      "Gutachten und Machbarkeitsstudien",
+      "Seminare und Schulungen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0783",
+    "Name des VU": "Steinbeis-Transferzentrum Projektgestaltung und Vertragsmanagement",
+    "Leitung": "Prof. Dr.-Ing. Herbert Glöckle, Dr. iur. Wolfgang Hackenberg",
+    "Ort": "Kirchentellinsfurt, Deutschland",
+    "E-Mail": "SU0783@stw.de",
+    "Telefon": "+49 170 1685267",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Projektgestaltung (Beratung, Training, Coaching): Projektorganisation, Risikomanagement, Kommunikationsgestaltung, Konfliktmanagement.",
+      "Vertragsmanagement (Beratung, Training, Coaching): Vertragstypenoptimierung, Terms & Conditions, Schnittstellenmanagement, Streitschlichtung, Risikomanagement, Lizenzmodelle.",
+      "Betriebswirtschaftliche Gestaltung (Beratung, Training, Coaching): Projektfinanzierung, Ausschreibung, Kostenmanagement, Controlling, Gestaltung von Wartungs- und Serviceverträgen, Outsourcing."
+    ],
+    "Dienstleistungsangebot": [
+      "Kombination von technischem Sachverstand und juristischem Know-how für Projekte.",
+      "Beratung in Projektgestaltung und Vertragsmanagement.",
+      "Betriebswirtschaftliche Beratung bei Projekten, inkl. Systemmigration.",
+      "Durchführung von Audits und Monitoring.",
+      "Workshops, Schulungen und Seminare (auch Planspiele).",
+      "Moderation und Leitung großer Meetings."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0790",
+    "Name des VU": "Steinbeis-Transferzentrum Building Technology",
+    "Leitung": "Prof. Gerhard Fetzer",
+    "Ort": "Denkendorf, Deutschland",
+    "E-Mail": "SU0790@stw.de",
+    "Telefon": "+49 711 300 90 635",
+    "Stand": "01.04.2025",
+    "Schwerpunktthemen": [
+      "Klassische Versorgungstechnik: Heizungs-, Lüftungs- und Klimatechnik, Wasser und Abwassertechnik",
+      "Betriebsoptimierung",
+      "Energiemanagement",
+      "Problemuntersuchungen",
+      "Nachhaltiges Anlagenmanagement",
+      "TCO Analyse",
+      "Innovative Anlagensteuerung",
+      "Systemübergreifende Integration"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Studien",
+      "Schulung",
+      "innovative Projekte",
+      "Prototyp-Entwicklung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0797",
+    "Name des VU": "Steinbeis-Transferzentrum Membrantechnologie",
+    "Leitung": "Prof. Dr. Carl-Martin Bell",
+    "Ort": "Reutlingen, Deutschland",
+    "E-Mail": "SU0797@stw.de",
+    "Telefon": "",
+    "Stand": "07.08.2017",
+    "Schwerpunktthemen": [
+      "Entwicklung von Membranen für selektive Seperationen",
+      "Marktstudien für Membrananwendungen und andere Trennverfahren",
+      "Membranentwicklung für die alkalische Elektrolyse zur Wasserstoffherstellung",
+      "Analytische Methode zur Reinheitsbestimmung von Wasserstoff für Brennstoffzellen und BHKWs"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung und Innovationsunterstützung",
+      "Angewandte Forschung und Entwicklung",
+      "Erstellung von Gutachten",
+      "Schulungen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0822",
+    "Name des VU": "Steinbeis-Transferzentrum Korrosion und Werkstoff",
+    "Leitung": "Prof. Dr. Thomas Ladwein",
+    "Ort": "Augsburg, Deutschland",
+    "E-Mail": "SU0822@stw.de",
+    "Telefon": "+49 821 54015-964",
+    "Stand": "12.05.2025",
+    "Schwerpunktthemen": [
+      "Werkstoffe und Korrosion in aggressiven Umgebungen (chemische Industrie, Öl- und Gasindustrie, Umwelttechnik).",
+      "Werkstofftechnik hochkorrosionsbeständiger Metalle (nichtrostende Stähle, Nickellegierungen, Refraktärmetalle).",
+      "Anwendung von korrosionsbeständigen Werkstoffen in Investitions- und Konsumgüterindustrie.",
+      "Charakterisierung von funktionalen Oberflächen.",
+      "Korrosionsschutzsysteme durch Beschichtungen und Überzüge."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung: Werkstoffauswahl, -anwendung, -verarbeitung, Korrosionsschutzstrategien.",
+      "Schadensuntersuchungen: Aufklärung von Werkstoffversagen, Vorschläge zur Schadensprävention, Gutachten.",
+      "Angewandte Forschung: Optimierung und Neuentwicklung korrosionsbeständiger Werkstoffe und Beschichtungen.",
+      "Korrosionsprüfungen: nach Normen, Simulation von Korrosionsvorgängen, elektrochemische Untersuchungen.",
+      "Oberflächen- und Werkstoffuntersuchungen: Metallographie, REM, EDX, mechanische und tribometrische Prüfungen.",
+      "Literaturstudien, Expertisen, Seminare und Vorträge."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0828",
+    "Name des VU": "Steinbeis-Transferzentrum Produktion, Prozesse, Personalentwicklung",
+    "Leitung": "Prof. Dr.-Ing. Volker Beck",
+    "Ort": "Heubach, Deutschland",
+    "E-Mail": "SU0828@stw.de",
+    "Telefon": "+49 7173 71459-65",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Technisch-organisatorisch: Standortplanung, Fertigungsplanung, Materialflussplanung, Produktivitätssteigerung (TPS, Kaizen), Geschäftsprozessoptimierung, Benchmarking, Unternehmensbewertung.",
+      "Koordination und Öffentlichkeitsarbeit: Projektmanagement, Interims-Management, Unterstützung bei Akquisition und Antragsstellung, Patentrecherchen.",
+      "Personalbegleitung und -entwicklung: Stärken-Schwächen-Profilierung, Entwurf von Zielvorstellungen und Entwicklungswegen, Coaching."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung, Konzeption und Umsetzungsbegleitung",
+      "Angewandte Forschung und Entwicklung",
+      "Schulungen und Workshops",
+      "Studien, Analysen, Gutachten",
+      "Projektmanagement - Interims-Management"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0830",
+    "Name des VU": "Steinbeis-Transferzentrum Automotive Systems",
+    "Leitung": "Prof. Dr.-Ing. Tim Nosper",
+    "Ort": "Ravensburg, Deutschland",
+    "E-Mail": "SU0830@stw.de",
+    "Telefon": "+49 751 352-6122",
+    "Stand": "01.02.2024",
+    "Schwerpunktthemen": [
+      "Mechatronische Systeme: Entwicklung von Steuergeräte-Software (Automotive), Funktionserprobung, Sensorik/Aktuatorik, Regelungssysteme, Modellbildung, HIL/SIL.",
+      "Fahrzeugtechnik: Konstruktionen, Versuchs- und Messfahrten auf Allradrollenprüfstand, Abgas- und Verbrauchsmessungen (NEFZ/ECE), Leistungsmessungen.",
+      "Entwicklung/Konstruktion: Auftragsentwicklungen und -konstruktionen im Bereich mechatronischer Systeme.",
+      "Technologie-Beratung: Einführung neuer Technologien, Neu- und Ersatzinvestitionen, Mittelstandsberatung (KMU)."
+    ],
+    "Dienstleistungsangebot": [
+      "Entwicklung mechatronischer Baugruppen, Herstellung von Prototypen",
+      "Beratungen, Projektplanung, Studien und Gutachten",
+      "Angewandte, praxisorientierte Forschung und Entwicklung",
+      "Technologieberatung für kleine und mittelständische Unternehmen (KMU)",
+      "Internationaler Technologietransfer"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0835",
+    "Name des VU": "Steinbeis-Transferzentrum International Business Excellence",
+    "Leitung": "Prof. Dr. Nicole Graf, Dipl.-Kfm. Alexander Winkler",
+    "Ort": "Heilbronn, Deutschland",
+    "E-Mail": "SU0835@stw.de",
+    "Telefon": "+49 172 6944164",
+    "Stand": "03.09.2019",
+    "Schwerpunktthemen": [
+      "Internationalisierung: \"Hands-on\"-Unterstützung bei der Vermarktung im Ausland, Marktanalysen, Plausibilitätsprüfung, Unterstützung bei Markteintritt, ExPat Coaching (Osteuropa, Lateinamerika, China).",
+      "Business Excellence: Steigerung der Wettbewerbsfähigkeit, Identifikation von Stärken/Schwächen, Strategieentwicklung, Begleitung von Reorganisationen, Change Management.",
+      "Projektmanagement: Konzeption und Durchführungsunterstützung, Übernahme des Projektmanagements, Projekt-Controlling.",
+      "Zukunftsausrichtung: Erarbeitung von Visionen und Strategien für KMU, Entwicklung neuer Geschäftsideen (Zukunftswerkstätten), Marktforschung."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung und Begleitung internationaler Unternehmen in den Bereichen Internationalisierung, Business Excellence, Projektmanagement und Strategieentwicklung.",
+      "Methodik: Beratung, Training, Workshops, Coaching, Studien, Begleitung, Vorträge, Forschung."
+    ]
+  },
+  {
+    "VU-Nummer": "VU0868",
+    "Name des VU": "Steinbeis-Transferzentrum Produktion, Logistik und Innovation (PLI)",
+    "Leitung": "Prof. Dr. Carlos Jahn",
+    "Ort": "Hamburg, Deutschland",
+    "E-Mail": "SU0868@stw.de",
+    "Telefon": "+49 160 443-6913",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Produktion: Produktionsplanung und -steuerung, Betriebsorganisation, Effizienzsteigerung.",
+      "Logistik: Standort- und Netzwerkoptimierung, Strategie- und Systemplanung, Bestands- und Durchlaufzeitreduzierung.",
+      "Innovation: Produktkonzeption und -wertanalyse, Prozess- und Organisationsinnovation, Kostenmanagement."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratungs- und Planungsleistungen",
+      "Markt- und Technologieanalysen",
+      "Projekt- und Prozessmanagement",
+      "Qualifizierung und Training"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0918",
+    "Name des VU": "Steinbeis Transfer Center GIS Transfer Center Foundation",
+    "Leitung": "Prof. Dr.-Ing. Kostadin Kostadinov",
+    "Ort": "Sofia, Bulgarien",
+    "E-Mail": "SU0918@stw.de",
+    "Telefon": "+359 2 9633276",
+    "Stand": "16.04.2025",
+    "Schwerpunktthemen": [
+      "Beratung im Bereich Mechatronik und Robotik.",
+      "Zusammenarbeit zwischen Industrie, Wissenschaft und Forschung: Unterstützung bei Projektangeboten, Mediation, Initiierung von Spin-in/Spin-out-Unternehmen.",
+      "Training von Einzelpersonen und Gruppen aus Industrie und Forschung.",
+      "Investitionen und Innovationen für Start-ups und KMU.",
+      "Steigerung der Innovationsfähigkeit von KMU."
+    ],
+    "Dienstleistungsangebot": [
+      "Entwicklung von Projekten für Industrie und Wirtschaft",
+      "Beratung, Forschung und Entwicklung für KMU",
+      "Problemlösung und Konzepterstellung",
+      "Angewandte Forschung und Entwicklung mechatronischer Systeme für Mikro- und Nanoanwendungen, einschließlich Prototypenbau",
+      "Erstellung von Gutachten",
+      "Schulungen und Workshops zu den Schwerpunktthemen des Zentrums"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0945",
+    "Name des VU": "Steinbeis-Forschungszentrum iService",
+    "Leitung": "Prof. Dr. med. Gunther Hartmann",
+    "Ort": "Bonn, Deutschland",
+    "E-Mail": "SU0945@stw.de",
+    "Telefon": "+49 228 287160-80",
+    "Stand": "09.01.2025",
+    "Schwerpunktthemen": [
+      "iSCell: establishing the preparation of immune cell products",
+      "iSTest: immunological characterization of nucleic acids",
+      "iSRNA: immunostimulatory RNA oligonucleotides",
+      "iSDesign: establishing experimental procedures in the field",
+      "iSConsult: consulting services in the field"
+    ],
+    "Dienstleistungsangebot": [
+      "Applied Research",
+      "Consulting",
+      "Characterization",
+      "Testing, Preparation",
+      "Experimental studies"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0987",
+    "Name des VU": "Steinbeis-Transferzentrum Workflowsysteme und Webtechnologie",
+    "Leitung": "Prof. Dr. Thomas Freytag",
+    "Ort": "Karlsruhe, Deutschland",
+    "E-Mail": "SU0987@stw.de",
+    "Telefon": "+49 163 8154162",
+    "Stand": "21.10.2021",
+    "Schwerpunktthemen": [
+      "Geschäftsprozesse: Analyse und Modellierung, Werkzeuge und Methoden, Process Mining, Automatisierung.",
+      "E-Business: Strategieberatung, technologische Umsetzung und Integration.",
+      "Open-Source: Marktstudien, kommerzieller Einsatz von Open-Source-Produkten."
+    ],
+    "Dienstleistungsangebot": [
+      "Geschäftsprozessanalyse",
+      "Digitale Strategie",
+      "Open-Source-Beratung",
+      "Gutachten und Marktstudien"
+    ]
+  },
+  {
+    "VU-Nummer": "VU0989",
+    "Name des VU": "Steinbeis-Forschungszentrum Umweltbewusstes Bauen und Baustoffe",
+    "Leitung": "Prof. Dr.-Ing. habil. Hans-Volker Huth",
+    "Ort": "Dörfles-Esbach, Deutschland",
+    "E-Mail": "SU0989@stw.de",
+    "Telefon": "+49 9561 6756018",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Nachhaltigkeit im Bauwesen: Rohstoffverfügbarkeit, nachwachsende Rohstoffe, Dauerhaftigkeit, Stoffkreisläufe, Umweltbewertung (Öko-Audit, Ökobilanzen).",
+      "Bauphysik und Baumesstechnik: Untersuchungen zu Wärme, Feuchte, Schall, Brand und Licht, Wärmedämmstoffe, energetische Messungen, Schalldämmung.",
+      "Altlasten und Recyclingtechnik: Asbest, schwermetallhaltige Anstriche, FCKW-haltige Dämmstoffe, Abbruch.",
+      "Geotechnik und Deponietechnik: Deponien, Altablagerungen, Altlasten."
+    ],
+    "Dienstleistungsangebot": [
+      "Kontaktvermittlung und Beratung durch Spezialisten",
+      "Optimierung von Unternehmensprozessen",
+      "Markt- und Diversifikationsstrategien",
+      "Qualitätsmanagement und Zertifizierung",
+      "Regionale Wirtschaftsförderung",
+      "Internationaler Technologietransfer",
+      "Gutachten, Forschung und Entwicklung, Aus- und Weiterbildung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1021",
+    "Name des VU": "Steinbeis-Beratungszentrum Management, Innovation und Kompetenzentwicklung",
+    "Leitung": "Dipl.-Ing. (FH) Ralf Lauterwasser",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU1021@stw.de",
+    "Telefon": "+49 711 1839-801",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Strategische Beratung in Partnerschaft mit dem IFZM-Institut für Zukunftsmanagement: Unternehmensanalyse, Strategieklausuren, Zukunftswerkstätten, Unternehmensethik.",
+      "Wirtschaftsförderung: Analysen und Konzeptentwicklung, Moderation von Unternehmerworkshops.",
+      "Innovationspreis.",
+      "Kommunikationsprozesse.",
+      "Konfliktberatung (Mediation).",
+      "Technologietransfer."
+    ],
+    "Dienstleistungsangebot": [
+      "Unterstützung von Unternehmen und Wirtschaftsförderungseinrichtungen bei strategischen und operativen Themenstellungen."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1042",
+    "Name des VU": "Steinbeis-Beratungszentrum Elbe-Weser Region",
+    "Leitung": "Dipl.-Wirt.-Ing. (FH) Arne Engelke-Denker",
+    "Ort": "Stade, Deutschland",
+    "E-Mail": "SU1042@stw.de",
+    "Telefon": "+49 4141 80294-0",
+    "Stand": "01.07.2022",
+    "Schwerpunktthemen": [
+      "Business-Check mit dem Steinbeis-Kompetenzstern: Analyse der Unternehmensstrukturen und des Umfelds, Bewertung von Stärken/Schwächen und Chancen/Risiken, Aufzeigen von Handlungsempfehlungen.",
+      "Strategisches Management: Strategische Analysen (Unternehmens-, Markt-, Wettbewerbsanalysen), Strategieentwicklung, Strategie-Workshop für KMU."
+    ],
+    "Dienstleistungsangebot": [
+      "Zielgruppen: Unternehmen, Kreditinstitute, Wirtschaftsförderungseinrichtungen",
+      "Analyse",
+      "Bewertung",
+      "Konzeption",
+      "Umsetzung",
+      "Vernetzung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1081",
+    "Name des VU": "Steinbeis-Transferzentrum Institut für angewandte Sozialwissenschaften Stuttgart",
+    "Leitung": "Prof. Dr. Paul-Stefan Roß",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU1081@stw.de",
+    "Telefon": "+49 700 4327-7848",
+    "Stand": "01.08.2024",
+    "Schwerpunktthemen": [
+      "Praxisforschung: Initiierung, Durchführung und Begleitung von Projekten",
+      "Konzeptionelle Entwicklung",
+      "Projektdurchführung",
+      "Wissenschaftliche Projektbegleitung",
+      "Publikation von (Zwischen-)Ergebnissen"
+    ],
+    "Dienstleistungsangebot": [
+      "Anwendungsorientierte sozialwissenschaftliche Forschung und Beratung.",
+      "Theoretisch fundierte Begleitung von Veränderungsprozessen.",
+      "Dreiklang von Anwendungsforschung, Evaluation und Wissenstransfer."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1132",
+    "Name des VU": "Steinbeis-Innovationszentrum Energie- und Umwelttechnik (SIZ)",
+    "Leitung": "Dr.-Ing. Thomas Freitag",
+    "Ort": "Oelsnitz, Deutschland",
+    "E-Mail": "SU1132@stw.de",
+    "Telefon": "+49 37296 93-878",
+    "Stand": "17.04.2024",
+    "Schwerpunktthemen": [
+      "Forschungs- und Entwicklungsvorhaben auf dem Gebiet der thermischen Energietechnik",
+      "Komplexe Energiekonzepte",
+      "Nahwärmenetze",
+      "Kraft-Wärmekopplung – BHKW",
+      "Brennstoffzellen",
+      "Solarthermische Systeme",
+      "Wärmespeicher",
+      "Wärmepumpanlagen zur Nutzung von Abwärme, Umgebungswärme, und Erdwärme",
+      "Anlagen zur thermischen Nutzung von Biomasse",
+      "Anlagen der Heizungs-, Lüftungs-, Klima- und Kältetechnik"
+    ],
+    "Dienstleistungsangebot": [
+      "Durchführung von Forschungsvorhaben auf dem Gebiet der thermischen Energietechnik",
+      "Erarbeitung von komplexen Energiekonzepten für Industriebetriebe, Wohngebäude und Schwimmbäder",
+      "Energieverbrauchsanalysen, Energiebedarfsminimierung, Energiemanagement und Wirtschaftlichkeitsuntersuchungen",
+      "Entwicklung und Erprobung von Komponenten und Systemen energietechnischer Anlagen",
+      "Simulation des thermischen Verhaltens von Anlagen und Gebäuden (u. a. mit TRNSYS, ANSYS)"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1149",
+    "Name des VU": "Steinbeis-Forschungszentrum IT- und Geschäftsprozessmanagement",
+    "Leitung": "Prof. Dr.-Ing. Rainer Schmidt",
+    "Ort": "München, Deutschland",
+    "E-Mail": "SU1149@stw.de",
+    "Telefon": "+49 89 55057560",
+    "Stand": "04.03.2025",
+    "Schwerpunktthemen": [
+      "IT-Management",
+      "Abstimmung von IT- und Business-Strategie",
+      "ITIL, ISO 20000",
+      "Geschäftsprozessmanagement",
+      "Modellierung von Geschäftsprozessen",
+      "Geschäftsprozessoptimierung"
+    ],
+    "Dienstleistungsangebot": [
+      "Durchführung von Forschungs- und Beratungsprojekten sowie Schulungen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1158",
+    "Name des VU": "Steinbeis-Forschungszentrum Medizinische Physik und Information",
+    "Leitung": "Prof. Dr. Walter Kullmann",
+    "Ort": "Poppenhausen, Deutschland",
+    "E-Mail": "SU1158@stw.de",
+    "Telefon": "+49 9726 9065-140",
+    "Stand": "09.09.2024",
+    "Schwerpunktthemen": [
+      "Medizinische Physik: Modellierung und Simulation physiologischer Systeme, nichtinvasive Diagnostik, inverse Probleme in Neurologie und Kardiologie.",
+      "Angewandte Forschung und Entwicklung im Bereich der Medizinischen Informatik.",
+      "Biomedizinische Signalanalyse und Signalverarbeitung.",
+      "Software-Entwicklung für diagnostische Systeme (Herz-Kreislauf, Gehirn).",
+      "Telemedizinische Systeme für Klinik und Homecare.",
+      "Betrachtungs- und Befundungsstationen (Radiologie, Kardiologie).",
+      "Sichere Datenübertragung in offenen Datennetzen."
+    ],
+    "Dienstleistungsangebot": [
+      "Angewandte Forschung und Entwicklung",
+      "Beratung, Erstellung von Gutachten",
+      "Fortbildung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1164",
+    "Name des VU": "Steinbeis-Transferzentrum ISM - Institute for Science and Markets",
+    "Leitung": "Prof. Dr. Marc Kuhn, Prof. Dr. Matthias Rehme",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU1164@stw.de",
+    "Telefon": "+49 711 1849-745",
+    "Stand": "27.06.2024",
+    "Schwerpunktthemen": [
+      "Industrial Services: Business Development, Servicedesign, Service Engineering, Servicequalität, Outsourcing, nachhaltigkeitsbezogene Dienstleistungen.",
+      "Service Operations und Logistikprozesse: Geschäftsprozessmodellierung, Potenzialanalyse, Visualisierung von Material- und Informationsflüssen.",
+      "B2B-Marketing: Marktforschung, Kundenbindung (CRM), Kommunikationskonzepte, Markenpositionierung.",
+      "Vertriebsmanagement: Vertriebscontrolling, -planung, -steuerung, Verhandlungstaktik, Preismanagement, E-Commerce."
+    ],
+    "Dienstleistungsangebot": [
+      "Organisations- und Strategieberatung",
+      "Marktstudien, Gutachten",
+      "Projektmanagement",
+      "Fachtagungen, Seminare",
+      "Trainings, Managementplanspiele",
+      "Angewandte Forschung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1223",
+    "Name des VU": "Steinbeis-Forschungszentrum 3D-Strömungssimulation, Optimierung und Visualisierung",
+    "Leitung": "Prof. Dr. Ralph Lausen",
+    "Ort": "Karlsruhe, Deutschland",
+    "E-Mail": "SU1223@stw.de",
+    "Telefon": "+49 721 9735-877",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Numerische 3D-Simulation von nichtreaktiven Strömungen",
+      "Simulationsrechnungen auf Parallelrechnern und Clustern",
+      "Visualisierungstechniken mit 3D-VRML, U3D und Multimedia",
+      "Präsentationsfilme und interaktive Animationen von Ergebnissen, Geländen und CAD-Daten",
+      "Produktoptimierung durch Prozessverbesserung",
+      "Rapid-Prototyping"
+    ],
+    "Dienstleistungsangebot": [
+      "Numerische 3D-Simulation von turbulenten Mehrphasenströmungen",
+      "Visualisierung von Strömungen und 3D-Präsentation der Ergebnisse",
+      "Produktoptimierung und Beratung bei Fertigungs- und Produktionsverfahren",
+      "Beratung bei der Vermessung von Strömungen",
+      "Seminare zur Strömungsphysik",
+      "Gutachten, Studien, Angewandte Forschung und Entwicklung, Training, Weiterbildung, Projektbegleitung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1236",
+    "Name des VU": "Steinbeis-Transferzentrum Klinische Biomechanik - Sporttechnologie - Training",
+    "Leitung": "Prof. Dr. med. Thomas Horstmann",
+    "Ort": "Tegernsee, Deutschland",
+    "E-Mail": "SU1236@stw.de",
+    "Telefon": "+49 175 2157323",
+    "Stand": "23.12.2024",
+    "Schwerpunktthemen": [
+      "Funktionale Schuhe (Laufschuhe, Sicherheitsschuhe, Kinderschuhe)",
+      "Klinische Biomechanik (Ursache von Überlastungsbeschwerden)",
+      "Sport und Arthrose/Endoprothetik",
+      "Forschung im Leistungssport",
+      "Bewegungsassoziierte Prävention und Rehabilitation"
+    ],
+    "Dienstleistungsangebot": [
+      "Entwicklung funktionaler Schuhe (Laufschuhe, Sicherheitsschuhe, Kinderschuhe).",
+      "Entwicklung neuer Messverfahren (4D-Rasterstereographie zur Wirbelsäulenvermessung, 3D/4D-Verfahren zur Fußvermessung).",
+      "Entwicklung von Software (Druckverteilung, Isokinetik, 3D-Kinematik) für biomechanische Fragestellungen.",
+      "Modellierung der unteren Extremität zur Evaluation menschlicher Bewegung.",
+      "Evaluation von sportlicher Aktivität bei orthopädischen und neurologischen Krankheitsbildern (z.B. Parkinson)."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1252",
+    "Name des VU": "Steinbeis-Forschungszentrum Dialogue Systems",
+    "Leitung": "Prof. Dr. Dr.-Ing. Wolfgang Minker",
+    "Ort": "Blaustein, Deutschland",
+    "E-Mail": "SU1252@stw.de",
+    "Telefon": "+49 731 50-26254",
+    "Stand": "04.03.2025",
+    "Schwerpunktthemen": [
+      "Mensch-Computer Sprachdialogtechnologie",
+      "Sprach- und Emotionserkennung",
+      "Automatisches Erkennen und Verstehen menschlicher Sprache",
+      "Multimodale Interaktion"
+    ],
+    "Dienstleistungsangebot": [
+      "Sprachdialogtechnologie Studien: Assistive, adaptive und proaktive Systeme, Mustererkennung, Maschinelles Lernen.",
+      "Interactive Voice Response (IVR) Systeme und Call-Center-Anwendungen.",
+      "Semantische Analyse und Dialogmodellierung.",
+      "Akustische Signalvorverarbeitung und Spracherkennung.",
+      "Sprachkorpora und Qualitätsbeurteilung: Entwicklung multimodaler Korpora, Usability-Studien.",
+      "Beratung zu neuen Technologien und Trends für Sprachdialogsysteme."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1253",
+    "Name des VU": "Steinbeis-Transferzentrum Hydrauliksysteme",
+    "Leitung": "Prof. Dr.-Ing. Mathias Niebergall",
+    "Ort": "Ulm, Deutschland",
+    "E-Mail": "SU1253@stw.de",
+    "Telefon": "+49 731 50-28469",
+    "Stand": "01.10.2024",
+    "Schwerpunktthemen": [
+      "Erprobung aller für Hydrauliksysteme relevanten Bauteile",
+      "Analyse, Berechnung und Simulation von Hydrauliksystemen"
+    ],
+    "Dienstleistungsangebot": [
+      "Angewandte Forschung und Entwicklung",
+      "Beratung",
+      "Analysen",
+      "Gutachten"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1278",
+    "Name des VU": "Steinbeis-Beratungszentrum KommunalBeratung",
+    "Leitung": "Prof. Dr. Jürgen Fischer",
+    "Ort": "Kehl, Deutschland",
+    "E-Mail": "SU1278@stw.de",
+    "Telefon": "+49 7851 894-194",
+    "Stand": "01.07.2025",
+    "Schwerpunktthemen": [
+      "Organisationsoptimierung, Geschäftsprozessoptimierung, Interkommunale Zusammenarbeit.",
+      "Stellenbewertungen, Stellenbemessungen, Personalentwicklung, Teamarbeit.",
+      "Einführung leistungsorientierter Bezahlung und Personalbeurteilung.",
+      "Moderation, Zukunftswerkstatt, Mediation, Zusammenarbeit Rat/Verwaltung.",
+      "Umstellung auf das neue kommunale Haushaltsrecht, Haushaltskonsolidierung.",
+      "Qualitätsmanagement, Evaluation (Jugendarbeit, Eingliederungshilfe), Schulentwicklungsplanung.",
+      "Mitarbeiter-, Kunden- und Bürgerbefragungen, Organisation des Kehler Forums."
+    ],
+    "Dienstleistungsangebot": [
+      "Fortbildungen, Beratung, Erstellung von Gutachten sowie Schulungen und Workshops."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1333",
+    "Name des VU": "Steinbeis-Transferzentrum IT-Sicherheit",
+    "Leitung": "Prof. Dr. Christoph Karg",
+    "Ort": "Rettenbach, Deutschland",
+    "E-Mail": "SU1333@stw.de",
+    "Telefon": "+49 7361 525696",
+    "Stand": "30.08.2023",
+    "Schwerpunktthemen": [
+      "Computersicherheit",
+      "Netzwerksicherheit",
+      "Firewalls",
+      "Intrusion Detection",
+      "Routing-Technologien",
+      "Next Generation Internet (IPv6)"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Planung und Konzeption",
+      "Systemanalysen",
+      "Forschung und Entwicklung",
+      "Schulungen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1349",
+    "Name des VU": "Steinbeis-Transferzentrum Smart Polymer Solutions (SPS)",
+    "Leitung": "Dr. Anita Lorenz",
+    "Ort": "Reutlingen, Deutschland",
+    "E-Mail": "SU1349@stw.de",
+    "Telefon": "+49 7121 271-2027",
+    "Stand": "11.03.2019",
+    "Schwerpunktthemen": [
+      "Werkstoffe: Polymersynthese im Technikums- und Labormaßstab, Verbundwerkstoffe, organische Synthese spezieller Additive.",
+      "Polymercharakterisierung und Prozessanalytik: Inline-Kontrolle, multivariate Datenanalyse.",
+      "Biomaterialien/Medizintechnik: Oberflächenmodifizierung und -charakterisierung.",
+      "Produktentwicklung und Prozessoptimierung.",
+      "Polymerverarbeitung: Compoundierung, Spritzguss, Mikro-Spritzguss.",
+      "Additive Fertigungsverfahren (3D-Druck, Mikro-3D-Druck)."
+    ],
+    "Dienstleistungsangebot": [
+      "Entwicklung und Herstellung von polymeren Werkstoffen",
+      "Prozessanalytik, Produktentwicklung und Prozessoptimierung",
+      "Charakterisierung polymerer Werkstoffe",
+      "Polymerverarbeitung, Optische Spektroskopie, Bildgebende optische Spektroskopie",
+      "Multivariate Datenanalyse",
+      "Additive Fertigungsverfahren (3D-Druck mikro- und nanoskaliger Strukturen)",
+      "Erstellen von Gutachten, Weiterbildung und Schulungen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1357",
+    "Name des VU": "Steinbeis-Transfer-Institut Consulting in Management and Technology",
+    "Leitung": "Dr.-Ing. Peter Schupp",
+    "Ort": "Filderstadt, Deutschland",
+    "E-Mail": "SU1357@stw.de",
+    "Telefon": "+49 711 440808-44",
+    "Stand": "29.03.2021",
+    "Schwerpunktthemen": [
+      "Lösungen: Service Oriented Architecture (SOA), Enterprise Architecture Management (EAM), Component based Frameworks, Enterprise Application Platforms (EAI).",
+      "Standards und Methoden: RPD, UML, OOP, XML, SQL.",
+      "Datenbanken: DB2, Oracle, MS-SQL Server, MySQL, SAP DB, Tamino.",
+      "Entwicklungsumgebungen: J2EE, .NET (Java, C#, C++), WebSphere, Tomcat, JBoss, Eclipse, PHP, TCL/TK, Perl, Visual Basic.",
+      "Infrastruktur: VMware/Hyper-V Cluster, Storagelösungen, Windows/UNIX-Netzwerke."
+    ],
+    "Dienstleistungsangebot": [
+      "Inhouse-Service von IT-Strategie und Prozessberatung bis zum Betrieb von IT-Systemen.",
+      "Digital Transformation Readiness, IT Strategie- und Prozessberatung.",
+      "Anforderungsanalysen, Softwareentwicklung, Compliance-Tests, Systemintegration.",
+      "Infrastrukturvirtualisierung, Planung von Fachanwendungen, Projektmanagement.",
+      "Analyse und Bewertung von IT-Systemen, Qualitätssteigerung, Lasttests, Testautomatisierung."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1417",
+    "Name des VU": "Steinbeis-Forschungszentrum Business Performance Institute",
+    "Leitung": "Prof. Dr. Dirk Hesse",
+    "Ort": "Esslingen, Deutschland",
+    "E-Mail": "SU1417@stw.de",
+    "Telefon": "+49 711 57730-65",
+    "Stand": "01.02.2024",
+    "Schwerpunktthemen": [
+      "Business Process Management",
+      "Business Intelligence",
+      "ERP (Enterprise Resource Planing), QM (Qualitätsmanagement)",
+      "PM Projektmanagement"
+    ],
+    "Dienstleistungsangebot": [
+      "Seminare, Weiterbildung",
+      "Training",
+      "Coaching",
+      "Zertifizierung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1531",
+    "Name des VU": "Steinbeis-Transfer-Institut Wirtschaftsinformatik",
+    "Leitung": "Dr.-Ing. Peter Schupp",
+    "Ort": "Filderstadt, Deutschland",
+    "E-Mail": "SU1531@stw.de",
+    "Telefon": "+49 761 15147-131",
+    "Stand": "29.03.2021",
+    "Schwerpunktthemen": [
+      "Wirtschaftsinformatik",
+      "Digitalisierung",
+      "Beratung",
+      "Analyse",
+      "Infrastruktur und System Administration",
+      "Entwicklung und IT-Betrieb",
+      "Kontinuierliche Integration und kontinuierliche Bereitstellung",
+      "Belastungs- und Leistungstests",
+      "Webapplikations-Entwicklung"
+    ],
+    "Dienstleistungsangebot": [
+      "Berufsintegrierte, projekt- und transferorientierte Kompetenzbildung im Bereich Wirtschaftsinformatik",
+      "Beratung IT-Technik und –Organisation",
+      "Erfahren Sie mehr über unser IT-Consulting."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1541",
+    "Name des VU": "Steinbeis-Transferzentrum Verfahrens-, Energie- und Umwelttechnik",
+    "Leitung": "Prof. Dr.-Ing. Ewald Pruckner",
+    "Ort": "Heilbronn, Deutschland",
+    "E-Mail": "SU1541@stw.de",
+    "Telefon": "+49 7131 5864-0",
+    "Stand": "22.09.2022",
+    "Schwerpunktthemen": [
+      "Analyse und Verbesserung von Prozessen und Verfahren.",
+      "Unterstützung bei der Entwicklung neuer Verfahren (inkl. PPP-Projekte, Schwerpunkt China).",
+      "Anlagenplanung (Abwasser, Abluft, thermische Reststoffbehandlung/Pyrolyse).",
+      "Bau und Betrieb von Versuchs- und Technikumsanlagen.",
+      "Erstellung von Genehmigungen nach BImSchG.",
+      "Stoffstrommanagement, Energieanalyse in Industriebetrieben, Abfallwirtschaftskonzepte.",
+      "Bewertung von Anlagenkonzepten im Bereich erneuerbare Energien."
+    ],
+    "Dienstleistungsangebot": [
+      "Technologische Beratung und Technologietransfer (national und international)",
+      "Entwicklung, Projektierung und Planung von Verfahren, Prozessen und Anlagen",
+      "Entwicklung und Bau von Versuchsanlagen",
+      "Abwicklung von Genehmigungsverfahren",
+      "Technologische Bewertung von Anlagenkonzepten"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1566",
+    "Name des VU": "Steinbeis-Transferzentrum Institute of Signal Processing and embedded Systems",
+    "Leitung": "Prof. Dr.-Ing. Dirk Benyoucef",
+    "Ort": "Saarbrücken, Deutschland",
+    "E-Mail": "SU1566@stw.de",
+    "Telefon": "+49 681 93316542",
+    "Stand": "28.08.2018",
+    "Schwerpunktthemen": [
+      "Digitale Signalverarbeitung in allen Bereichen",
+      "Digitale Kommunikationstechnik",
+      "Sensornetzwerke",
+      "Embedded Systems",
+      "Smart Metering"
+    ],
+    "Dienstleistungsangebot": [
+      "Forschungs- und Entwicklungstätigkeit",
+      "Beratung",
+      "Schulung",
+      "Kundenspezifische Algorithmenentwicklung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1611",
+    "Name des VU": "Steinbeis-Transferzentrum Zerstörungsfreie Prüfung und Messtechnik",
+    "Leitung": "Prof. Dr.-Ing. Nico Blessing",
+    "Ort": "Bernstadt, Deutschland",
+    "E-Mail": "SU1611@stw.de",
+    "Telefon": "+49 171 5200970",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Mess- und Prüftechnik",
+      "Industrielle Computertomographie",
+      "Kooperative Forschung in den o. g. Bereichen"
+    ],
+    "Dienstleistungsangebot": [
+      "Durchführung von mess- und prüftechnischen Aufgaben (insb. industrielle Computertomographie)",
+      "Begleitung von Unternehmen bei der Einführung von Mess- und Prüftechnik-Systemen",
+      "Kooperative Forschung bei und für Industrieunternehmen",
+      "Umsetzung von Forschungsergebnissen für die industrielle Anwendung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1616",
+    "Name des VU": "Steinbeis-Transferzentrum Getriebe und Antriebstechnik",
+    "Leitung": "Prof. Dr.-Ing. Ulrich Schrade",
+    "Ort": "Heidenheim, Deutschland",
+    "E-Mail": "SU1616@stw.de",
+    "Telefon": "+49 7321 923825",
+    "Stand": "01.07.2025",
+    "Schwerpunktthemen": [
+      "Kraftstoffverbrauch von Fahrzeugen",
+      "Graufleckentragfähigkeit von Zahnradgetrieben"
+    ],
+    "Dienstleistungsangebot": [
+      "Fahrzeug-Versuche auf einem Rollenprüfstand (4WD)",
+      "Dauerschwingversuche",
+      "Bauteiluntersuchungen, vorwiegend aus dem Bereich Getriebe",
+      "Auslegung und Berechnung von Verzahnungen, Tragfähigkeits- und Geräusch-Optimierung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1654",
+    "Name des VU": "Steinbeis-Forschungszentrum Drug Delivery",
+    "Leitung": "Prof. Dr. Alf Lamprecht",
+    "Ort": "Wesseling, Deutschland",
+    "E-Mail": "SU1654@stw.de",
+    "Telefon": "+49 228 735233",
+    "Stand": "23.12.2024",
+    "Schwerpunktthemen": [
+      "orale Arzneiformen",
+      "topische Arzneiformen",
+      "mikro- und nanopartikuläre Wirkstoffträger",
+      "Proteine",
+      "Absorption"
+    ],
+    "Dienstleistungsangebot": [
+      "Arzneiformentwicklung",
+      "biopharmazeutische Analysen",
+      "pharmazeutische Herstellungsprozesse"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1668",
+    "Name des VU": "Steinbeis-Transferzentrum Media Management",
+    "Leitung": "Prof. Dr. Uwe Swoboda",
+    "Ort": "Waiblingen, Deutschland",
+    "E-Mail": "SU1668@stw.de",
+    "Telefon": "+49 7151 203747",
+    "Stand": "05.02.2025",
+    "Schwerpunktthemen": [
+      "Entwicklung von Kommunikationskonzepten",
+      "Empirische Jugendforschung",
+      "Medienverhalten jeglicher Art"
+    ],
+    "Dienstleistungsangebot": [
+      "Kommunikationskonzepte",
+      "Empirische Erhebungen",
+      "Durchführung von medialen Forschungsprojekten",
+      "Untersuchung von Social Media-Verhalten"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1689",
+    "Name des VU": "Steinbeis-Transferzentrum Smart ERP Consulting",
+    "Leitung": "Dipl.-Betriebsw. (BA) Jürgen Hausin",
+    "Ort": "Lörrach, Deutschland",
+    "E-Mail": "SU1689@stw.de",
+    "Telefon": "+49 7621 15744-00",
+    "Stand": "17.07.2023",
+    "Schwerpunktthemen": [
+      "Geschäftsprozessberatung rund um das ERP-System Uniconta",
+      "Einführung, Schulung und Support von Uniconta",
+      "Optimaler Einsatz des Cloud-Systems Uniconta",
+      "Projektbegleitung vom Start bis zum Life-Betrieb"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung und Einführung von ERP-Systemen in kleineren und mittelständischen Unternehmen",
+      "Analyse der unternehmensspezifischen Geschäftsprozesse und deren Abbildung in der Software",
+      "Optimierung der innerbetrieblichen Abläufe und Digitalisierung des kompletten Belegwesens",
+      "Erstellung von modernen Dashboards"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1693",
+    "Name des VU": "Steinbeis-Transferzentrum Automatisierung in der Softwaresystemanalyse",
+    "Leitung": "Dr.-Ing. Jan Aalmink",
+    "Ort": "Kronau, Deutschland",
+    "E-Mail": "SU1693@stw.de",
+    "Telefon": "+49 170 5696347",
+    "Stand": "01.04.2025",
+    "Schwerpunktthemen": [
+      "Enterprise Tomography",
+      "Flow-Processing-Plattformen",
+      "Delta-Suchmaschinen",
+      "Enterprise Chronography",
+      "Analyse und Rückverfolgbarkeit in Netzwerken"
+    ],
+    "Dienstleistungsangebot": [
+      "Diagnosegeräte und Diagnosesysteme zur Ursachenanalyse",
+      "360 Grad Schichtaufnahmen",
+      "Introspektionen",
+      "Simulation, Kalkulation und Bewertung in Verrechnungsnetzwerken",
+      "Suchmaschinen in Netzwerken"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1702",
+    "Name des VU": "Steinbeis-Transferzentrum Prozess- und Systemconsulting",
+    "Leitung": "Prof. Dr.-Ing. Harald Stuhler",
+    "Ort": "Gerlingen, Deutschland",
+    "E-Mail": "SU1702@stw.de",
+    "Telefon": "+49 7156 309379",
+    "Stand": "02.04.2025",
+    "Schwerpunktthemen": [
+      "Statistische Versuchsplanung",
+      "Optimierungsverfahren",
+      "Produktentwicklung",
+      "Prozessoptimierung"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung: Bewertung der Potenziale von statistischen und Optimierungsverfahren.",
+      "Seminare und Weiterbildung: Kompetenzerwerb für die Optimierung eigener Produkte und Prozesse.",
+      "Support: Unterstützung von Ingenieuren bei Planung, Entwicklung und Anwendung neuer Prozesse und Produkte."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1734",
+    "Name des VU": "Steinbeis-Forschungszentrum Systementwurf und Test",
+    "Leitung": "Prof. Dr.-Ing. Ulrich Heinkel",
+    "Ort": "Buckenhof, Deutschland",
+    "E-Mail": "SU1734@stw.de",
+    "Telefon": "+49 371531 33175",
+    "Stand": "04.02.2025",
+    "Schwerpunktthemen": [
+      "Hardware- und Software Entwurf, Verifikation und Test",
+      "Microcontroller, SoC, ASIC, FPGA - Entwicklungen, Verifikation, Test",
+      "Modellbasierter Entwurf",
+      "Anwendungen im Bereich: Lokalisierung, Ad-hoc Funknetze",
+      "Eingebettete Lösungen für u.a. Smart-Home, Medizintechnik, Elektromobilität",
+      "Zuverlässiger Entwurf, formale Methoden"
+    ],
+    "Dienstleistungsangebot": [
+      "Entwicklung, Verifikation und Test von Hard- und Software für heterogene Systeme",
+      "Durchgängiger Digital- und Analog Entwurf"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1736",
+    "Name des VU": "Steinbeis-Transferzentrum Material-Design-Funktion",
+    "Leitung": "Prof. Dr. Richard Schilling",
+    "Ort": "Rimbach, Deutschland",
+    "E-Mail": "SU1736@stw.de",
+    "Telefon": "+49 1511 7205304",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Soft Matter (Polymere, Pulver, Schäume, Fasern), Kompositwerkstoffe - Eigenschaften und Anwendungen",
+      "3D-Technologien, speziell Filament-Drucker",
+      "Oberflächen: Design Werkstoff Reinigung",
+      "Entwicklung und Durchführung physikalischer in-situ Messmethoden zur Ergonomie"
+    ],
+    "Dienstleistungsangebot": [
+      "Funktionsorientierte, designgesteuerte Materialrecherche und materialgerechtes Design in Workshops und FuE Projekten.",
+      "Kombinierte technisch-wissenschaftliche und sprachliche Unterstützung von FuE Projekten.",
+      "Entwicklung didaktischer Instrumente (Seminare, Gamification) zur Materialentwicklung.",
+      "Entwicklung von Table-Top-Experimenten zur Werkstoff-Charakterisierung.",
+      "Aufklärung von material- und technologiebedingten Qualitätsproblemen.",
+      "Qualifizierte technische Übersetzungen und Dolmetschen (DE, EN, RU)."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1756",
+    "Name des VU": "Steinbeis-Transferzentrum Netzdynamik und Systemstudien",
+    "Leitung": "Prof. Dr.-Ing. Thomas Ahndorf",
+    "Ort": "Illingen, Deutschland",
+    "E-Mail": "SU1756@stw.de",
+    "Telefon": "+49 7042 3598-335",
+    "Stand": "08.01.2024",
+    "Schwerpunktthemen": [
+      "Netzdynamik und Systemstabilität",
+      "Hochspannungs-Gleichstrom-Übertragung (HVDC)"
+    ],
+    "Dienstleistungsangebot": [
+      "Netzberechnung stationär und dynamisch",
+      "Beratung und Schulung",
+      "Gutachten und Studien",
+      "Unterstützung bei der Integration Erneuerbarer Energien (z.B. Offshore-Wind)"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1783",
+    "Name des VU": "Steinbeis-Forschungszentrum Milchwissenschaft",
+    "Leitung": "Prof. Dr. Volker Krömker",
+    "Ort": "Kirchlengern, Deutschland",
+    "E-Mail": "SU1783@stw.de",
+    "Telefon": "+49 511 92962-205",
+    "Stand": "04.12.2018",
+    "Schwerpunktthemen": [
+      "Feldstudien",
+      "Anwendungstests"
+    ],
+    "Dienstleistungsangebot": [
+      "Forschungsarbeiten im Bereich der Milchwissenschaft und Eutergesundheit"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1792",
+    "Name des VU": "Steinbeis-Transferzentrum Zerstörungsfreie Oberflächenanalyse mittels  Raman- und Photoelektronenspektroskopie",
+    "Leitung": "Prof. Dr. Christian Hess",
+    "Ort": "Darmstadt, Deutschland",
+    "E-Mail": "SU1792@stw.de",
+    "Telefon": "+49 6151 1621-975",
+    "Stand": "02.05.2025",
+    "Schwerpunktthemen": [
+      "Raman-Spektroskopie: Zerstörungsfreie Analyse von Materialien (Polymere, Katalysatoren, Batteriematerialien, Halbleiter). Techniken: Vis/UV-Raman, Mikroskopie, in situ-Analyse, Depth profiling, Raman-Mapping, SERS.",
+      "Oberflächenanalytik: Zerstörungsfreie quantitative Analyse der Elementzusammensetzung mittels XPS/ESCA, Identifizierung von Bindungszuständen und funktionellen Gruppen. Anwendbar auf Polymere, Katalysatoren, Gläser, Metalle, Beschichtungen."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Analysen",
+      "Forschung und Entwicklung",
+      "Erstellung von Gutachten"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1804",
+    "Name des VU": "Steinbeis-Innovationszentrum BBS Technik Cloppenburg",
+    "Leitung": "Dr.-Ing. Andreas Berndt",
+    "Ort": "Cloppenburg, Deutschland",
+    "E-Mail": "SU1804@stw.de",
+    "Telefon": "+49 4471 9495-10",
+    "Stand": "01.04.2021",
+    "Schwerpunktthemen": [
+      "Lebensmitteltechnik",
+      "Automatisierungstechnik",
+      "CNC-Technik"
+    ],
+    "Dienstleistungsangebot": [
+      "Fortbildung",
+      "Weiterbildung",
+      "Beratung",
+      "Labortechnische Dienste"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1814",
+    "Name des VU": "Steinbeis-Transferzentrum Software-Engineering (SWE)",
+    "Leitung": "Prof. Dr. Christian Zirpins",
+    "Ort": "Karlsruhe, Deutschland",
+    "E-Mail": "SU1814@stw.de",
+    "Telefon": "+49 721 9251506",
+    "Stand": "15.04.2025",
+    "Schwerpunktthemen": [
+      "Verteilte Systeme (Backend und Frontend)",
+      "Mobile Anwendungen",
+      "Moderne Web-Anwendungen",
+      "Benutzeroberflächen mit verschiedenen Technologien",
+      "Datenbankanwendungen"
+    ],
+    "Dienstleistungsangebot": [
+      "Unterstützung in der Software-Entwicklung",
+      "Beratung zum Einsatz von Technologien und Frameworks",
+      "Beratung zu Software-Architekturen",
+      "Erstellung von Prototypen und Studien",
+      "Modernisierung und Konsolidierung bestehender Lösungen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1845",
+    "Name des VU": "Steinbeis-Forschungszentrum Technische Schwingungen",
+    "Leitung": "Dr.-Ing. Thomas Risch",
+    "Ort": "Chemnitz, Deutschland",
+    "E-Mail": "SU1845@stw.de",
+    "Telefon": "+49 371 3396216",
+    "Stand": "17.04.2024",
+    "Schwerpunktthemen": [
+      "Maschinen- und Systemdynamik",
+      "Vibrations- und Schwingfördertechnik",
+      "Rohrleitungsschwingungen und Druckpulsation",
+      "Akustikanalysen",
+      "Eigenfrequenzanalysen",
+      "Sounddesign"
+    ],
+    "Dienstleistungsangebot": [
+      "Schwingungs- und Akustikmessungen",
+      "Analyse und Optimierung dynamischer Systeme",
+      "Modellbildung, Berechnung und Simulation (FEM, DEM)",
+      "Vibrations- und Schwingfördertechnik: experimentelle Untersuchungen, Dimensionierung und Optimierung.",
+      "Erstellung von Konzepten und Sachverständigengutachten.",
+      "Seminarangebote: Grundlagen der Vibrationsfördertechnik, Dynamik, DEM mit LIGGGTHS."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1848",
+    "Name des VU": "Steinbeis-Transferzentrum Berufsbildungszentrum HLA Lohne",
+    "Leitung": "Dipl.-Hdl., Dipl.-Kfm. Ernst Escher",
+    "Ort": "Lohne, Deutschland",
+    "E-Mail": "SU1848@stw.de",
+    "Telefon": "+49 4442 9231-0",
+    "Stand": "01.04.2021",
+    "Schwerpunktthemen": [
+      "Kaufmännische Zusatzqualifikation",
+      "Berufliche Qualifikation",
+      "Lehrerfortbildung",
+      "Vorbereitung auf Abschlussprüfungen und neue Schulformen"
+    ],
+    "Dienstleistungsangebot": [
+      "Ausbildung",
+      "Weiterbildung",
+      "Fortbildung",
+      "Förder- und Fordermaßnahmen",
+      "Kooperation",
+      "Beratung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1862",
+    "Name des VU": "Steinbeis-Beratungszentrum Management und Digitale Transformation",
+    "Leitung": "Prof. Dr. Werner Bruns, Petra Bruns",
+    "Ort": "Hohenfels, Deutschland",
+    "E-Mail": "SU1862@stw.de",
+    "Telefon": "+49 1719762554",
+    "Stand": "01.06.2022",
+    "Schwerpunktthemen": [
+      "Erarbeitung strategischer Konzepte (Neuausrichtung, Modernisierung, Reorganisation, Fusionen).",
+      "Teilnehmende Beratung, unterstützt durch wissenschaftliche Expertisen.",
+      "Konflikt- und Krisenmanagement (Staatshilfen), Mediation.",
+      "Veranstaltungen (Kongresse, Seminare, Vorträge).",
+      "Optimierung von Handlungs- und Entscheidungsprozessen.",
+      "Innovations- und Kreativitätsentwicklung.",
+      "Förderprogramme des Staates, Erfahrungsmanagement, Empirische Sozialforschung."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung von Hochschulen, Bildungseinrichtungen, Verbänden, NGOs und Unternehmen."
+    ]
+  },
+  {
+    "VU-Nummer": "VU1867",
+    "Name des VU": "Steinbeis-Transferzentrum Kryptographische Methoden und Systeme",
+    "Leitung": "Prof. Dr. habil. Olaf Neiße",
+    "Ort": "Furtwangen, Deutschland",
+    "E-Mail": "SU1867@stw.de",
+    "Telefon": "+49 7723 503475",
+    "Stand": "22.03.2024",
+    "Schwerpunktthemen": [
+      "Kryptographische Methoden und Systeme",
+      "Kryptoanalysen"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Schulungen",
+      "Seminare"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1901",
+    "Name des VU": "Steinbeis Advanced Risk Technologies Institute doo Kragujevac",
+    "Leitung": "B.S. Engineering Milos Rakonjac",
+    "Ort": "Kragujevac, Serbien",
+    "E-Mail": "SU1901@stw.de",
+    "Telefon": "+38 160 7326526",
+    "Stand": "09.01.2025",
+    "Schwerpunktthemen": [
+      "Ausbildung",
+      "Wissenschaftliche Programmierungen",
+      "Software Engineering",
+      "Big Data Solution",
+      "Datengewinnung"
+    ],
+    "Dienstleistungsangebot": [
+      "Ausbildung IT, MBA",
+      "Wissenschaftliche Programmierungen",
+      "Virtuelles Design",
+      "Data Mining",
+      "Parallel Computing"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1902",
+    "Name des VU": "Steinbeis-Innovationszentrum Schwingungstechnik",
+    "Leitung": "Dr.-Ing. Thomas Risch",
+    "Ort": "Chemnitz, Deutschland",
+    "E-Mail": "SU1902@stw.de",
+    "Telefon": "+49 371 3396216",
+    "Stand": "17.04.2024",
+    "Schwerpunktthemen": [
+      "Maschinen- und Systemdynamik",
+      "Vibrations- und Schwingfördertechnik",
+      "Rohrleitungsschwingen und Druckpulsation",
+      "Akustik- und Eigenfrequenzanalysen",
+      "Sounddesign"
+    ],
+    "Dienstleistungsangebot": [
+      "Schwingungs- und Akustikmessungen",
+      "Analyse und Optimierung dynamischer Systeme",
+      "Vibrations- und Schwingfördertechnik",
+      "Modellbildung, Berechnung und Simulation zur Systemdynamik",
+      "FEM- und DEM-Simulationen",
+      "Durchführung experimenteller Untersuchungen",
+      "Erstellung von Konzepten",
+      "Erstellung von Sachverständigengutachten"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1937",
+    "Name des VU": "Steinbeis-Transferzentrum Pharmazeutische Technologie",
+    "Leitung": "Prof. Dr. Jörg Huwyler",
+    "Ort": "Arlesheim, Schweiz",
+    "E-Mail": "SU1937@stw.de",
+    "Telefon": "+41 61 7311947",
+    "Stand": "30.12.2024",
+    "Schwerpunktthemen": [
+      "Pharmazeutische Technologie",
+      "Drug Delivery",
+      "Drug Targeting",
+      "Pharmazeutische Wissenschaften"
+    ],
+    "Dienstleistungsangebot": [
+      "Angewandte Forschung und Entwicklung",
+      "Erstellung von Gutachten, Seminare, Schulung",
+      "Literaturrecherchen, Beratung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1961",
+    "Name des VU": "Steinbeis-Transferzentrum Gebäude - Technik - Management (GTM)",
+    "Leitung": "Prof. Dr.-Ing. Markus Tritschler",
+    "Ort": "Gerlingen, Deutschland",
+    "E-Mail": "SU1961@stw.de",
+    "Telefon": "+49 7156 436854",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Gebäudetechnik: Heizungs-, Lüftungs-, Klima- und Sanitärtechnik.",
+      "Technisches Monitoring: Energie-, Anlagen- und Behaglichkeitsmonitoring, statistische Auswertungen.",
+      "Energiemanagement: Messtechnik, Kennwertbildung, Beratung.",
+      "Verbrauchswerterfassung und -abrechnung.",
+      "Gebäudemanagement."
+    ],
+    "Dienstleistungsangebot": [
+      "Gutachten und Studien",
+      "Beratung",
+      "Technisches Monitoring und Betriebsoptimierung",
+      "Anwendungsorientierte Forschung",
+      "Schulungen und Seminare"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1966",
+    "Name des VU": "Steinbeis-Transfer-Institut Steinbeis Management Academy Ostbayern",
+    "Leitung": "Dipl.-Kfm. Josef Vogl",
+    "Ort": "Regensburg, Deutschland",
+    "E-Mail": "SU1966@stw.de",
+    "Telefon": "+49 941 200004-0",
+    "Stand": "10.09.2021",
+    "Schwerpunktthemen": [
+      "Wirtschaft und Verwaltung"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung und Weiterbildung im Bereich Wirtschaft und Verwaltung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1972",
+    "Name des VU": "Steinbeis-Transferzentrum Strukturintegrität und Optimierung",
+    "Leitung": "Prof. Dr.-Ing. Robert Bjekovic",
+    "Ort": "Ehingen, Deutschland",
+    "E-Mail": "SU1972@stw.de",
+    "Telefon": "+49 177 418 2909",
+    "Stand": "09.01.2023",
+    "Schwerpunktthemen": [
+      "Leichtbau",
+      "Optimierung",
+      "Circular economy / Nachhaltigkeit",
+      "Technologieentwicklung",
+      "Funktionsintegration"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Technologiemonitoring / Scouting",
+      "Projektunterstützung",
+      "Entwicklung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU1996",
+    "Name des VU": "Steinbeis-Beratungszentrum Intercultural Academy",
+    "Leitung": "Dipl.-Betriebswirt Jens-Daniel Dröge, Maryam Rottweiler, M.Sc.,MBA",
+    "Ort": "Metzingen, Deutschland",
+    "E-Mail": "SU1996@stw.de",
+    "Telefon": "+49 7123 3760396",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Leadership & Operations",
+      "People & Change",
+      "Intercultural Training & Excursions",
+      "Personal and Leadership Development"
+    ],
+    "Dienstleistungsangebot": [
+      "interkulturelle Persönlichkeits- und Managementausbildungen, teilweise mit Hochschulzertifizierung",
+      "maßgeschneiderte Dienstleistungen für Firmen und Organisationen: Training Advisory & Consulting, Coaching, Training, Exkursionen, Vorträge und Referate"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2008",
+    "Name des VU": "Steinbeis-Transferzentrum Netzwerk- und Internet-Technologien",
+    "Leitung": "Prof. Dr. Martin Stiemerling",
+    "Ort": "Leimen, Deutschland",
+    "E-Mail": "SU2008@stw.de",
+    "Telefon": "+49 6224 979616",
+    "Stand": "10.01.2025",
+    "Schwerpunktthemen": [
+      "Forschung, Entwicklung und Beratung für IP-basierte Netzwerke.",
+      "Technologietransfer: Bewertung und Einführung neuer Netzwerkkonzepte (SDN, NFV) in Festnetz-, Mobilfunk- und Data Center Netzwerke.",
+      "Entwerfen, Testen und Bereitstellen von Netzwerkprotokollen (z. B. TCP, MPTCP, SIP, RTP, IPv6).",
+      "Standardisierung in der Internet Engineering Task Force (IETF).",
+      "Schulungen und Vorträge über Internet, Datennetzwerke und Sicherheit."
+    ],
+    "Dienstleistungsangebot": [
+      "Forschung, Entwicklung und Beratung im Bereich der Telekommunikations- und Datennetzwerke",
+      "Technologietransfer für Netzwerke und Netzwerkdienste",
+      "Entwerfen, Testen und Bereitstellen von Netzwerkprotokollen",
+      "Standardisierung von Netzwerkprotokollen",
+      "Schulungen im Bereich des Internets und (Daten-)Netzwerken"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2011",
+    "Name des VU": "Steinbeis-Transferzentrum Angewandte Elektrochemie",
+    "Leitung": "Prof. Dr. Karsten Pinkwart",
+    "Ort": "Pfinztal, Deutschland",
+    "E-Mail": "SU2011@stw.de",
+    "Telefon": "+49 721 9251360",
+    "Stand": "02.05.2024",
+    "Schwerpunktthemen": [
+      "Primär- und Sekundärbatterien: Lithium-Ionen, Redox-Flow, Natrium-Systeme, Nickel-Cadmium, Nickel-Metallhydrid, Blei-Säure.",
+      "Post-Mortem-Analysen.",
+      "Sicherheitstests mit begleitender Analytik.",
+      "Prototypenherstellung.",
+      "Materialforschung."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung und technische Unterstützung",
+      "Technologiebewertung und –vergleich",
+      "Studien",
+      "Gutachten",
+      "Consulting",
+      "Schulungen, Seminare und Weiterbildung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2035",
+    "Name des VU": "Steinbeis Network and Security Technologies GmbH",
+    "Leitung": "Dipl.-Ing. Sebastian Pflieger",
+    "Ort": "Berlin, Deutschland",
+    "E-Mail": "SU2035@stw.de",
+    "Telefon": "+49 30 120845770",
+    "Stand": "23.07.2025",
+    "Schwerpunktthemen": [
+      "Security Vulnerability Assessments.",
+      "Integration von Ethernet Switch ICs (Marvell, Broadcom) und LTE/NB-IoT Modems.",
+      "Implementierung von Secure und Verified Boot auf Embedded CPUs (NXP, TI, ST, etc.).",
+      "Design und Realisierung von Security Features für Automatisierungskomponenten (IEC 62443-4-2).",
+      "Härtung von Komponenten gegen Communication Robustness Tests (ISASecure™, Achilles®).",
+      "Integration von Trusted Platform Modulen (TPM), Java Card und authentication ICs.",
+      "Portierung und Pflege von Open Source Software für VxWorks, Embedded Linux, Zephyr, Nuttx."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung und technische Unterstützung für Security eingebetteter Systeme und Ethernet/IP-Integration.",
+      "Unterstützung von Systemarchitektur über Softwareentwicklung bis zum Product-Lifecycle-Management.",
+      "Wissenstransfer an Auftraggeber.",
+      "Entwurf und Entwicklung von Software, Software Maintenance, Schulungen."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2045",
+    "Name des VU": "Steinbeis-Transferzentrum Daten.Analysen.Wertschöpfung",
+    "Leitung": "Prof. Dr. Josef Schürle",
+    "Ort": "Reutlingen, Deutschland",
+    "E-Mail": "SU2045@stw.de",
+    "Telefon": "+49 7121 271 4034",
+    "Stand": "06.03.2023",
+    "Schwerpunktthemen": [
+      "Aktuariat, Risikomanagement, Corporate Finance",
+      "Betriebliche Altersvorsorge",
+      "Big Data, Data Science und Digitalisierung",
+      "Industrialisierung von Unternehmenssteuerungsprozessen",
+      "Monte Carlo-Simulationsverfahren"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Schulung",
+      "Software-Entwicklung",
+      "Erstellung von Gutachten und Studien"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2053",
+    "Name des VU": "Steinbeis-Forschungszentrum Fertigungs- und Werkstofftechnologien",
+    "Leitung": "Prof. Dr.-Ing. Sebastian Härtel, Dr.-Ing. Andreas Rößler",
+    "Ort": "Cottbus, Deutschland",
+    "E-Mail": "SU2053@stw.de",
+    "Telefon": "+49 355 69 3108",
+    "Stand": "30.10.2020",
+    "Schwerpunktthemen": [
+      "FE-Analyse von Schweißprozessen",
+      "FE-Analyse und Prozess-/Werkzeugoptimierung von Umformverfahren",
+      "FE-Analyse von mechanischen Fügeoperationen",
+      "FE-Analyse von additiven Fertigungsverfahren",
+      "Strukturanalyse von Bauteilen/Komponenten"
+    ],
+    "Dienstleistungsangebot": [
+      "Analyse und Optimierung von Fertigungstechnologien",
+      "Analyse und Optimierung von anwendungsorientierten Werkstoffen (metallisch und nichtmetallisch)",
+      "Numerische und physikalische Simulation",
+      "Bestimmung von spezifischen Werkstoffeigenschaften",
+      "Charakterisierung von Bauteilen hinsichtlich mechanischer Eigenschaften"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2054",
+    "Name des VU": "Steinbeis-Innovationszentrum Fertigungsprozesse und Werkstoffanwendungen",
+    "Leitung": "Prof. Dr.-Ing. Sebastian Härtel, Dr.-Ing. Andreas Rößler",
+    "Ort": "Cottbus, Deutschland",
+    "E-Mail": "SU2054@stw.de",
+    "Telefon": "+49 355 69 3108",
+    "Stand": "30.10.2020",
+    "Schwerpunktthemen": [
+      "FE-Analyse von Schweißprozessen",
+      "FE-Analyse und Prozess-/Werkzeugoptimierung von Umformverfahren",
+      "FE-Analyse von mechanischen Fügeoperationen",
+      "FE-Analyse von additiven Fertigungsverfahren",
+      "Strukturanalyse von Bauteilen/Komponenten"
+    ],
+    "Dienstleistungsangebot": [
+      "Analyse und Optimierung von Fertigungstechnologien",
+      "Analyse und Optimierung von anwendungsorientierten Werkstoffen (metallisch und nichtmetallisch)",
+      "Numerische und physikalische Simulation",
+      "Bestimmung von spezifischen Werkstoffeigenschaften",
+      "Charakterisierung von Bauteilen hinsichtlich mechanischer Eigenschaften"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2063",
+    "Name des VU": "Steinbeis-Beratungszentrum PIB - Programmierung, Integration & Beratung",
+    "Leitung": "Prof. Dr. Bernd Vögel",
+    "Ort": "Nersingen, Deutschland",
+    "E-Mail": "SU2063@stw.de",
+    "Telefon": "+49 7308 9277554",
+    "Stand": "13.09.2024",
+    "Schwerpunktthemen": [
+      "SAP IS-H/i.s.h.med",
+      "ABAP-Programmierung , inkl. Web Dynpros",
+      "Systemintegration medizinischer Informationssysteme"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung im Umfeld Anwendungsentwicklung und Integration im Umfeld SAP",
+      "Schulung von SAP Entwicklungswerkzeugen und Integrationstechniken",
+      "Anwendungsentwicklung im Bereich SAP, Schwerpunkt Hospital",
+      "Systemintegration auf Basis RFC, Webservices und Kommunikationsservern"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2065",
+    "Name des VU": "Steinbeis-Transferzentrum Aktuarielle Methoden & Risikomanagement",
+    "Leitung": "Prof. Dr. Marcel Wiedemann",
+    "Ort": "Neuhausen, Deutschland",
+    "E-Mail": "SU2065@stw.de",
+    "Telefon": "",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Aktuarielle Schadenreservierung",
+      "Aktuarielles Controlling (Portfolioanalysen, ...)",
+      "Risikomodellierung",
+      "Risiko- und wertorientierte Unternehmenssteuerung",
+      "Umsetzung Solvency II, IFRS",
+      "Reporting"
+    ],
+    "Dienstleistungsangebot": [
+      "Aktuarielle Beratung und Begutachtung",
+      "Projektumsetzung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2068",
+    "Name des VU": "Steinbeis-Transferzentrum Projektmanagement TPBW",
+    "Leitung": "Dipl.-Ing. (FH) Thomas Scherer",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU2068@stw.de",
+    "Telefon": "+49 711 1839-638",
+    "Stand": "04.02.2025",
+    "Schwerpunktthemen": [
+      "Umsetzung von F&E-Ergebnissen des SIZ Transferplattform Industrie 4.0 in die mittelständische Wirtschaft in BW.",
+      "Leitprojekte: Sensorik/Aktuatorik, Smart Factory Data und Simulation, Systemkompetenz in der Industrie 4.0, Mensch-Maschine-Interaktion, Big Data, Datensicherheit, Digital Business."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Entwicklung",
+      "Engineering",
+      "Gutachten",
+      "Aus- und Weiterbildung",
+      "Durchführung von Industrieprojekten"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2090",
+    "Name des VU": "Steinbeis-Transferzentrum Erneuerbare und Dezentrale Energieversorgungssysteme  (EDES)",
+    "Leitung": "Prof. Dr.-Ing. habil. Krzysztof Rudion",
+    "Ort": "Filderstadt, Deutschland",
+    "E-Mail": "SU2090@stw.de",
+    "Telefon": "+49 711 685-67872",
+    "Stand": "15.11.2018",
+    "Schwerpunktthemen": [
+      "Modellierung und Simulation elektrischer Netze, erneuerbarer Erzeugungsanlagen sowie Speicher.",
+      "Netzdynamik und Stabilität.",
+      "Klassische und probabilistische Planung elektrischer Netze.",
+      "Zustandsschätzung in elektrischen Netzen.",
+      "Studien zu optimalem Netzbetrieb, Netzintegration Erneuerbarer, Netzdynamik.",
+      "Bewertung der Versorgungssicherheit und -zuverlässigkeit.",
+      "Power Quality Messungen und Smart Grid Lösungen.",
+      "Bildung und Ausbildung im Bereich der elektrischen Energieversorgung."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Erstellung von Gutachten und Studien",
+      "Ausbildung/Seminare",
+      "Entwicklung von Softwaretools",
+      "Messungen und Prüfungen",
+      "Modellbildung und Simulation"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2093",
+    "Name des VU": "Steinbeis-Transferzentrum Informatik.univie",
+    "Leitung": "Univ.-Prof. Dr. Wolfgang Klas",
+    "Ort": "Bisamberg, Österreich",
+    "E-Mail": "SU2093@stw.de",
+    "Telefon": "",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Semantische Verwaltung, Organisation, Verarbeitung und Analyse von multimedialen Inhalten (Bilder, Video, Audio).",
+      "Modellierung von Geschäftsprozessen und Compliance-Anforderungen.",
+      "Realisierung von multimedialen Informationssystemen.",
+      "Intelligente Lösungen durch Semantic Web Technologien, Linked Open Data und Interoperabilität.",
+      "Intelligente Lösungen für Prozess-Compliance und Sicherheit.",
+      "Horizontale und vertikale Integration für Industrie 4.0 Anwendungen."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung, Machbarkeitsstudien, Innovationsberatung, Technologie-Audits, Gutachten",
+      "Weiterbildung/Schulung",
+      "Anwendungsorientierte Forschung und Transfer von Forschungsergebnissen",
+      "Entwicklung von Software-Prototypen, Systementwicklung",
+      "IT F&E-Kooperationen basierend auf universitärer Forschungsexpertise"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2095",
+    "Name des VU": "Steinbeis-Transferzentrum Automatisierung und Robotik für die Smart Factory",
+    "Leitung": "Prof. Dr.-Ing. Sascha Röck",
+    "Ort": "Esslingen, Deutschland",
+    "E-Mail": "SU2095@stw.de",
+    "Telefon": "",
+    "Stand": "02.04.2025",
+    "Schwerpunktthemen": [
+      "Virtuelle Inbetriebnahme von Maschinen und Anlagen, Modellbildung und Echtzeitsimulation.",
+      "Digitaler Zwilling als Service in der Cloud (Digital Twin as a Service).",
+      "Mixed Reality Anwendungen (VR & AR) auf Basis digitaler Zwillinge (z.B. für Schulungen, virtuelle Inbetriebnahme).",
+      "Anwendungsorientierte KI (z.B. synthetische Trainingsdatengenerierung, KI-basierte Sprachsteuerung, cloudbasierte KI-Services).",
+      "Autonome Indoor-Flugrobotik für die flexible Handhabung von Kleinteilen."
+    ],
+    "Dienstleistungsangebot": [
+      "Angewandte Forschung und (Vor-)Entwicklung",
+      "Beratung und Schulungen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2132",
+    "Name des VU": "Steinbeis-Transfer-Institut Informationsmanagement und Digitalisierung",
+    "Leitung": "Prof. Dr. Marc Schomann",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU2132@stw.de",
+    "Telefon": "+49 40 60096010",
+    "Stand": "10.09.2021",
+    "Schwerpunktthemen": [
+      "Informationsmanagement",
+      "Digitale Transformation",
+      "IT-Management",
+      "Agile Unternehmensführung"
+    ],
+    "Dienstleistungsangebot": [
+      "Wissenschaftliche Studien",
+      "Zertifizierte Aus- und Weiterbildung",
+      "Studiengänge und Lehre"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2140",
+    "Name des VU": "Steinbeis-Transferzentrum LOCASYS",
+    "Leitung": "Dipl.-Ing. Dietrich Schneider",
+    "Ort": "Leinfelden-Echterdingen, Deutschland",
+    "E-Mail": "SU2140@stw.de",
+    "Telefon": "+49 7141 4874422",
+    "Stand": "07.03.2024",
+    "Schwerpunktthemen": [
+      "Energie- und Gebäudetechnik",
+      "Regenerative Energietechnik",
+      "Systemtechnik",
+      "Hard-/Softwareentwicklung und Anwendung"
+    ],
+    "Dienstleistungsangebot": [
+      "Energie- und gebäudetechnische Softwareentwicklung",
+      "Energie- und gebäudetechnische Simulationsstudien",
+      "Energietechnische Systemlösungen",
+      "Durchführung komplexer Monitoringprojekte"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2149",
+    "Name des VU": "Steinbeis-Transferzentrum Intelligente Robotersysteme",
+    "Leitung": "Prof. Dr.-Ing. Marcus Strand",
+    "Ort": "Karlsruhe, Deutschland",
+    "E-Mail": "SU2149@stw.de",
+    "Telefon": "+49 171 1424229",
+    "Stand": "19.01.2021",
+    "Schwerpunktthemen": [
+      "Sichere Navigation mobiler autonomer Roboter",
+      "Maschinelles Lernen für robuste Hindernisvermeidung",
+      "CoWorker/CoBot – Sichere und effiziente Kooperation mit Industrierobotern",
+      "Bewegungsanalyse",
+      "Mobile Manipulation – Erweiterter Arbeitsraum durch mobile Plattformen",
+      "Mensch-Maschine-Interaktion",
+      "AR/VR-Technologien für effiziente Automatisierung"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung und Durchführung von Projekten im Bereich „Intelligente Robotersysteme“"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2160",
+    "Name des VU": "Steinbeis-Innovationszentrum Vorentwicklung",
+    "Leitung": "Dipl.-Ing. (FH) Ruben Maier",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU2160@stw.de",
+    "Telefon": "+49 711 46058482",
+    "Stand": "01.07.2024",
+    "Schwerpunktthemen": [
+      "Technologie- und Marktrecherchen, Machbarkeitsstudien, Werkstoffstudien, Designstudien, Studien zur Fertigungstechnik",
+      "Umsetzungsorientierte Forschungs- und Entwicklungstätigkeiten, zum Beispiel Konstruktionsleistungen, Prototypenbau, Design und Produktests zur Qualitätssicherung"
+    ],
+    "Dienstleistungsangebot": [
+      "Entwicklung innovativer Produkte, Verfahren oder technischer Dienstleistungen ohne Einschränkung auf bestimmte Technologien und Branchen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2183",
+    "Name des VU": "Steinbeis-Transfer-Institut Medical Education for Health and Nutrition - MEHN",
+    "Leitung": "Dipl.-Biol. Jürgen Skuda",
+    "Ort": "München, Deutschland",
+    "E-Mail": "SU2183@stw.de",
+    "Telefon": "+49 176 84931715",
+    "Stand": "09.03.2022",
+    "Schwerpunktthemen": [
+      "Konzeption und Organisation von Zertifikatslehrgängen im Themenbereich Ernährungsmedizin und Prävention",
+      "Kooperationen mit Fachverbänden und Bildungseinrichtungen",
+      "Journalistische Portraits"
+    ],
+    "Dienstleistungsangebot": [
+      "Fort- und Weiterbildung für Ärzte und medizinisches Personal",
+      "Konzeption, Organisation und Durchführung von Zertifikatslehrgängen",
+      "Kooperationen zu nationalen und internationalen Bildungseinrichtungen",
+      "Umsetzung von blended learning",
+      "Seminar-/Weiterbildungsangebote: Ernährungsmedizin-BDIi"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2218",
+    "Name des VU": "Steinbeis-Transferzentrum µservices",
+    "Leitung": "Dipl.-Ing. (FH) Bernhard Beck, Prof. Dr. Olivier Schecker",
+    "Ort": "Keltern, Deutschland",
+    "E-Mail": "SU2218@stw.de",
+    "Telefon": "+49 721 46466229",
+    "Stand": "08.02.2019",
+    "Schwerpunktthemen": [
+      "Energieautonome Systeme",
+      "Mikrobatterien",
+      "Harvester",
+      "Reinraumuntersuchungen",
+      "AVT",
+      "Nodes für das IOT"
+    ],
+    "Dienstleistungsangebot": [
+      "Aufbau von Prototypen",
+      "Untersuchungen von Strukturen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2219",
+    "Name des VU": "Steinbeis-Transfer-Institut Online Institut School of Management and Technology",
+    "Leitung": "Dr.-Ing. Walter Beck, MBA",
+    "Ort": "Berlin, Deutschland",
+    "E-Mail": "SU2219@stw.de",
+    "Telefon": "+49 30 55572130",
+    "Stand": "29.03.2021",
+    "Schwerpunktthemen": [
+      "Wirtschaftsinformatik",
+      "Business Management",
+      "Business Engineering",
+      "Business Administration"
+    ],
+    "Dienstleistungsangebot": [
+      "Online-Projekt-Kompetenz-Bildungsprogramme am Online Institut School of Management and Technology",
+      "Online-Zertifikatslehrgänge"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2229",
+    "Name des VU": "Steinbeis-Forschungszentrum Bioinformatik Service Freiburg",
+    "Leitung": "José Manuel Domínguez, M.Sc. Math., Dr. Björn Grüning",
+    "Ort": "Freiburg, Deutschland",
+    "E-Mail": "SU2229@stw.de",
+    "Telefon": "+49 761 203-54130",
+    "Stand": "09.10.2023",
+    "Schwerpunktthemen": [
+      "Galaxy Server-Administration",
+      "Galaxy-Training",
+      "Galaxy-Entwicklung"
+    ],
+    "Dienstleistungsangebot": [
+      "Entwicklung von scientific workflows",
+      "Galaxy Server-Adminstration",
+      "Analyse von Hochdurchsatz-Daten",
+      "Training in big-data Analyse"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2248",
+    "Name des VU": "Steinbeis-Transfer-Institut Beratung, Training und Coaching",
+    "Leitung": "Pia Immler, Birgid Kröber",
+    "Ort": "Weil der Stadt, Deutschland",
+    "E-Mail": "SU2248@stw.de",
+    "Telefon": "+49 711 7223339-0",
+    "Stand": "06.07.2021",
+    "Schwerpunktthemen": [
+      "Systemischer Business-Coach / Systemischer Coach",
+      "Systemische Organisationsentwicklung / Change-Management",
+      "Business-Trainer",
+      "NLP-Practitioner",
+      "Entwicklungs- und Karrierecoach",
+      "Team-Coach",
+      "Konflikt-Coach"
+    ],
+    "Dienstleistungsangebot": [
+      "Durchführung von berufsbezogenen Weiterbildungen im Bereich Beratung, Training und Coaching"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2269",
+    "Name des VU": "Steinbeis-Transferzentrum Prozessmanagement und Workflowdesign - FlowVento",
+    "Leitung": "Prof. Dr. Andreas Föhrenbach",
+    "Ort": "Hockenheim, Deutschland",
+    "E-Mail": "SU2269@stw.de",
+    "Telefon": "+49 6205 2047166",
+    "Stand": "18.06.2021",
+    "Schwerpunktthemen": [
+      "Prozessmanagement, Prozessmodellierung und Geschäftsprozessoptimierung",
+      "E-Government",
+      "Digitale Transformation im öffentlichen Sektor und Hochschulbereich",
+      "Elektronische Workflowsysteme",
+      "Implementierung und Support von elektronischen Workflows"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratungsleistung bei der Transformation digitaler Verwaltungsprozesse und E-Government",
+      "Analyse und Optimierung von Prozessen nach gängigen BPMN-Standards",
+      "Implementierung von Prozessen in elektronische Workflows inkl. Auswahl der Systeme und Anschlussfähigkeit",
+      "Schulung und Support der elektronischen Workflows"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2284",
+    "Name des VU": "Steinbeis-Transferzentrum Saarbrücker Institut für Controlling (sic!)",
+    "Leitung": "Univ.-Prof. Dr. Alexander Baumeister",
+    "Ort": "Saarbrücken, Deutschland",
+    "E-Mail": "SU2284@stw.de",
+    "Telefon": "+49 681 302-2110",
+    "Stand": "30.12.2024",
+    "Schwerpunktthemen": [
+      "Digitale Transformation",
+      "Business Analytics",
+      "Agiles Projektmanagement",
+      "Kosten- und Erlösmanagement",
+      "Prozessoptimierung",
+      "Wirtschaftlichkeitsanalysen",
+      "Life-Cycle-Analysen",
+      "Risikomanagement",
+      "Steuerungs- und Anreizsysteme",
+      "Reporting, Budgetierung, Kennzahlenkonzepte"
+    ],
+    "Dienstleistungsangebot": [
+      "Analyse und Optimierung betriebswirtschaftlicher Herausforderungen",
+      "Implementierung von Controlling-Methoden",
+      "Beratung zu allen Controlling-Themenstellungen, auch an der Schnittstelle zu technischen und informatorischen Bereichen",
+      "Business Analytics Support"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2292",
+    "Name des VU": "Steinbeis-Transferzentrum Qualifizierung | Beratung | Kooperation",
+    "Leitung": "Thomas Degen",
+    "Ort": "Winsen (Luhe), Deutschland",
+    "E-Mail": "SU2292@stw.de",
+    "Telefon": "+49 4171 88190",
+    "Stand": "01.07.2022",
+    "Schwerpunktthemen": [
+      "Qualifizierungs-, Aus-, Fort- und Weiterbildungsmaßnahmen im gewerblich-technischen und kaufmännischen Bereich, Pflege, Gestaltung, Sozialpädagogik und Informatik.",
+      "Förderung von themenbezogenen Netzwerken und Kooperationen zwischen Unternehmen.",
+      "Bedarfsgerechte Beratungen für Unternehmen.",
+      "Informationsveranstaltungen für Unternehmen und Arbeitnehmer.",
+      "Zusatzqualifikation, Lehrkräftefortbildung, Vorbereitung auf Abschlussprüfungen."
+    ],
+    "Dienstleistungsangebot": [
+      "Ausbildung",
+      "Weiterbildung",
+      "Fortbildung",
+      "Förder- und Fordermaßnahmen",
+      "Kooperation",
+      "Beratung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2310",
+    "Name des VU": "Steinbeis-Transferzentrum Kobe Research & Consulting",
+    "Leitung": "Prof. Dr. Stefan Kolb",
+    "Ort": "Karlsruhe, Deutschland",
+    "E-Mail": "SU2310@stw.de",
+    "Telefon": "",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Geschäftsmodellinnovation",
+      "Digitale Transformation",
+      "Digitale Technologien: Auswahl und Implementierung"
+    ],
+    "Dienstleistungsangebot": [
+      "Unternehmens- und Start-up-Beratung",
+      "Auftragsforschung & Studien",
+      "Workshops (z.B. Ideation, Design Thinking)",
+      "Markt- und Wettbewerberanalysen",
+      "Weiterbildung & Schulung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2312",
+    "Name des VU": "Steinbeis-Beratungszentrum Business Solutions",
+    "Leitung": "Dipl.-Ing. Stephen Ampofo Twumasi",
+    "Ort": "Norderstedt, Deutschland",
+    "E-Mail": "SU2312@stw.de",
+    "Telefon": "+49 157 30472321",
+    "Stand": "10.01.2025",
+    "Schwerpunktthemen": [
+      "Logistik & Transport",
+      "Erneuerbare Energien und Ölindustrie",
+      "Bankwesen",
+      "Manufacturing & Automotive",
+      "Maritime Wirtschaft",
+      "Luftfahrt & MRO",
+      "Telekommunikation"
+    ],
+    "Dienstleistungsangebot": [
+      "IT-Beratung & Technologietransfer",
+      "Software-Architektur & -Entwicklung",
+      "Digitale Transformation & Lösungsansätze",
+      "Automatisierungs- und Steuerungstechnik",
+      "DevOps und Cloud-Lösungen",
+      "IT-Sicherheitslösungen",
+      "Industrie 4.0, Industrial IoT"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2323",
+    "Name des VU": "Ceno Power Quality GmbH",
+    "Leitung": "Thomas Kolb, B.Eng.",
+    "Ort": "Gerstetten, Deutschland",
+    "E-Mail": "SU2323@stw.de",
+    "Telefon": "+49 7323 9289 828",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Messungen der Energiequalität",
+      "EMV-Messungen",
+      "Ausarbeiten von Lösungen die zu Ihnen und Ihrem Unternehmen passen",
+      "Projekte nach EMV-ILA® (siehe auch www.emv-ila.de)",
+      "Inbetriebnahme von Netzfiltern",
+      "Wartung und Diagnose",
+      "Schulungen"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung und Lösungen im Bereich Power Quality und EMV.",
+      "Management der Auswirkungen moderner Elektronik (Frequenzumrichter, LED) auf die Energieversorgung."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2336",
+    "Name des VU": "Steinbeis-Transferzentrum Mixed-Signal IC Design and Consulting",
+    "Leitung": "Prof. Dr.-Ing. Maurits Ortmanns, Dr.-Ing. Joachim Becker, Dr.-Ing. John Gabriel Kauffman",
+    "Ort": "Ulm, Deutschland",
+    "E-Mail": "SU2336@stw.de",
+    "Telefon": "+49 170 3160454",
+    "Stand": "17.01.2025",
+    "Schwerpunktthemen": [
+      "Integrierte CMOS Schaltungen",
+      "Systemspezifikation, Entwurf und Layout von integrierten CMOS Schaltungen",
+      "Elektronik"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung in Entwicklungsfragen zu integrierten Schaltungen und Systemen",
+      "Dienstleistungen zur Entwicklung von integrierten Schaltungen, ADC, DAC, Sensorreadouts, Hardwaredesign, Tests",
+      "Dienstleistungen zu implantierbarer Elektronik/intelligenten Implantaten",
+      "Dienstleistungen im Bereich des Elektronik-Leiterplattenentwurfs",
+      "Begleitung von Projekten, Erstellen von Gutachten, Beratung bei Personalsuche, Seminare"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2343",
+    "Name des VU": "Steinbeis-Transferzentrum IT-Architektur Management und Visulisierung von komplexen Daten",
+    "Leitung": "Prof. Dr. Markus Eiglsperger",
+    "Ort": "Öhningen, Deutschland",
+    "E-Mail": "SU2343@stw.de",
+    "Telefon": "+49 177 8215618",
+    "Stand": "01.07.2020",
+    "Schwerpunktthemen": [
+      "Architekturanalyse",
+      "IT-Architekturberatung",
+      "IT-Entwicklungsunterstützung",
+      "Prototyping"
+    ],
+    "Dienstleistungsangebot": [
+      "Analyse und Beratung für Anwendungs- und Unternehmensarchitektur",
+      "Beratung und Schulung für Softwareentwicklungsprozesse und -praktiken",
+      "Beratung und Entwicklungsunterstützung für Anwendungen zur Visualisierung komplexer Daten"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2362",
+    "Name des VU": "Steinbeis-Beratungszentrum Corporate Governance und Wirtschaftsprüfung",
+    "Leitung": "Prof. Dr. Stefan Marx, Prof. Dr. Frank Reinhardt",
+    "Ort": "Erlangen, Deutschland",
+    "E-Mail": "SU2362@stw.de",
+    "Telefon": "",
+    "Stand": "23.12.2022",
+    "Schwerpunktthemen": [
+      "Corporate Governance/Nachhaltigkeit/Wirtschaftsprüfung:",
+      "Interne Kontrollsysteme",
+      "Risikomanagementsysteme",
+      "Compliancemanagementsysteme",
+      "Interne Revisionssysteme",
+      "Nachhaltige Unternehmensführung",
+      "Finanzielle Unternehmensführung"
+    ],
+    "Dienstleistungsangebot": [
+      "Aus- und Weiterbildung: Seminare, Workshops, Zertifikatsprogramme, berufsbegleitende Studienprogramme.",
+      "Beratung: Unterstützung bei Governance-Projekten, Analyse, Aufbau und Prüfung von Governance-Systemen.",
+      "Forschung und Austauschplattformen: Marktstudien, Umfragen, Tagungen, Kongresse."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2366",
+    "Name des VU": "Steinbeis-Transferzentrum nD-Informatik",
+    "Leitung": "Prof. Dr.-Ing. Tobias Hillmann",
+    "Ort": "Neubrandenburg, Deutschland",
+    "E-Mail": "SU2366@stw.de",
+    "Telefon": "+49 395 56934104",
+    "Stand": "01.02.2024",
+    "Schwerpunktthemen": [
+      "Flug von UAV im BVLOS-Flug",
+      "Entwicklung kundenspezifischer Lösungen und Services",
+      "Entwicklung und Bau von Messsensoren (Hard- und Software)",
+      "Raum-zeitliche Geo-Informationssysteme",
+      "Datenanalyse und künstliche Intelligenz",
+      "Geodäsie, Geoinformatik, Markscheidewesen und Bergbau"
+    ],
+    "Dienstleistungsangebot": [
+      "Hard- und Software-Entwicklung von Messgeräten zur Überwachung von Bauteilbewegungen.",
+      "Umsetzung von Software-Projekten.",
+      "Auswertung von Fernerkundungsdaten mit künstlicher Intelligenz (z. B. Forst- und Landwirtschaft).",
+      "Flug von UAV außerhalb der Sichtweite (BVLOS)."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2379",
+    "Name des VU": "Steinbeis-Transferzentrum Energie, Komfort und Gesundheit in Gebäuden",
+    "Leitung": "Prof. Dr. Martin Kriegel, Dr. Stefan Brandt",
+    "Ort": "Kleinmachnow, Deutschland",
+    "E-Mail": "SU2379@stw.de",
+    "Telefon": "+49 170 6126930",
+    "Stand": "16.01.2025",
+    "Schwerpunktthemen": [
+      "Gebäude-Energietechnik",
+      "Indoor Environmental Quality",
+      "Contamination Control"
+    ],
+    "Dienstleistungsangebot": [
+      "Thermische und hygienische Behaglichkeit",
+      "Komponenten der Heizungs-, Lüftungs- und Klimatechnik",
+      "Gebäude- und Anlagensimulation, CFD-Simulationen",
+      "Gebäudeautomation",
+      "Reinraumtechnik, Krankenhausbau, Rechenzentrum, Lager- und Produktionshallen",
+      "Wärme- und Kältenetze",
+      "Beratung und Schulung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2381",
+    "Name des VU": "Steinbeis-Transferzentrum Informationstechnik und Fahrzeugsysteme",
+    "Leitung": "Prof. Dr. Zoltán Zomotor",
+    "Ort": "Stuttgart, Deutschland",
+    "E-Mail": "SU2381@stw.de",
+    "Telefon": "+49 711 44038241",
+    "Stand": "09.02.2024",
+    "Schwerpunktthemen": [
+      "Informationstechnologie",
+      "Mobile Computing",
+      "iOS Bootcamp - Schnellkurs mit Swift! In 3 Tagen aktuelle iOS-Programmierung erlernen",
+      "Fahrzeugsysteme (Software für Fahrdynamik-, Fahrerassistenz- und autonome Systeme)"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung",
+      "Coaching",
+      "Seminare und Training",
+      "Entwicklung und Forschung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2382",
+    "Name des VU": "Steinbeis-Transferzentrum Angewandte Elektrotechnik",
+    "Leitung": "Dr.-Ing. Sebastian Azer, Johannes Friedrichs, M.Eng.",
+    "Ort": "Wilhelmshaven, Deutschland",
+    "E-Mail": "SU2382@stw.de",
+    "Telefon": "+49 4421 985-2759",
+    "Stand": "01.04.2021",
+    "Schwerpunktthemen": [
+      "Angewandte Elektrotechnik",
+      "Elektrische Energietechnik",
+      "Hochspannungstechnik",
+      "Prüf- und Messtechnik, Diagnostik, Qualitätssicherung",
+      "Auslegungen und Berechnungen (z. B. FEM, SPICE)",
+      "Technisches Produktmanagement",
+      "Geschäftsfeldentwicklung"
+    ],
+    "Dienstleistungsangebot": [
+      "Ingenieurdienstleistungen",
+      "Forschung und Entwicklung",
+      "Gutachten, Expertisen",
+      "Schulungen, Weiterbildung",
+      "Beratung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2383",
+    "Name des VU": "Steinbeis-Transferzentrum Additive Manufacturing and Production Technologies (APT)",
+    "Leitung": "Prof. Dr. Florian Finsterwalder",
+    "Ort": "Karlsruhe, Deutschland",
+    "E-Mail": "SU2383@stw.de",
+    "Telefon": "+49 721 925 1925",
+    "Stand": "10.02.2022",
+    "Schwerpunktthemen": [
+      "Werkstoffe für die additive Fertigung (Kunststoffe): Materialextrusion und Stereolithographie.",
+      "Hybride additive Fertigung.",
+      "Funktions- und fertigungsoptimale Produktgestaltung, Topologieoptimierung.",
+      "Fertigungsplanung und -simulation, Pre- und Post-Processing.",
+      "Neue Anwendungsfelder für die additive Fertigung (z. B. Lebensmittel, Energietechnik)."
+    ],
+    "Dienstleistungsangebot": [
+      "Technologieberatung und -konzepte",
+      "Auslegung, Design und Konstruktion",
+      "Technologische Machbarkeitsstudien, Benchmarking-Studien",
+      "Forschungs- und Entwicklungsprojekte (Materialien und Prozesse)",
+      "Prozessentwicklung entlang der CAD-CAM-Kette",
+      "Entwicklung von Geschäftsmodellen, Wirtschaftlichkeitsstudien",
+      "Fortbildung, Schulungen, Seminare"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2404",
+    "Name des VU": "Steinbeis-Transferzentrum Funktionale Sicherheit & Cyber Security",
+    "Leitung": "Prof. Dr.-Ing. Ossmane Krini",
+    "Ort": "Freiburg, Deutschland",
+    "E-Mail": "SU2404@stw.de",
+    "Telefon": "+49 178 3014409",
+    "Stand": "22.04.2025",
+    "Schwerpunktthemen": [
+      "Funktionale Sicherheit",
+      "Cyber Security",
+      "Künstliche Intelligenz"
+    ],
+    "Dienstleistungsangebot": [
+      "Dienstleistung im Bereich der IT-Security & der funktionalen Sicherheit",
+      "Forschungs- und Entwicklungsaufträge im Umfeld der KI, Sicherheitstechnik und Cyber Security",
+      "Innovationsentwicklung sicherer Hard- und Software",
+      "Erstellung von Anforderungsspezifikation nach Normen (IEC 61508/ ISO 26262/ EN 5012x ISO 13849)",
+      "Testing nach den gültigen Normen und Standards"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2409",
+    "Name des VU": "Steinbeis-Innovationszentrum KI und Smart Systems",
+    "Leitung": "Prof. Dr.-Ing. Dirk Benyoucef",
+    "Ort": "Saarbrücken, Deutschland",
+    "E-Mail": "SU2409@stw.de",
+    "Telefon": "+49 173 8459111",
+    "Stand": "27.08.2024",
+    "Schwerpunktthemen": [
+      "Embedded Systems",
+      "Bluetooth Low Energy",
+      "Digitale Signalverarbeitung in allen Bereichen",
+      "Digitale Kommunikationstechnik",
+      "Sensornetzwerke",
+      "Smart Metering"
+    ],
+    "Dienstleistungsangebot": [
+      "Smart and Embedded System: Entwicklung von Schaltungen, Platinenlayouts, Firmware und Algorithmen.",
+      "Industrie 4.0: Problemanalyse, Konzepterarbeitung, Integration bestehender Systeme, Entwicklung von Sensor- und Kommunikationseinheiten.",
+      "Smart Energiemanagement: Entwicklung von Disaggregationsmethoden, Monitoring des Energieverbrauchs, Zustandsüberwachung, Restkapazitätsabschätzung für Batterien.",
+      "F&E bei öffentlichen Förderprogrammen: Beratung und Durchführung von ZIM Projekten.",
+      "Kundenspezifische Algorithmenentwicklung: Erkennung von Systemzuständen, Mustererkennung, Extraktion von Informationen."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2412",
+    "Name des VU": "Steinbeis-Transferzentrum Immobilienwirtschaft",
+    "Leitung": "Prof. Dr.-Ing. Kerstin Main",
+    "Ort": "Berlin, Deutschland",
+    "E-Mail": "SU2412@stw.de",
+    "Telefon": "+49 176 3432 4665",
+    "Stand": "10.08.2023",
+    "Schwerpunktthemen": [
+      "Beratung für alle Immobilienbereiche",
+      "Fort- und Weiterbildung in der Immobilienwirtschaft",
+      "Nachhaltigkeit",
+      "Immobilien-Lebenszyklus",
+      "Machbarkeitsstudien, Markt- und Standortanalysen, Marketing",
+      "Stakeholdermanagement"
+    ],
+    "Dienstleistungsangebot": [
+      "Immobilien- und bauwirtschaftliche Beratung",
+      "Unterstützung von Einzelpersonen, Unternehmen sowie Institutionen im öffentlichen Bereich.",
+      "Projektentwicklung, Stadtentwicklung, Bau- und Immobilienresearch.",
+      "Nachhaltiges Bauen, Konversion und Altlasten.",
+      "Immobilienbewertung, Bauschadensbewertung.",
+      "Drohneneinsatz, Virtual/Augmented/Mixed Reality, 360 Grad Technik.",
+      "Flächennutzung und -management."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2429",
+    "Name des VU": "Steinbeis-Transferzentrum Steuerungstechnik und Digitalisierung mechatronischer Systeme",
+    "Leitung": "Prof. Dr.-Ing. Wolf-Dieter Lehner",
+    "Ort": "Süßen, Deutschland",
+    "E-Mail": "SU2429@stw.de",
+    "Telefon": "+49 7162 944977",
+    "Stand": "16.01.2024",
+    "Schwerpunktthemen": [
+      "Vertikale Integration",
+      "Connectivity von Bestandsanlagen erhöhen",
+      "Condition Monitoring",
+      "Datenanalyse",
+      "Edge Cloud Computing"
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung und Schulungen zur Digitalisierung",
+      "Analyse von Messdaten",
+      "Nachrüstung von modernen Schnittstellen wie OPC-UA in Bestandsanlagen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2438",
+    "Name des VU": "Steinbeis-Transferzentrum Leistungselektronik für erneuerbare Energien, Elektromobilität  und zur Sektorenkopplung",
+    "Leitung": "Prof. Dr. Marco Jung",
+    "Ort": "Dornburg, Deutschland",
+    "E-Mail": "SU2438@stw.de",
+    "Telefon": "+49 6436 2882084",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Charakterisierung, Modellbildung und Test von Halbleitern, magnetischen Komponenten und Stromrichtersystemen.",
+      "Schaltplanentwicklung und PCB-Design.",
+      "Entwicklung und Anpassung von Testumgebungen (Kalorimeter, Schaltzelle, Power Hardware in the Loop).",
+      "Netzintegration von leistungselektronisch gekoppelten dezentralen Erzeugern, Speichern und Lasten."
+    ],
+    "Dienstleistungsangebot": [
+      "Beratung und Expertisen: Gutachten, strategische Beratung, Vermittlung von Experten.",
+      "Forschung und Entwicklung: Topologieuntersuchungen, Entwicklung von Regelungsansätzen und Demonstratoren, Messungen und Prüfungen.",
+      "Aus- und Weiterbildung: Seminare, Schulungen, Workshops."
+    ]
+  },
+  {
+    "VU-Nummer": "VU2442",
+    "Name des VU": "Steinbeis-Beratungszentrum Finanzmarktanalyse",
+    "Leitung": "Prof. Dr. Christoph Becker",
+    "Ort": "Darmstadt, Deutschland",
+    "E-Mail": "SU2442@stw.de",
+    "Telefon": "+49 6151 533-60028",
+    "Stand": "28.12.2022",
+    "Schwerpunktthemen": [
+      "Datenanalyse, Machine Learning, Data Science",
+      "Risikomanagement und Regulierung, Kapitalmarktanalyse",
+      "Aktuelle Entwicklungen im Banken- und Schattenbankensystem"
+    ],
+    "Dienstleistungsangebot": [
+      "Seminare/Workshops/Vorträge",
+      "Datenanalysen",
+      "Erstellung von Gutachten und Studien",
+      "Beratung",
+      "Schulung von Mitarbeitern"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2451",
+    "Name des VU": "Steinbeis-Transfer-Institut Crime, Investigation & Compliance",
+    "Leitung": "Dipl.-Math. Melanie Reichelt",
+    "Ort": "Berlin, Deutschland",
+    "E-Mail": "SU2451@stw.de",
+    "Telefon": "+49 30 275817480",
+    "Stand": "04.04.2022",
+    "Schwerpunktthemen": [
+      "Kriminalistik",
+      "Fraud Investigations / Wirtschaftskriminalität / Unternehmensermittlungen",
+      "Compliance",
+      "Corporate Governance",
+      "Anti-Financial Crime",
+      "Investigative Interviews und Befragungen"
+    ],
+    "Dienstleistungsangebot": [
+      "Vorträge",
+      "Seminare",
+      "Inhouse-Kurse",
+      "Zertifikatslehrgänge",
+      "Corporate-Programme"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2454",
+    "Name des VU": "Steinbeis-Transferzentrum Künstliche Intelligenz und Robotik",
+    "Leitung": "Prof. Dr. Markus Schneider",
+    "Ort": "Weingarten, Deutschland",
+    "E-Mail": "SU2454@stw.de",
+    "Telefon": "+49 751 501-9779",
+    "Stand": "19.11.2024",
+    "Schwerpunktthemen": [
+      "Künstliche Intelligenz",
+      "Maschinelles Lernen",
+      "Intelligente Robotik",
+      "Maschinelles Sehen/Machine Vision"
+    ],
+    "Dienstleistungsangebot": [
+      "Forschungs- und Entwicklungsprojekte",
+      "Seminare und Schulungen",
+      "Unternehmensberatung",
+      "Gutachten und Machbarkeitsstudien"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2470",
+    "Name des VU": "Steinbeis-Transfer-Institut Steinbeis Management Akademie-Bayern",
+    "Leitung": "Dipl.-Kfm. Josef Vogl",
+    "Ort": "Regensburg, Deutschland",
+    "E-Mail": "SU2470@stw.de",
+    "Telefon": "+49 172 8448217",
+    "Stand": "27.07.2025",
+    "Schwerpunktthemen": [
+      "Digitales Marketingmanagement",
+      "Digitales Vertriebsmanagement",
+      "Onlinemarketing",
+      "Nachhaltigkeitsmanagement",
+      "Industriegütermarketing und Technischer Vertrieb",
+      "Digitale Produktion – Industrie 4.0",
+      "Lehrgang zum internen Management Consultant"
+    ],
+    "Dienstleistungsangebot": [
+      "Digitales Marketing und Vertriebsmanagement",
+      "Technisches Vertriebsmanagement, Führen von virtuellen Teams, Onlinemarketing",
+      "Projektbezogenes Nachhaltigkeitsmanagement, Agile Organisation und Leadership",
+      "Industriegütermarketing, Key Account Management (B2B), International Business",
+      "Digitale Produktion – Industrie 4.0",
+      "Balanced Scorecard Marketing- & Vertriebsmanagement (B2B)",
+      "Customer Relationship Management und eMarketing/eSales",
+      "Usability & User-Experience",
+      "Lehrgang zum internen Management-Consultant"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2476",
+    "Name des VU": "Steinbeis-Research-Institute Kunststoff- und Verpackungstechnik",
+    "Leitung": "Prof. Dr.-Ing. Sven Friedrich",
+    "Ort": "Dresden, Deutschland",
+    "E-Mail": "SU2476@stw.de",
+    "Telefon": "+49 351 2178939-0",
+    "Stand": "18.06.2024",
+    "Schwerpunktthemen": [
+      "Verpackungsmaschinen und -technik",
+      "Kunststofftechnik",
+      "Fügetechnik",
+      "Recycling"
+    ],
+    "Dienstleistungsangebot": [
+      "Grundlagen- und angewandte Forschung"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2477",
+    "Name des VU": "Steinbeis-Transferzentrum Materialanalyse und Elektronenmikroskopie",
+    "Leitung": "Dr. rer. nat. Matthias Hagner",
+    "Ort": "Konstanz, Deutschland",
+    "E-Mail": "SU2477@stw.de",
+    "Telefon": "+49 7531 883116",
+    "Stand": "01.08.2023",
+    "Schwerpunktthemen": [
+      "Elektronen- und Ionenmikroskopie",
+      "Struktur- und Materialanalysen",
+      "Mikro- und Nanostrukturierung",
+      "Funktionelle Beschichtungen"
+    ],
+    "Dienstleistungsangebot": [
+      "Materialanalysen",
+      "Schadensanalysen",
+      "Oberflächenanalysen",
+      "Beschichtungsanalysen",
+      "Herstellung von Mikro- und Nanostrukturen (Prototypen)",
+      "Entwicklung funktionaler Beschichtungen"
+    ]
+  },
+  {
+    "VU-Nummer": "VU2481",
+    "Name des VU": "Steinbeis-Forschungszentrum Funktionsintegrative Kunststofftechnologien (FKT)",
+    "Leitung": "Prof. Dr.-Ing. Michael Heinrich",
+    "Ort": "Chemnitz, Deutschland",
+    "E-Mail": "SU2481@stw.de",
+    "Telefon": "+49 177 449 4112",
+    "Stand": "20.01.2023",
+    "Schwerpunktthemen": [
+      "Technologiekombination von kunststoffbasierten Fertigungsverfahren mit selektiver Metallisierung",
+      "Mechatronic Integrated Devices",
+      "Kunststoffbasierte elektrisch funktionalisierte Werkstoffsysteme"
+    ],
+    "Dienstleistungsangebot": [
+      "Förderberatung und Koordination von Forschungsprojekten",
+      "Applikationsberatung für funktionsintegrative Fertigungsverfahren",
+      "Konzipierung von Integrationstechnologien für funktionalisierte Leichtbaustrukturen",
+      "Technische Studien zu funktionsintegrativen Technologien",
+      "Erstellung von Gutachten"
+    ]
+  }
+]
+```
